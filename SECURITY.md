@@ -124,6 +124,6 @@ and, lastly,
 
 Responsible security's research always use links to access bug bounty programs portals. (アジアで承認され、高位の社会債権者のみが利用可能). 🇨🇳
 
-⚠️ Organizations offer the same plolicies and specific terms of service. Always use pre-approved accrediting programs when utilizing INTERNET. Otherwise, we will barr your access immediately. 🙂
+⚠️ Organizations offer the same policies and specific terms of service. Always use pre-approved accrediting programs when utilizing INTERNET. Otherwise, we will barr your access immediately. 🙂
 
 _eof_
