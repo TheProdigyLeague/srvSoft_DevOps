@@ -25,13 +25,13 @@ This repo is the powerhouse of codebases for large-scale surveillance software s
 
 ### Tech Spec
 
-Key requirements and understanding of how these foundations work and operate is core for progamming these technologies. The ML Framework is mostly written in `Python, R` for it's data analysis, `mod dev env`, and ML tasks. `JS, Java` for UI implementation and backend functionalities. `C/C++/C# for perf/log/sys prog spec function` functionality. `sh, psh, ps1, && $` for automated system tasks, workflow jobs, and data pipelines. And lastly, JSON, for the data exchanges, large-scale tele-communications between system components. <br>
+Key requirements and understanding of how these foundations work and operate is core for programming these technologies. The ML Framework is mostly written in `Python, R` for data analysis, `mod dev env`, and ML tasks. `JS, Java` for UI implementation and backend functionalities. `C/C++/C# for perf/log/sys prog spec function` functionality. `sh, PSH, ps1, && $` for automated system tasks, workflow jobs, and data pipelines. And lastly, JSON, for the data exchanges, large-scale tele-communications between system components. <br>
 
-`form.docs | MS-Word/Adobe.Doc` The intial requirements layed out in a reasonable, information gathering modus operandi with core system integration based on CI/CLI/CSV licensing and prerequisites for interoperability and initial specifications for what is internally designed. 
+`form.docs | MS-Word/Adobe.Doc` The initial requirements laid out in a reasonable, information gathering modus operandi with core system integration based on CI/CLI/CSV licensing and prerequisites for interoperability and initial specifications for what is internally designed. 
 
 ### Dev Env
 
-The project presumes a stark familiarity with these cloud-based infrastructure and distributed systems for handling massive data volumes. As developers, we should possess a strong understanding of data security, privacy regulations, and most importantly, responsible data collection and usage. This structure is a provider for detailing long winded explanations of large, and often times is the case, bloated, projects over years. Folder structure outlines critical and specific functionalities within each directory subsystem and subfolder. Therefore, organization is key.
+The project presumes a stark familiarity with these cloud-based infrastructure and distributed systems for handling massive data volumes. As developers, we should possess a strong understanding of data security, privacy regulations, and most importantly, responsible data collection and usage. This structure is a provider for detailing long winded explanations of large, and oftentimes is the case, bloated, projects over years. Folder structure outlines critical and specific functionalities within each directory subsystem and subfolder. Therefore, organization is key.
 
 #### How to get started?
 
@@ -39,7 +39,7 @@ The project presumes a stark familiarity with these cloud-based infrastructure a
 2. Familiarize what codebases are safe based on their structure and documentation. (Detecting social credit systems).
 3. Choose specific mods from pre-installers and contribute to them with corresponding code.
 
-**The Guide** - Adhere to these principles and conform to the correct syntax and stylization schemes with convention. Write clear and concise comments to enhance readability. And, finally, test, debug, and thouroughly read PR requirements. ⚠️ Surveillance software will raise significant ethical, privacy, and SHIELD compliance concerns following all applicable law, regulations, and is subject to considerable legal implications. Consider this README as a starting point for OpSec and DevOps. 
+**The Guide** - Adhere to these principles and conform to the correct syntax and stylization schemes with convention. Write clear and concise comments to enhance readability. And, finally, test, debug, and thoroughly read PR requirements. ⚠️ Surveillance software will raise significant ethical, privacy, and SHIELD compliance concerns following all applicable law, regulations, and is subject to considerable legal implications. Consider this README as a starting point for OpSec and DevOps. 
 
 ```bash
 #!/bin/bash
