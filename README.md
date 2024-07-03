@@ -17,8 +17,8 @@ inspiration from:
 
 This repo is the powerhouse of codebases for large-scale surveillance software suites. This is intended to collect, analyze, and store user data for various automated tasks and applications, including, but not limited to:
 
-- Targeted Advertising, Marketing, Ad Generators, Ad campaigns, and monitoring user bheavior.
-- Analyze Gnerative AI training feeders with intuitive mods that utilize content creation.
+- Targeted Advertising, Marketing, Ad Generators, Ad campaigns, and monitoring user behavior.
+- Analyze Generative AI training feeders with intuitive mods that utilize content creation.
 - LLML's.
 - AI API's.
 - Powering, leveraging, automation, tele-comms, efficiency, user data.
@@ -31,7 +31,7 @@ Key requirements and understanding of how these foundations work and operate is 
 
 ### Dev Env
 
-The project presumes a stark familiarity with these cloud-based infrastructure and distributed systems for handling massive data volumes. As developers, we should possess a strong understanding of data security, privacy regulations, and most importantly, responsible data collection and usage. This structure is a provider for detailing long winded explanations of large projects over years. Folder structure is outlines critical specific functionalities within each directory subsystem and subfolder. Therefore, organization is key.
+The project presumes a stark familiarity with these cloud-based infrastructure and distributed systems for handling massive data volumes. As developers, we should possess a strong understanding of data security, privacy regulations, and most importantly, responsible data collection and usage. This structure is a provider for detailing long winded explanations of large, and often times is the case, bloated, projects over years. Folder structure outlines critical and specific functionalities within each directory subsystem and subfolder. Therefore, organization is key.
 
 #### How to get started?
 
@@ -39,7 +39,7 @@ The project presumes a stark familiarity with these cloud-based infrastructure a
 2. Familiarize what codebases are safe based on their structure and documentation. (Detecting social credit systems).
 3. Choose specific mods from pre-installers and contribute to them with corresponding code.
 
-**The Guide** - Adhere to these principles and conform to the correct syntax and stylization schemes with convention. Write clear and concise comments to enhance readability. And, finally, test, debug, and thouroughly read PR requirements.  ⚠️ Surveillance software will raise significant ethical, privacy, and SHIELD compliance concerns following all applicable law, regulations, and is subject to considerable legal implications. Consider this README as a starting point for this OpSec-DevOps. 
+**The Guide** - Adhere to these principles and conform to the correct syntax and stylization schemes with convention. Write clear and concise comments to enhance readability. And, finally, test, debug, and thouroughly read PR requirements. ⚠️ Surveillance software will raise significant ethical, privacy, and SHIELD compliance concerns following all applicable law, regulations, and is subject to considerable legal implications. Consider this README as a starting point for OpSec and DevOps. 
 
 ```bash
 #!/bin/bash
@@ -420,7 +420,7 @@ function install()
     mv "${TEMP_PATH}" "${UNIT_PATH}" || failed "failed to copy unit file"
 
     # Recent Fedora based Linux (CentOS/Redhat) has SELinux enabled by default
-    # We need to restore security context on the unit file we added otherwise SystemD have no access to it.
+    # We need to restore security context on the unit file we added otherwise SystemD has no access to it.
     command -v getenforce > /dev/null
     if [ $? -eq 0 ]
     then
@@ -432,7 +432,7 @@ function install()
         fi
     fi
     
-    # unit file should not be executable and world writable
+    # unit file should be executable and world writable
     chmod 664 "${UNIT_PATH}" || failed "failed to set permissions on ${UNIT_PATH}"
     systemctl daemon-reload || failed "failed to reload daemons"
     
@@ -523,3 +523,4 @@ esac
 
 exit 0
 ```
+_eof_
