@@ -1,1 +1,37 @@
+# Project Goals 
 
+**Contain, implement and collab with DevOps, SecOps, and use YAML files, Git workflows, Github Actions to streamline software development with a focus on security.**
+
+_Automate infrastructure provisioning and configuration managemenet_
+
+## Integration Security
+
+* Development Lifecycle
+* Security Practices
+* Code deployment pipelining streamlining applications
+
+### Technology Sector
+
+YAML ain't markup language. Human-readable data serialized in format is used for `.conf` files in DevOps tools. Filesystems often manage infrastructure within configurations to use code within a Kubernetes structure. (`.dll` Kernel building). Projects require kernel mods. And the tools for these processes build custom linux kernel applications.
+
+#### 💡 | 📸 | 🎬
+
+Automating software workflows directly with GitHub repositories use pre-built actions customizing scripts. Workflows chain together all this operating system power multiple times throughout a complex infrastructure pipelining builds, tests, deployment and security applications.
+
+#### Repo Struct
+
+`/infra.yml.conf` - For provisioning tools like Terraform or Ansible.
+`/app.yml.conf` - For Helm or Kubernetes manifest tools.
+`/sec.yaml.conf | -man` - For formatting dependencies, scaners, and 'secrets'. (keys, tokens, etc).
+`/ci/cd.yaml | -def` - For pipelining builds, tests, and pre-deployment.
+`.js, .py` - For customizing specific tasks. (kernel).
+
+### How to get started?
+
+Consider that these implications secure sensitive information. Use these environments as is. Variables and secretly managed tools as it is developed will use preimptive security checks as is necessary. So, scanning CI/CD pipelining is required. Consequently, updating consistently prevents unecessary vulnerabilities needing to be addressed. If developers would follow secure coding practices (keeping passwords, keys, etc). private, in an ideal world, there would be no need to pre-process and pre-develop these technicalities. 
+
+#### Contributions
+
+PR's are only welcome and open to high social creditors. Due to bugs, improvements, and new rollout features on a daily basis. For large swathes of customers need to ensure their own adherence is to the project's best interest of security practices. Therefore, the code needs to be clearly formatted, documented and annotated as needed to make any future changes with regards to YAML or Workflows. ⚠️ This approach is a promotion between two teams. Which enables efficient software delivery to the general public at large.
+
+<hr>
