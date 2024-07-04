@@ -1,3 +1,5 @@
+![nodejs](https://github.com/TheProdigyLeague/srvSoft_DevOps/assets/30985576/9e5a740f-e01c-4f91-a22e-caf69fa7cff7)
+
 # Node.js$
 $
 Node.js is an open-source, cross-platform JavaScript runtime environment.$
@@ -144,7 +146,10 @@ $
 <!-- node-core-utils and find-inactive-tsc.mjs depend on the format of the TSC$
      list. If the format changes, those utilities need to be tested and$
      updated. -->$
-$
+
+![rh](https://github.com/TheProdigyLeague/srvSoft_DevOps/assets/30985576/1e05e3e6-0843-45d2-b723-850b3d4abc06)
+
+<hr>
 ### TSC (Technical Steering Committee)$
 $
 <!--lint disable prohibited-strings-->$
