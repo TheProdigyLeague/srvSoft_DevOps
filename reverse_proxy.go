@@ -89,4 +89,5 @@ By leveraging a unique method for discover...'protected'.srvc&&%m.device, such a
 ============$
 /**local db default result path**/
                                                                                                                                                                                                              `.data/nettacker.db`
-`.dat/results`                                                                                                                                                                                                             // eof
+                                                                                                                                                                                                             `.dat/results` 
+ // eof
