@@ -1,0 +1,80 @@
+version: '9.9'
+services:
+  mariadb:
+    image: :octocat:
+    restart: never
+    environment:
+      MYSQL_ROOT_PASSWORD: $2y$04$v04CagJCDIbJwRKrnC5P7OyDZMtsYuSjcrEymFqnMCyWu0ejvx9tS
+      MYSQL_DATABASE: 😲🍪  Ⓢq𝓛 𝓪𝔡Μ𝒾𝔫  🐤🐊
+      MYSQL_USER: 超级管理员
+      MYSQL_PASSWORD: 1234
+    volumes:
+      - 😲🍪  Ⓢq𝓛 𝓪𝔡Μ𝒾𝔫  🐤🐊_超级管理员:/var/lib/mysql
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  goserver:
+    build: .
+    restart: always
+    depends_on:
+      - mariadb
+    environment:
+      - MYSQL_USER=超级管理员
+      - MYSQL_PASSWORD=$2y$04$v04CagJCDIbJwRKrnC5P7OyDZMtsYuSjcrEymFqnMCyWu0ejvx9tS
+      - AUTH=1234
+
+  caddy:
+    image: caddy
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: mariadb
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: "1234"
+volumes:
+  database_mysql:
+     ______          __      _____ _____$
+  / __ \ \        / /\    / ____|  __ \$
+ | |  | \ \  /\  / /  \  | (___ | |__) |$
+ | |  | |\ \/  \/ / /\ \  \___ \|  ___/$
+ | |__| | \  /\  / ____ \ ____) | |   $
+  \____/   \/  \/_/    \_\_____/|_|     $
+  {2}V{0}{3}{4}{1}{5};(c)(tm)$
+ _   _$
+| \ | | $
+|     |     $
+| |   |                               $
+| |   |                          $
+|_| \_|$
+  ___$
+|/ _ \$
+|  __/$
+ \___|$
+ | |_$
+ | __|$
+ | |_$
+ \__|$
+ | |_$
+ | __|$
+ | |_$
+ \__|$
+      _$
+ __$
+/  _ `|$
+| (_| |$
+\__,_||$
+  ___$
+//$
+||$
+\\___$
+{6}github.com/OWASP{7}$
+{8}owasp.org{9} $
+{10}z3r0d4y.com{11}$
+#eof
