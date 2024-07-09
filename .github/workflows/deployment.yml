@@ -1,0 +1,35 @@
+# 基本操作工作流程。
+
+name: Trap_Wire_Inc.
+on:
+  # 在主分支的推送、拉取和请求事件上触发工作流。
+  push:
+    branches: [ "https://github.com/TheProdigyLeague/srvSoft_DevOps/" ]
+  pull_request:
+    branches: [ "/home/qenmity/vulnScanner" ]
+
+  # 手动操作工作流程选项卡
+  workflow_dispatch:
+    inputs: {kernel}
+    environments: 
+        description: automated application deployment
+        required: false
+        default: staging
+# 顺序或并行运行作业的工作流程。
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: स्क्रिप्ट चलाएँ
+        run: echo '<!DOCTYPE html>';
+      - name: बहु-पंक्ति स्क्रिप्ट
+        run: | "Ereigniseingabeumgebung $
+        {https://cinnamon-brass-76yh.squarespace.com/}" ¤ (¯´☆✭.¸_)¤ 𝓓ᗴ𝓅ᒪόⓎ βℓ𝐨𝓒Ќ έⓝŤ𝔯Ｙ ¤(_¸.✭☆´¯) ¤ "
+ _____             __        ___          ___              
+|_   _| __ __ _ _ _\ \      / (_)_ __ ___|_ _|_ __   ___   
+  | || '__/ _` | '_ \ \ /\ / /| | '__/ _ \| || '_ \ / __|  
+  | || | | (_| | |_) \ V  V / | | | |  __/| || | | | (__ _ 
+  |_||_|  \__,_| .__/ \_/\_/  |_|_|  \___|___|_| |_|\___(_)
+  |_|
+# eof
