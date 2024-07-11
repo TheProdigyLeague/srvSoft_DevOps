@@ -1,64 +1,69 @@
 $ Version 0.0.1 en_us
 
-# TrapWire
-A honeypot for trapping malicious ssh connections.
-# RomanToArabicNumerals
-Sample app for Trapwire Inc. using latest Kotlin features to convert Roman numerals to Arabic numerals
+# Trap Wire Incorporate 是一个用于捕获恶意 shell 连接的蜜罐。该应用程序是基于他们的软件构建的。它使用最新的 Kotlin 英语数字转换功能。
 
 @if "%DEBUG%" == "" @echo off
-@rem ##########################################################################
-@rem
-@rem  Gradle startup script for Windows
-@rem
-@rem ##########################################################################
-
-@rem Set local scope for the variables with windows NT shell
-if "%OS%"=="Windows_NT" setlocal
-
+@rem            ...::::....                                                 .... ..                     
+@rem      ..... .=########*:..                                         ...=##..+##..                    
+@rem   .....:=:...=#########*:.      ..  ...   .   ..     .....     .. ...=#%..+##..    .......         
+@rem    ...====:..........%###*        .......     .... .........   ......=##..+##..  .........         
+@rem   ...====-.. ....... :*###*...  ..+######.....###-..######+....:########..+##.. ..*######.. ..     
+@rem   ..:===:...+#####%:...+**+.    .+##+.-*##+.:###=.+##*:.*##+..###=..*###..+##.. :*#*-.:*#*-        
+@rem   ..===:...-########.. .....    -##: ...##*.+##...*#*....:##-.##=....=#%..+##...=#########+...     
+@rem   ..-==-...:*######*........    :*##:..-##*.+##...*##-..:*##-.##*:..=##=..-##+..=##+..........     
+@rem   ...====....*####=...:===-..   ..*#######*.+##....-########-..*######=....=###=..*#####*:.        
+@rem   ...:====.. ........:====...   ........##+......................... ..    .. .............        
+@rem      .:====:........:===-.          ..=###=                                                        
+@rem       ..:=============-...           -#*+..                                                        
+@rem         . .:-======::..             ...                                                            
+@rem                ..                                                                                  
+@rem Set local scope for var \WIN_NT.sh
+...
+if "%OS%"=="Windows_NT" -set local
+...
 set DIRNAME=%~dp0
-if "%DIRNAME%" == "" set DIRNAME=.
+if "%DIRNAME%" == "" set DIRNAME=.\
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
-
-@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-set DEFAULT_JVM_OPTS=
-
-@rem Find java.exe
-if defined JAVA_HOME goto findJavaFromJavaHome
-
+echo APP_HOME
+[-]: グラドル
+@rem [+]: Java_VM | JAVA_OPTS '&&' -u GRADLE_OPTS -pass -o # default Java VM options for this script
+...
+set DEFAULT_JVM_OPTS=`java.exe`
+...
+@rem if define JAVA_HOME | findJavaFROMJavaHome.go
+...
 set JAVA_EXE=java.exe
-%JAVA_EXE% -version >NUL 2>&1
+%JAVA_EXE% -v > NULL 2>&1.
 if "%ERRORLEVEL%" == "0" goto init
 
 echo.
-echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
-echo.
-echo Please set the JAVA_HOME variable in your environment to match the
-echo location of your Java installation.
+echo ERROR: JAVA_HOME is not SET and no 'java' cmd could be found in [PATH.]
+echo..
+echo Please set JAVA_HOME var in env to [MATCH] \locales \JAVA-INST
 
-goto fail
+失敗しに行く
 
-:findJavaFromJavaHome
+:ابحث عن Java من Java_home
 set JAVA_HOME=%JAVA_HOME:"=%
 set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
 if exist "%JAVA_EXE%" goto init
 
 echo.
-echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
+echo ERROR: JAVA_HOME is set अवैध निर्देशिका: %JAVA_HOME%
 echo.
-echo Please set the JAVA_HOME variable in your environment to match the
-echo location of your Java installation.
+echo Please set JAVA_HOME var in env to [MATCH]::location of Java installation.
 
 goto fail
 
 :init
-@rem Get command-line arguments, handling Windows variants
+@rem Get cmd:l args handling Windows variants
 
 if not "%OS%" == "Windows_NT" goto win9xME_args
 
 :win9xME_args
-@rem Slurp the command line arguments.
+@rem Slurp the cmd:l args.
 set CMD_LINE_ARGS=
 set _SKIP=2
 
@@ -207,7 +212,7 @@ if $cygwin ; then
     CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
     JAVACMD=`cygpath --unix "$JAVACMD"`
 
-    # We build the pattern for arguments to be converted via cygpath
+    # We build the pattern for args to be converted via cygpath
     ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
     SEP=""
     for dir in $ROOTDIRSRAW ; do
@@ -215,11 +220,11 @@ if $cygwin ; then
         SEP="|"
     done
     OURCYGPATTERN="(^($ROOTDIRS))"
-    # Add a user-defined pattern to the cygpath arguments
+    # Add a user-defined pattern to the cygpath args
     if [ "$GRADLE_CYGPATTERN" != "" ] ; then
         OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
     fi
-    # Now convert the arguments - kludge to limit ourselves to /bin/sh
+    # Now convert the args - kludge to limit ourselves to /bin/sh
     i=0
     for arg in "$@" ; do
         CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
@@ -253,7 +258,7 @@ save () {
 }
 APP_ARGS=$(save "$@")
 
-# Collect all arguments for the java command, following the shell quoting and substitution rules
+# Collect all args for the java command, following the shell quoting and substitution rules
 eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
 
 # by default we should be in the correct project dir, but when run from Finder on Mac, the cwd is wrong
@@ -268,7 +273,7 @@ exec "$JAVACMD" "$@"
 # any settings specified in this file.
 # For more details on how to configure your build environment visit
 # http://www.gradle.org/docs/current/userguide/build_environment.html
-# Specifies the JVM arguments used for the daemon process.
+# Specifies the JVM args used for the daemon process.
 # The setting is particularly useful for tweaking memory settings.
 org.gradle.jvmargs=-Xmx1536m
 # When configured, Gradle will run in incubating parallel mode.
