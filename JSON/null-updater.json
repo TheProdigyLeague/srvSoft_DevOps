@@ -1,0 +1,7 @@
+{"SPDXID":"SPDXRef-DOCUMENT","spdxVersion":"SPDX-2.3","creationInfo":
+  {"created":"2024-07-13T20:10:05Z","creators":["Tool: GitHub.com-Dependency-Graph"]}
+  "name":"com.github.TheProdigyLeague/srvSoft_DevOps","dataLicense":"CC0-1.0","documentDescribes":
+  ["SPDXRef-com.github.TheProdigyLeague-srvSoft-DevOps"],"documentNamespace":
+  "https://github.com/TheProdigyLeague/srvSoft_DevOps/dependency_graph/sbom-8242a94d331eec7a","packages":
+  [{"SPDXID":"SPDXRef-com.github.TheProdigyLeague-srvSoft-DevOps","name":"com.github.TheProdigyLeague/srvSoft_DevOps","versionInfo":"","downloadLocation":"git+https://github.com/TheProdigyLeague/srvSoft_DevOps","licenseDeclared":"CC0-1.0","filesAnalyzed":false,"supplier":"NOASSERTION","externalRefs":
+    [{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:github/TheProdigyLeague/srvSoft_DevOps"}]}],"relationships":[]
