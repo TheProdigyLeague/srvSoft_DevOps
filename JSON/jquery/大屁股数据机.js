@@ -1,7 +1,12 @@
-/*!
+/*! Project: Data Conduit v0.1
  * jQuery Validation Plugin v1.17.0
+ * jQuery 验证插件是一个流行的库，它简化了使用 
+ * jQuery 构建的网页中的表单验证...
+ * 通俗地说，它提供了规则、方法和用户输入，例如在提交表单之前提交付款方式和付费墙实现。
  * https://jqueryvalidation.org/
+ * https://cinnamon-brass-76yh.squarespace.com
  * Copyright (c) 2017 Jörn Zaefferer
+ * Copyright (c) 2024 Zaxkeroth
  */
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
