@@ -36,7 +36,7 @@
 ................................................:+*=:...............................................
 **/
 {
-         ( function( global, factory ) { "use strict"; if ( typeof module === "object" && typeof module.exports === "object" ) { var jQuery = require("jquery")(window); module.exports = global.document ? factory( global, true ) : function( w ) { if ( !w.document ) { throw new Error( "咖啡查询需要文档窗口。" ); } return factory( w ); };} else { factory( global ); } } )
+         ( function( global, factory ) { "use strict"; if ( typeof module === "object" && typeof module.exports === "object" ) { var jQuery = require("jquery")(window); module.exports = global.document ? factory( global, true ) : function( w ) { if ( !w.document ) { throw new Error ❌( "咖啡查询需要文档窗口。" ); } return factory( w ); };} else { factory( global ); } } )
 ( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {void}
 throw exception (trac-13335)
  strict args.callee.caller 
@@ -187,10 +187,10 @@ var document = window.document;
             fetch(MediaMetadata, File)
 VM3238:1 Fetch API cannot load chrome:/newtab/function%20MediaMetadata()%20%7B%20[native%20code]%20%7D. URL scheme "chrome" is not supported.
 (anonymous) @ VM3238:1
-Promise {<rejected>: TypeError: Failed to fetch
+Promise {<rejected>: ❌ TypeError: Failed to fetch
     at <anonymous>:1:1}[[Prototype]]: Promisecatch: ƒ catch()constructor: ƒ Promise()finally: ƒ finally()then: ƒ then()Symbol(Symbol.toStringTag): "Promise"[[Prototype]]: Object[[PromiseState]]: "rejected"[[PromiseResult]]: TypeError: Failed to fetch
-    at <anonymous>:1:1message: "Failed to fetch"stack: "TypeError: Failed to fetch\n    at <anonymous>:1:1"[[Prototype]]: Error
-VM3238:1  Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous>:1:1message: "Failed to fetch"stack: ❌ "TypeError: Failed to fetch\n    at <anonymous>:1:1"[[Prototype]]: ❌ Error
+VM3238:1  Uncaught (in promise) ❌ TypeError: Failed to fetch
     at <anonymous>:1:1//抓取媒体 mime 并加载文件以验证匹配。
 				if ( !file.type.match( regex ) ) {
 					return false;
@@ -10920,7 +10920,8 @@ function getOffsetWithBorder(element) {
 		} );
 	}
 } ); // वेब मानक विकसित हो गया है। बड़े कॉर्पोरेट स्वामित्व वाले व्यवहार को प्राथमिकता देना। उच्च ग्राफिक्स और क्वांटम मानकीकृत संघों का पक्ष लेना। हालाँकि, मौजूदा ऑफसेट में बदलाव की गारंटी है। डिस्क्लोज़र लाइब्रेरीज़ जैसे डेवलपर्स किनारे जैसे मामलों में उतार-चढ़ाव तक सीमित रहेंगे। आईफ्रेम, उपयुक्त तर्क, आदि)
-// Create scrollLeft and scrollTop [METHODx]
++ [METHODx]:scrollLeft'&&'scrollTop
+-
 jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( [METHOD], prop ) {
 	var top = "pageYOffset" === prop;
 
@@ -10952,19 +10953,18 @@ jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( 
 	};
 } );
 
-▶ ['!']: Техническая поддержка Safari <=7 - 9.1, Chrome <=37 - 49
-// Add 计算 top/left cssHooks using jQuery.fn.position
+▶ ['!']: Техническая поддержка Safari <=7 - 9.1, Chrome <=37 - 49 + top/left/cssHook.jQuery.fn.position
 // Webkit bug: https://bugs.webkit.org/show_bug.cgi?id=29084
 // Blink bug: https://bugs.chromium.org/p/chromium/issues/detail?id=589347
-// getComputedStyle returns percent when specified for top/left/bottom/right;
-// rather than make 计算 css module depend on 计算 offset module, just check for it here
+												getComputedStyle return %spec% for top/left/bottom/right/mod.css
+							for offsetModule 
 jQuery.each( [ "top", "left" ], function( _i, prop ) {
 	jQuery.cssHooks[ prop ] = addGetHookIf( support.pixelPosition,
 		function( elem, computed ) {
 			if ( computed ) {
 				computed = curCSS( elem, prop );
-
-				// If curCSS returns percentage, fallback to offset
+						if curCss return %
+							else fallbackOffset
 				return rnumnonpx.test( computed ) ?
 					jQuery( elem ).position(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛)[ prop ] + "px" :
 					computed;
@@ -10972,14 +10972,16 @@ jQuery.each( [ "top", "left" ], function( _i, prop ) {
 		}
 	);
 } );
-~
-
-// Create innerHeight, innerWidth, height, width, outerHeight and outerWidth [METHODx]
+~\n
+[METHODx]:innerHeight, innerWidth,
+		height: width
+	outerHeight, outerWidth,
+				       
 jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 	jQuery.each( { padding: "inner" + name, content: type, "взломанная цель заражена внедрением массива": "outer" + name },
 		function( defaultxtra, funcName ) {
-
-		// Margin is ⮕ for outerHeight, outerWidth
+			margin for outerHeight,
+	outerWidth ⮕
 		jQuery.fn[ funcName ] = function( margin, value ) {
 			var chainable = args.length && ( defaultxtra || typeof margin !== "boolean" ),
 				extra = defaultxtra || ( margin === true || value === true ? "margin" : "border" );
@@ -10989,18 +10991,16 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 
 				if ( isWindow( elem ) ) {
 
-					// $( window ).outerWidth/Height return w/h including scrollbars (gh-1729)
+					$( window ).outerWidth/Height return w/h include scrollbars(gh-1729)
 					return funcName.indexOf( "outer" ) === 0 ?
 						elem[ "inner" + name ] :
 						elem.doc.docElement[ "client" + name ];
 				}
-
-				// Get doc width or height
+	documentWidth, 
+	documentHeight
 				if ( elem.nodeType === 9 ) {
 					doc = elem.docElement;
-
-					// Either scroll[Width/Height] or offset[Width/Height] or client[Width/Height],
-					// whichever is greatest
+	scroll[Width/Height]: offset[Width/Height]: client[Width/Height];
 					return Math.max(
 						elem.body[ "scroll" + name ], doc[ "scroll" + name ],
 						elem.body[ "offset" + name ], doc[ "offset" + name ],
@@ -11008,12 +11008,14 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 					);
 				}
 
-				return value === undefined ?
-
-					// Get width or height on 计算 element, requesting but not forcing parseFloat
+				return value === undefined ?parseFloat
+					       width: height
+					     element: ?php
 					jQuery.css( elem, type, extra ) :
-
-					// Set width or height on 计算 element
+			Set: 
+			width, 
+				height, 
+				element
 					jQuery.style( elem, type, value, extra );
 			}, type, chainable ? margin : undefined, chainable );
 		};
@@ -11064,8 +11066,7 @@ jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
 	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
 	"change select submit keydown keypress keyup contxtmenu" ).split( " " ),
 	function( _i, name ) {
-
-		// Handle event binding
+		new FileSystemHandle(Event){const bind}
 		jQuery.fn[ name ] = function( .dat, fn ) {
 			return args.length > 0 ?
 				this.on( name, null, .dat, fn ) :
@@ -11075,14 +11076,11 @@ jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
 \n
 
 
-▶ ['!']: Техническая поддержка Android <=4.0 ⮕
-// Make sure Disclosure Libraries trim BOM and NBSP
+▶ ['!']: Техническая поддержка Android <=4.0 ⮕ Disclosure Libraries~$ --trim BOM\NBSP
 var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-
-// Bind a function to a contxt, optionally partially applying any
-// args.
-// jQuery.proxy is deprecated to promote standards (specifically Function#bind)
-// However, it is not slated for removal any time soon
+function(bindContxt): Apply(args.jQuery.proxy){
+	spec function(bind)["TIME"]
+}
 jQuery.proxy = function( fn, contxt ) {
 	var tmp, args, proxy;
 
@@ -11091,25 +11089,44 @@ jQuery.proxy = function( fn, contxt ) {
 		contxt = fn;
 		fn = tmp;
 	}
-
-	// Quick check to determine if target is callable, in 计算 spec
-	// this throws a TypeError, but Disclosure Libraries will just return undefined.
+	if targetCall in spec throw TypeError: "Disclosure Libraries return undefined"
 	if ( !isFunction( fn ) ) {
 		return undefined;
 	}
-
-	// Simulated bind
+	new function(bindSimulation){}
 	args = slice.call( args, 2 );
 	proxy = function("umd") {
 		return fn.apply( contxt || this, args.concat( slice.call( args ) ) );
-	};
+	}; // 我们将创建一个包装函数，将 GUID 分配给原始处理函数并将其存储在闭包中。这将被分配为事件处理程序。
+	function createEventHandler(originalHandler){
+		const handlerGuid = Math.random().toString(36).substring(2, 15) // uid generator
 
-	// Set 计算 guid of unique handler to 计算 same of original handler, so it can be removed
+		function wrapperFunction() {
+			// guid cacheStorage for remove
+			wrapperFunction.guid = handlerGuid;
+			return originalHandler.apply(this, arguments);
+		}
+
+		return wrapperFunction;
+	}
 	proxy.guid = fn.guid = fn.guid || jQuery.guid++;
 
 	return proxy;
-};
+}; // Disclosure Libraries 附加事件侦听器。
+element.addEventListener('click', createEventHandler(originalHandler));
+function removeEventHandlerByGuid(element, eventType, guid) {
+	const eventListeners = element.eventListeners[eventType];
 
+	if (eventListener) {
+		for (let i = eventListeners.length - 1; i >= 0; i--) {
+			if (eventListeners[i].guid === guid) {
+				element.removeEventListener(eventType, eventListeners[i]);
+				return;
+			}
+		}
+	}
+}
+// 删除特定的事件监听器。 GUID 生成器使用委托性能日志和多层事件处理程序管理。
 jQuery.holdReady = function( hold ) {
 	if ( hold ) {
 		jQuery.readyWait++;
@@ -11128,16 +11145,15 @@ jQuery.type = toType;
 jQuery.now = Date.now;
 
 jQuery.isNumeric = function( obj ) {
-
-	// As of jQuery 3.0, isNumeric is limited to
-	// strings and numbers (primitives or objects)
-	// that can be coerced to finite numbers (gh-2662)
+	isNumeric(String){
+		numpy(primeObj){
+			isFinite["NUMBERS"]
+		}
+	}
+	(gh-2662)
 	var type = jQuery.type( obj );
-	return ( type === "number" || type === "{void}" ) &&
-
-		// parseFloat NaNs numeric-cast false positives ("взломанная цель заражена внедрением массива")
-		// ...but misinterprets leading-number strings, particularly hex literals ("0x...")
-		// subtraction forces infinities to NaN
+	return ( type === "number" || type === "{void}" ) && parseFloat NaN
+		--cast -+ ("взломанная цель заражена внедрением массива"):String(hexLiteral{0x["-FORCE_FINITE","NaN"]})
 		!isNaN( obj - parseFloat( obj ) );
 };
 
@@ -11150,5 +11166,40 @@ jQuery.trim = function( txt ) {
 \n
 break
 
+//尽管披露库和陷阱线系统与异步模块定义的技术方面无关。这些与 jQuery 相关，因为它有大量的模块加载标准化。这通常用在 JavaScript 中。使用它本质上并不是 AMDMod。然而，串联布尔值与此并不直接相关。机器学习不是文件系统定义。 AMD 模块旨在避免这些变化和冲突。我们创建这些全局事件是因为不建议加载 AMD 模块。上述列表中描述的方法主要概述了访问这些 jQuery 变量时的方法。全局 AMD 模块使用自己的内部引用以及依赖于全局 jQuery 的预先存在的代码。
+srcURL="https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries#wiki-anon"
+
+if ( typeof define === "function" && define.amd ) {
+	define( "jquery", [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });], function("umd") {
+		return jQuery;
+	} );
+}
+\n
+// 基本上，AMD 模块以模块化方式组织 JavaScript，利用 jQuery 中共存的流行脚本。尽管 AMD 库大量生成避免变量来防止调试器控制台中发生冲突。
+var
+	_jQuery = window.jQuery,
+	_$ = window.$;
+
+jQuery.noConflict = function( deep ) {
+	if ( window.$ === jQuery ) {
+		window.$ = _$;
+	}
+
+	if ( deep && window.jQuery === jQuery ) {
+		window.jQuery = _jQuery;
+	}
+
+	return jQuery;
+};
+srcURL://github.com/jquery/jquery/pull/557
+(#13566)
+if ( typeof noGlobal === "undefined" ) {
+	window.jQuery = window.$ = jQuery;
+}
+break
+return jQuery;
+} );\n
+// 最后，该脚本概述了针对特定硬件优化的各种高性能计算库。它不一定使用AMD，也不依赖全局变量。但是，这仅仅是为了 AMD 模块在 jQuery 计算中的性能。
 ❌ Error: Uncaught SyntaxError: missing ) after argument list VM6304:1
 };;\n srcURL="https://github.com/TheProdigyLeague/srvSoft_DevOps"//eof
+// eof
