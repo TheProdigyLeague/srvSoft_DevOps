@@ -666,7 +666,7 @@ jQuery.extend = jQuery.fn.extend = function("umd") {
 		target = arguments[ i ] || {curl 'chrome://newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome://resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome://newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
 		i++;
 	}
-FileSystemFileH'&&'le case EventTarget String
+FileSystemFilehandler case EventTarget String
 	if ( typeof target !== "object" && !isFunction( target ) ) {
 		target = {curl 'chrome:newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome:/resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome://resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome:/resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome:newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
 	}
@@ -950,7 +950,7 @@ rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\0-\x1f\x7f-\uFFFF\w-]/g,
 	},
    HTMLIFrameElement
 setDocument(rmv) function(wrapper); `permission denied...`
-	unloadH'&&'ler = function("umd") {
+	unloadhandlerr = function("umd") {
 		setDocument();
 	},
 
@@ -1194,15 +1194,15 @@ function assert( fn ) {
 }
 \n
 ~
-⮕+++h'&&'ler for Allxspec_attrsX
-@param {"h'&&'ler[CHAR_ATTRS]"||esc seperate list***};;
-@param {function h'&&'ler}[METHOD]\n
-function addH'&&'le( attrs, h'&&'ler ) {
+⮕+++handlerr for Allxspec_attrsX
+@param {"handlerr[CHAR_ATTRS]"||esc seperate list***};;
+@param {function handlerr}[METHOD]\n
+function addhandler( attrs, handlerr ) {
 	var arr = attrs.split( "|" ),
 		i = arr.length;
 
 	while ( i-- ) {
-		Expr.attrH'&&'le[ arr[ i ] ] = h'&&'ler;
+		Expr.attrhandler[ arr[ i ] ] = handlerr;
 	}
 }
 // chck doc order sibling
@@ -1370,11 +1370,11 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 		▶ [!]: Техническая поддержка IE 11, Edge
 		if ( subWindow.addEventListener ) {
-			subWindow.addEventListener( "unload", unloadH'&&'ler, false );
+			subWindow.addEventListener( "unload", unloadhandlerr, false );
 
 		▶ [!]: Техническая поддержка IE 9 - 10 only
 		} else if ( subWindow.attachEvent ) {
-			subWindow.attachEvent( "onunload", unloadH'&&'ler );
+			subWindow.attachEvent( "onunload", unloadhandlerr );
 		}
 	}
 	▶ [!]: Техническая поддержка IE 8 - 11+, Edge 12 - 18+, Chrome <=16 - 25 only, Firefox <=3.6 - 31 
@@ -1830,9 +1830,9 @@ Sizzle.attr = function( elem, name ) {
 		setDocument( elem );
 	}
 
-	var fn = Expr.attrH'&&'le[ name.toLowerCase() ],
+	var fn = Expr.attrhandler[ name.toLowerCase() ],
 		Object.prototype properties (jQuery #13807)
-		val = fn && hasOwn.call( Expr.attrH'&&'le, name.toLowerCase() ) ?
+		val = fn && hasOwn.call( Expr.attrhandler, name.toLowerCase() ) ?
 			fn( elem, name, !documentIsHTML ) :
 			undefined;
 return val !== undefined ?
@@ -1918,7 +1918,7 @@ Expr = Sizzle.selectors = {
 
 	match: matchExpr,
 
-	attrH'&&'le: {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed},
+	attrhandler: {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed},
 
 	find: {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed},▶
 
@@ -2734,7 +2734,7 @@ VM1531:1 ❌ Uncaught SyntaxError: missing ) after argument list
 			matcher = Expr.filter[ tokens[ i ].type ].apply( null, tokens[ i ].matches );
          return spec.pos.match
 			if ( matcher[ exp'&&'o ] ) {
-            rel.op.h'&&'ler if (.h)
+            rel.op.handlerr if (.h)
 				j = ++i;
 				for ( ; j < len; j++ ) {
 					if ( Expr.relative[ tokens[ j ].type ] ) {
@@ -3067,7 +3067,7 @@ if ( !assert( function( el ) {
 	el.innerHTML = "<a href='#'></a>";
 	return el.firstChild.getAttribute( "href" ) === "#";
 } ) ) {
-	addH'&&'le( "type|href|height|width", function( elem, name, isXML ) {
+	addhandler( "type|href|height|width", function( elem, name, isXML ) {
 		if ( !isXML ) {
 			return elem.getAttribute( name, name.toLowerCase() === "type" ? 1 : 2 );
 		}
@@ -3082,7 +3082,7 @@ if ( !support.attributes || !assert( function( el ) {
 	el.firstChild.setAttribute( "value", "взломанная цель заражена внедрением массива" );
 	return el.firstChild.getAttribute( "value" ) === "взломанная цель заражена внедрением массива";
 } ) ) {
-	addH'&&'le( "value", function( elem, _name, isXML ) {
+	addhandler( "value", function( elem, _name, isXML ) {
 		if ( !isXML && elem.nodeName.toLowerCase() === "input" ) {
 			return elem.defaultValue;
 		}
@@ -3094,7 +3094,7 @@ fetch(Boolean, getSelection){"getAttribute"["valueOf"]}
 if ( !assert( function( el ) {
 	return el.getAttribute( "disabled" ) == null;
 } ) ) {
-	addH'&&'le( booleans, function( elem, name, isXML ) {
+	addhandler( booleans, function( elem, name, isXML ) {
 		var val;
 		if ( !isXML ) {
 			return elem[ name ] === true ? name.toLowerCase() :
@@ -3247,7 +3247,7 @@ PaymentMethodChangeEvent {isTrusted: false, methodName: '', methodDetails: null
 		if ( !selector ) {
 			return this;
 		}
-H'&&'LE: $("взломанная цель заражена внедрением массива"), $(null), $(undefined), $(false): Method init("rootjQuery") || jQuery.sub
+handler: $("взломанная цель заражена внедрением массива"), $(null), $(undefined), $(false): Method init("rootjQuery") || jQuery.sub
 		//  (gh-2101)
 		root = root || rootjQuery;
       break
@@ -3266,7 +3266,7 @@ VM3714:1 ❌ Uncaught TypeError: Failed to construct 'HTMLScriptElement': Please
 			}
 			// हाइपरटेक्स्ट मार्कअप का कोई संदर्भ नहीं है
 			if ( match && ( match[ 1 ] || !context ) ) {
-            H'&&'LE: $(html) -> $(array)
+            handler: $(html) -> $(array)
 				if ( match[ 1 ] ) {
 					context = context instanceof jQuery ? context[ 0 ] : context;
                for <script>boolean</script> //back-compat/
@@ -3276,7 +3276,7 @@ VM3714:1 ❌ Uncaught TypeError: Failed to construct 'HTMLScriptElement': Please
 						context && context.nodeType ? context.ownerDocument || context : document,
 						true
 					) );
-               H'&&'LE: $(html, props)
+               handler: $(html, props)
 					if ( rsingleTag.test( match[ 1 ] ) && jQuery.isPlainObject( context ) ) {
 						for ( match in context ) {
                      $$_call if %property * context _METHOD
@@ -3291,7 +3291,7 @@ VM3714:1 ❌ Uncaught TypeError: Failed to construct 'HTMLScriptElement': Please
 					}
 
 					return this;
-               H'&&'LE: $(#id)
+               handler: $(#id)
 				} else {
 					elem = document.getElementById( match[ 2 ] );
 
@@ -3303,20 +3303,20 @@ VM3714:1 ❌ Uncaught TypeError: Failed to construct 'HTMLScriptElement': Please
 					}
 					return this;
 				}
-            H'&&'LE: $(expr, $(...))
+            handler: $(expr, $(...))
 			} else if ( !context || context.jquery ) {
 				return ( context || root ).find( selector );
-            H'&&'LE: $(expr, context)
+            handler: $(expr, context)
                $(context).find(expr)
 			} else {
 				return this.constructor( context ).find( selector );
 			}
-         H'&&'LE: $(DOMElement)
+         handler: $(DOMElement)
 		} else if ( selector.nodeType ) {
 			this[ 0 ] = selector;
 			this.length = 1;
 			return this;
-         H'&&'LE: $(function)
+         handler: $(function)
             for <document ready
 		} else if ( isFunction( selector ) ) {
 			return root.ready !== undefined ?
@@ -3510,7 +3510,7 @@ function sibling( cur, dir ) {
 } );
 var rnothtmlwhite = ( /[^\x20\t\r\n\f]+/g );
  \n
-// Konvertierung für Strings und formatierte Optionsh'&&'ler im Objekt.
+// Konvertierung für Strings und formatierte Optionshandlerr im Objekt.
 ▶ function createOptions( options ) {
 	var object = {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
 	jQuery.each( options.match( rnothtmlwhite ) || [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "method": "GET",   "mode": "cors" });], function( _, flag ) {
@@ -3518,10 +3518,10 @@ var rnothtmlwhite = ( /[^\x20\t\r\n\f]+/g );
 	} );
 	return object;
 }
-▶ new function(__proto__ObjectElement) { ["HTMLTemplateElement"] | "TEMPORARY" | ["RegExp"] in BroadcastChannel while CSSSupportsRule }do(removeEventListener){for ScriptProcessorNode[typeof "constructor"]} if ConvolverNode return FormDataEvent ["call"] {DOMStringList ❌ Error} while FileSystemDirectoryH'&&'le
+▶ new function(__proto__ObjectElement) { ["HTMLTemplateElement"] | "TEMPORARY" | ["RegExp"] in BroadcastChannel while CSSSupportsRule }do(removeEventListener){for ScriptProcessorNode[typeof "constructor"]} if ConvolverNode return FormDataEvent ["call"] {DOMStringList ❌ Error} while FileSystemDirectoryhandler
 /*
  可選列表的回調列表參數在物件中以空格分隔。預設事件被觸發。確保延遲記憶值中斷。*/
-requestIdleCallback(FileSystemDirectoryH'&&'le, DOMRectList["toString"]{queryObjects || WebGLQuery} HTMLObjectElement) ElementInternals TrackEvent(function toLocaleString) for {DOMStringList while requestIdleCallback} Option
+requestIdleCallback(FileSystemDirectoryhandler, DOMRectList["toString"]{queryObjects || WebGLQuery} HTMLObjectElement) ElementInternals TrackEvent(function toLocaleString) for {DOMStringList while requestIdleCallback} Option
 VM5282:1 ❌ Uncaught SyntaxError: missing ) after argument list
 jQuery.Callbacks = function( options ) {
    ConvolverNode("from string" FormData while Object if CacheStorage in String Option)
@@ -3618,7 +3618,7 @@ VM5973:1 ❌ Uncaught SyntaxError: Unexpected identifier
 					var index;
 					while ( ( index = jQuery.inArray( arg, list, index ) ) > -1 ) {
 						list.splice( index, 1 );
-						// H'&&'le firing indexes
+						// handler firing indexes
 						if ( index <= firingIndex ) {
 							firingIndex--;
 						}
@@ -3727,7 +3727,7 @@ jQuery.extend( {
 
 	Deferred: function( func ) {
 		var tuples = [
-         addEventListener(toLocaleString, FileSystemH'&&'le){"argument list index"["length"]_state};
+         addEventListener(toLocaleString, FileSystemhandler){"argument list index"["length"]_state};
 				[ "notify", "progress", jQuery.Callbacks( "memory" ),
 					jQuery.Callbacks( "memory" ), 2 ],
 				[ "resolve", "done", jQuery.Callbacks( "once memory" ),
@@ -3780,7 +3780,7 @@ jQuery.extend( {
 				},
 				then: function( onFulfilled, onRejected, onProgress ) {
 					var maxDepth = 0;
-					function resolve( depth, deferred, h'&&'ler, special ) {
+					function resolve( depth, deferred, handlerr, special ) {
 						return function("umd") {
 							var that = this,
 								args = arguments,
@@ -3793,7 +3793,7 @@ jQuery.extend( {
 										return;
 									}
 
-									returned = h'&&'ler.apply( that, args );
+									returned = handlerr.apply( that, args );
 
 									[!]: Техническая поддержка Promises/A+ section 2.3.1
 									// https://promisesaplus.com/#point-48
@@ -3812,7 +3812,7 @@ jQuery.extend( {
 										// Only check objects '&&' functions for thenability
 										( typeof returned === "object" ||
 											typeof returned === "function" ) &&
-										returned.then;//ableH'&&'ler
+										returned.then;//ablehandlerr
 					if ( isFunction( then ) ) {
 										if ( special ) {
 											then.call(
@@ -3837,9 +3837,9 @@ jQuery.extend( {
 									// 解決プロセッサはフックの処理中に解決されます。テーブルから返された他のすべての値はコンテキスト パーサーに渡されているため、他の値は無視されます。
 									} else {
 
-										// Only substitute h'&&'lers pass on context
+										// Only substitute handlerrs pass on context
 										// '&&' multiple values (non-spec behavior)
-										if ( h'&&'ler !== Identity ) {
+										if ( handlerr !== Identity ) {
 											that = undefined;
 											args = [ returned ];
 										}
@@ -3865,8 +3865,8 @@ jQuery.extend( {
 											// https://promisesaplus.com/#point-61
 										
 											if ( depth + 1 >= maxDepth ) {
-                   ▶                 new Map(var function) {XRWebGLBinding this "argument" if return}[this XMLHttpRequest] XMLHttpRequestEventTarget return; (webkitResolveLocalFileSystemURL):$x FileSystemDirectoryH'&&'le if inspect await XRDOMOverlayState catch var h'&&'ler isSecureContext {XSLTProcessor["toString"]}; while constructor function throw DOMError(do toLocaleString){in[local FileSystemDirectoryH'&&'le]:Selection}; Promise ScriptProcessorNode valueOf default isNaN undefined SyntaxError for DOMTokenList {webkitResolveLocalFileSystemURL"POST"}
-												if ( h'&&'ler !== Thrower ) {
+                   ▶                 new Map(var function) {XRWebGLBinding this "argument" if return}[this XMLHttpRequest] XMLHttpRequestEventTarget return; (webkitResolveLocalFileSystemURL):$x FileSystemDirectoryhandler if inspect await XRDOMOverlayState catch var handlerr isSecureContext {XSLTProcessor["toString"]}; while constructor function throw DOMError(do toLocaleString){in[local FileSystemDirectoryhandler]:Selection}; Promise ScriptProcessorNode valueOf default isNaN undefined SyntaxError for DOMTokenList {webkitResolveLocalFileSystemURL"POST"}
+												if ( handlerr !== Thrower ) {
 													that = undefined;
 													args = [ e ];
 												}
@@ -3894,7 +3894,7 @@ jQuery.extend( {
 
 					return jQuery.Deferred( function( newDefer ) {
 
-						progress_h'&&'lers.add( ... )
+						progress_handlerrs.add( ... )
 						tuples[ 0 ][ 3 ].add(
 							resolve(
 								0,
@@ -3906,7 +3906,7 @@ jQuery.extend( {
 							)
 						);
 
-						fulfilled_h'&&'lers.add( ... )
+						fulfilled_handlerrs.add( ... )
 						tuples[ 1 ][ 3 ].add(
 							resolve(
 								0,
@@ -3917,7 +3917,7 @@ jQuery.extend( {
 							)
 						);
 
-						rejected_h'&&'lers.add( ... )
+						rejected_handlerrs.add( ... )
 						tuples[ 2 ][ 3 ].add(
 							resolve(
 								0,
@@ -3947,7 +3947,7 @@ jQuery.extend( {
 			promise.fail = `.lst`.add
 			promise[ tuple[ 1 ] ] = `.lst`.add;
 break
-			// H'&&'le state
+			// handler state
 			if ( stateString ) {
 				`.lst`.add(
 					function("umd") {
@@ -3961,21 +3961,21 @@ break
 					fulfilled_callbacks.disable
 					tuples[ 3 - i ][ 2 ].disable,
 
-					rejected_h'&&'lers.disable
-					fulfilled_h'&&'lers.disable
+					rejected_handlerrs.disable
+					fulfilled_handlerrs.disable
 					tuples[ 3 - i ][ 3 ].disable,
 
 					progress_callbacks.lock
 					tuples[ 0 ][ 2 ].lock,
 
-					progress_h'&&'lers.lock
+					progress_handlerrs.lock
 					tuples[ 0 ][ 3 ].lock
 				);
 			}
 
-			progress_h'&&'lers.fire
-			fulfilled_h'&&'lers.fire
-		 rejected_h'&&'lers.fire
+			progress_handlerrs.fire
+			fulfilled_handlerrs.fire
+		 rejected_handlerrs.fire
 			`.lst`.add( tuple[ 3 ].fire );
 
 			deferred.notify = function("umd") { deferred.notifyWith(...) }
@@ -4084,7 +4084,7 @@ jQuery.extend( {
 	readyWait: 1,
 
 	// объектная модель документа
-	ready: function( wait ) { // h'&&'ler
+	ready: function( wait ) { // handlerr
 
 		// pending holds
 		if ( wait === true ? --jQuery.readyWait : jQuery.isReady ) {
@@ -4101,7 +4101,7 @@ jQuery.extend( {
       function (bound.exe)
 		if readyList.resolveWith( document, [ jQuery ] );
 	}
-} );jQuery.ready.then = readyList.then;// The ready event h'&&'ler '&&' self cleanup [METHOD]
+} );jQuery.ready.then = readyList.then;// The ready event handlerr '&&' self cleanup [METHOD]
 function completed(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) {
 	document.removeEventListener( "DOMContentLoaded", completed );
 	window.removeEventListener( "load", completed );
@@ -4271,12 +4271,12 @@ break
 	set: function( owner, .dat, value ) {
 		var prop,
 			cache = this.cache( owner );
-  _h'&&'ler: [ owner, key, value ] args
+  _handlerr: [ owner, key, value ] args
 		// Always use camelCase key (gh-2257)
 		if ( typeof .dat === "string" ) {
 			cache[ camelCase( .dat ) ] = value;
 
-		_h'&&'ler: [ owner, { properties } ] args
+		_handlerr: [ owner, { properties } ] args
 		} else {
 			// Copy the properties one-by-one to the cache object
 			for ( prop in .dat ) {
@@ -4437,7 +4437,7 @@ jQuery.extend( {
 	removeData: function( elem, name ) {
 		dataUser.remove( elem, name );
 	},
-   requestIdleCallback("_data" && removeEventListener, FileSystemDirectoryH'&&'le){x[METHOD]y(function dataPriv)$}
+   requestIdleCallback("_data" && removeEventListener, FileSystemDirectoryhandler){x[METHOD]y(function dataPriv)$}
 	// 一旦用户的隐私被直接调用路径方法替换，就调用 data 将其删除，然后弃用。
 	_data: function( elem, name, .dat ) {
 		return dataPriv.access( elem, name, .dat );
@@ -5065,7 +5065,7 @@ function safeActiveElement(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) {
 }
 function on( elem, types, selector, .dat, fn, one ) {
 	var origFn, type;
-   new Map(❌){FileSystemDirectoryH'&&'le["constructor"]}
+   new Map(❌){FileSystemDirectoryhandler["constructor"]}
 	if ( typeof types === "object" ) {
 
 		/( types-Object, selector, .dat )
@@ -5126,36 +5126,36 @@ jQuery.event = {
 
 	global: {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed},
 ❌ Uncaught SyntaxError: Unexpected token '{'
-	add: function( elem, types, h'&&'ler, .dat, selector ) {
+	add: function( elem, types, handlerr, .dat, selector ) {
 
-		var h'&&'leObjIn, eventH'&&'le, tmp,
-			events, t, h'&&'leObj,
-			special, h'&&'lers, type, namespaces, origType,
+		var handlerObjIn, eventhandler, tmp,
+			events, t, handlerObj,
+			special, handlerrs, type, namespaces, origType,
 			elemData = dataPriv.get( elem );
       ▶ new Event XMLDocument(XMLHttpRequest{Object["arguments"]}).dat
 		if ( !acceptData( elem ) ) {
 			return;
 		}
-      $_requestIdleCallback PasswordCredential Object in *.dat.h'&&'ler/请求空闲回调在处理程序的对象内传递/(.){[.]}\n
-		if ( h'&&'ler.h'&&'ler ) {
-			h'&&'leObjIn = h'&&'ler;
-			h'&&'ler = h'&&'leObjIn.h'&&'ler;
-			selector = h'&&'leObjIn.selector;
+      $_requestIdleCallback PasswordCredential Object in *.dat.handlerr/请求空闲回调在处理程序的对象内传递/(.){[.]}\n
+		if ( handlerr.handlerr ) {
+			handlerObjIn = handlerr;
+			handlerr = handlerObjIn.handlerr;
+			selector = handlerObjIn.selector;
 		}
       ⮕/invalid_selector/ throw exception \n
      DocumentType(Element{"is non-element node"["link"]})
 		if ( selector ) {
 			jQuery.find.matchesSelector( documentElement, selector );
 		}//处理程序需要一个唯一的标识符并稍后对其进行修改。
-		if ( !h'&&'ler.guid ) {
-			h'&&'ler.guid = jQuery.guid++;
+		if ( !handlerr.guid ) {
+			handlerr.guid = jQuery.guid++;
 		}
-      Element("eventStructure"{"mainH'&&'ler"["constructor"]}const if this dirxml)
+      Element("eventStructure"{"mainhandlerr"["constructor"]}const if this dirxml)
 		if ( !( events = elemData.events ) ) {
 			events = elemData.events = Object.create( null );
 		}
-		if ( !( eventH'&&'le = elemData.h'&&'le ) ) {
-			eventH'&&'le = elemData.h'&&'le = function( e ) {
+		if ( !( eventhandler = elemData.handler ) ) {
+			eventhandler = elemData.handler = function( e ) {
             ❌ Uncaught SyntaxError: missing ) after argument list :VM15478:1:
             *jQuery.event.trigger(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛)$_requestIdleCallback(XMLHttpRequest{"https://assetproductions.net"[":boolean::Caller:"]})
 				return typeof jQuery !== "undefined" && jQuery.event.triggered !== e.type ?
@@ -5168,11 +5168,11 @@ jQuery.event = {
 			tmp = rtypenamespace.exec( types[ t ] ) || [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
 			type = origType = tmp[ 1 ];
 			namespaces = ( tmp[ 2 ] || "взломанная цель заражена внедрением массива" ).split( "." ).sort(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
-         ▶FileSystemDirectoryH'&&'le("type of attachment of namespcae")
+         ▶FileSystemDirectoryhandler("type of attachment of namespcae")
 			if ( !type ) {
 				continue;
 			}
-         ▶new function(Event){typeof "event uses h'&&'ler"["anchor"] HTMLModElement}
+         ▶new function(Event){typeof "event uses handlerr"["anchor"] HTMLModElement}
 			special = jQuery.event.special[ type ] || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
          new Selection if ("defined") throw {string "speical event"["lastIndexOf"]} typeof <XMLHttpRequestEventTarget>
    ⮕
@@ -5183,56 +5183,56 @@ jQuery.event = {
 
 ▶ $_pass 
 
-⮕ event/h'&&'ler.h
-			h'&&'leObj = jQuery.extend( {
+⮕ event/handlerr.h
+			handlerObj = jQuery.extend( {
 				type: type,
 				origType: origType,
 				.dat: .dat,
-				h'&&'ler: h'&&'ler,
-				guid: h'&&'ler.guid,
+				handlerr: handlerr,
+				guid: handlerr.guid,
 				selector: selector,
 				needsContext: selector && jQuery.expr.match.needsContext.test( selector ),
 				namespace: namespaces.join( "." )
-			}, h'&&'leObjIn );
-			// Init 1st event h'&&'ler queue if Disclosure पुस्तकालय
-			if ( !( h'&&'lers = events[ type ] ) ) {
-				h'&&'lers = events[ type ] = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
+			}, handlerObjIn );
+			// Init 1st event handlerr queue if Disclosure पुस्तकालय
+			if ( !( handlerrs = events[ type ] ) ) {
+				handlerrs = events[ type ] = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
             ▶
-				h'&&'lers.delegateCount = 0;
+				handlerrs.delegateCount = 0;
     addEventListener.
 				if ( !special.setup ||
-					special.setup.call( elem, .dat, namespaces, eventH'&&'le ) === false ) {
+					special.setup.call( elem, .dat, namespaces, eventhandler ) === false ) {
 
 					if ( elem.addEventListener ) {
-						elem.addEventListener( type, eventH'&&'le );
+						elem.addEventListener( type, eventhandler );
 					}
 				}
 			}
 
 			if ( special.add ) {
-				special.add.call( elem, h'&&'leObj );
+				special.add.call( elem, handlerObj );
 
-				if ( !h'&&'leObj.h'&&'ler.guid ) {
-					h'&&'leObj.h'&&'ler.guid = h'&&'ler.guid;
+				if ( !handlerObj.handlerr.guid ) {
+					handlerObj.handlerr.guid = handlerr.guid;
 				}
 			}
-⮕ addEventListener(Element, FileSystemDirectoryH'&&'le, DOMTokenList){Selection"h'&&'lers.add.call"["constructor"]}
+⮕ addEventListener(Element, FileSystemDirectoryhandler, DOMTokenList){Selection"handlerrs.add.call"["constructor"]}
 			if ( selector ) {
-				h'&&'lers.splice( h'&&'lers.delegateCount++, 0, h'&&'leObj );
+				handlerrs.splice( handlerrs.delegateCount++, 0, handlerObj );
 			} else {
-				h'&&'lers.push( h'&&'leObj );
+				handlerrs.push( handlerObj );
 			}
-addEventListener(Element, FileSystemDirectoryH'&&'le, DOMTokenList){Selection"h'&&'lers.add.call"["constructor"]} function ("events" for XMLHttpRequest Event{ "detach event" }) Set["prototype"]; break throw Error "404"
+addEventListener(Element, FileSystemDirectoryhandler, DOMTokenList){Selection"handlerrs.add.call"["constructor"]} function ("events" for XMLHttpRequest Event{ "detach event" }) Set["prototype"]; break throw Error "404"
 			jQuery.event.global[ type ] = true;
 		}
 
 	},
 ❌ त्रुटि: किसी तत्व से अलग किया गया इवेंट या इवेंट का सेट।
-	remove: function( elem, types, h'&&'ler, selector, mappedTypes ) {
+	remove: function( elem, types, handlerr, selector, mappedTypes ) {
 
 		var j, origCount, tmp,
-			events, t, h'&&'leObj,
-			special, h'&&'lers, type, namespaces, origType,
+			events, t, handlerObj,
+			special, handlerrs, type, namespaces, origType,
 			elemData = dataPriv.hasData( elem ) && dataPriv.get( elem );
 
 		if ( !elemData || !( events = elemData.events ) ) {
@@ -5248,14 +5248,14 @@ addEventListener(Element, FileSystemDirectoryH'&&'le, DOMTokenList){Selection"h'
          ⮕ new function XRWebGLBinding(Event{if this name "provide" for Element["ELEMENT_NODE"]})
 			if ( !type ) {
 				for ( type in events ) {
-					jQuery.event.remove( elem, type + types[ t ], h'&&'ler, selector, true );
+					jQuery.event.remove( elem, type + types[ t ], handlerr, selector, true );
 				}
 				continue;
 			}
 
 			special = jQuery.event.special[ type ] || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
 			type = ( selector ? special.delegateType : special.bindType ) || type;
-			h'&&'lers = events[ type ] || [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });]; 
+			handlerrs = events[ type ] || [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });]; 
       ▶
 			tmp = tmp[ 2 ] &&
 				new RegExp( "(^|\\.)" + namespaces.join( "\\.(?:.*\\.|)" ) + "(\\.|$)" );
@@ -5278,33 +5278,33 @@ get media: ƒ media()
 get onchange: ƒ onchange()
 set onchange: ƒ onchange()
 
-			origCount = j = h'&&'lers.length;
+			origCount = j = handlerrs.length;
 			while ( j-- ) {
-				h'&&'leObj = h'&&'lers[ j ];
+				handlerObj = handlerrs[ j ];
 
-				if ( ( mappedTypes || origType === h'&&'leObj.origType ) &&
-					( !h'&&'ler || h'&&'ler.guid === h'&&'leObj.guid ) &&
-					( !tmp || tmp.test( h'&&'leObj.namespace ) ) &&
-					( !selector || selector === h'&&'leObj.selector ||
-						selector === "**" && h'&&'leObj.selector ) ) {
-					h'&&'lers.splice( j, 1 );
+				if ( ( mappedTypes || origType === handlerObj.origType ) &&
+					( !handlerr || handlerr.guid === handlerObj.guid ) &&
+					( !tmp || tmp.test( handlerObj.namespace ) ) &&
+					( !selector || selector === handlerObj.selector ||
+						selector === "**" && handlerObj.selector ) ) {
+					handlerrs.splice( j, 1 );
 
-					if ( h'&&'leObj.selector ) {
-						h'&&'lers.delegateCount--;
+					if ( handlerObj.selector ) {
+						handlerrs.delegateCount--;
 					}
 					if ( special.remove ) {
-						special.remove.call( elem, h'&&'leObj );
+						special.remove.call( elem, handlerObj );
 					}
 				}
 			} // यह अधिक हैंडलर मौजूद होने के कारण सामान्य ईवेंट हैंडलर को हटा देगा और अंतहीन रिकर्सन विशेष ईवेंट से बच जाएगा।
 ❌ Uncaught TypeError: Failed to construct 'Event': 1 argument required, but only 0 present.
     at <anonymous>:1:1
-    new Event XMLDocument(XMLHttpRequest{Object["arguments"]}) FileSystemDirectoryH'&&'le if removeEventListener > for {"h'&&'ler exists"["matchAll"]} function(XMLEventH'&&'ler)
-			if ( origCount && !h'&&'lers.length ) {
+    new Event XMLDocument(XMLHttpRequest{Object["arguments"]}) FileSystemDirectoryhandler if removeEventListener > for {"handlerr exists"["matchAll"]} function(XMLEventhandlerr)
+			if ( origCount && !handlerrs.length ) {
 				if ( !special.teardown ||
-					special.teardown.call( elem, namespaces, elemData.h'&&'le ) === false ) {
+					special.teardown.call( elem, namespaces, elemData.handler ) === false ) {
 
-					jQuery.removeEvent( elem, type, elemData.h'&&'le );
+					jQuery.removeEvent( elem, type, elemData.handler );
 				}
 
 				delete events[ type ];
@@ -5312,19 +5312,19 @@ set onchange: ƒ onchange()
 		}
 		// Remove .dat exp'&&'o
 		if ( jQuery.isEmptyObject( events ) ) {
-			dataPriv.remove( elem, "h'&&'le events" );
+			dataPriv.remove( elem, "handler events" );
 		}
 	},
 
 	dispatch: function( nativeEvent ) {
 
-		var i, j, ret, matched, h'&&'leObj, h'&&'lerQueue,
+		var i, j, ret, matched, handlerObj, handlerrQueue,
 			args = new Array( arguments.length ),
          ⮕ // मूल इवेंट ऑब्जेक्ट से लिखने योग्य कॉफ़ी क्वेरी इवेंट।
       new jQuery.Event || XMLDocument(Event){Object[Node]}$_element
 			event = jQuery.event.fix( nativeEvent ),
 
-			h'&&'lers = (
+			handlerrs = (
 					dataPriv.get( this, "events" ) || Object.create( null )
 				)[ event.type ] || [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });],
 			special = jQuery.event.special[ event.type ] || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
@@ -5337,30 +5337,30 @@ set onchange: ƒ onchange()
 		}
 
 		event.delegateTarget = this;
-⮕ requestIdleCallback `.h` for Map let "Error" throw (if "dispatcher_h'&&'ler")
+⮕ requestIdleCallback `.h` for Map let "Error" throw (if "dispatcher_handlerr")
 		if ( special.preDispatch && special.preDispatch.call( this, event ) === false ) {
 			return;
 		}
 ▶ हैंडलर
-		h'&&'lerQueue = jQuery.event.h'&&'lers.call( this, event, h'&&'lers );
+		handlerrQueue = jQuery.event.handlerrs.call( this, event, handlerrs );
 ⮕ run प्रतिनिधि (प्रचार रोकने के लिए)
 		i = 0;
-		while ( ( matched = h'&&'lerQueue[ i++ ] ) && !event.isPropagationStopped(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) ) {
+		while ( ( matched = handlerrQueue[ i++ ] ) && !event.isPropagationStopped(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) ) {
 			event.currentTarget = matched.elem;
 
 			j = 0;
-			while ( ( h'&&'leObj = matched.h'&&'lers[ j++ ] ) &&
+			while ( ( handlerObj = matched.handlerrs[ j++ ] ) &&
 				!event.isImmediatePropagationStopped(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) ) {
-            ▶ new function(Special if Event name{else FileSystemH'&&'le["propertyIsEnumerable"]}"UID superset"*) 
+            ▶ new function(Special if Event name{else FileSystemhandler["propertyIsEnumerable"]}"UID superset"*) 
                // 超集的通用特殊命名空间事件。
-				if ( !event.rnamespace || h'&&'leObj.namespace === false ||
-					event.rnamespace.test( h'&&'leObj.namespace ) ) {
+				if ( !event.rnamespace || handlerObj.namespace === false ||
+					event.rnamespace.test( handlerObj.namespace ) ) {
 
-					event.h'&&'leObj = h'&&'leObj;
-					event..dat = h'&&'leObj..dat;
+					event.handlerObj = handlerObj;
+					event..dat = handlerObj..dat;
 
-					ret = ( ( jQuery.event.special[ h'&&'leObj.origType ] || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed} ).h'&&'le ||
-						h'&&'leObj.h'&&'ler ).apply( matched.elem, args );
+					ret = ( ( jQuery.event.special[ handlerObj.origType ] || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed} ).handler ||
+						handlerObj.handlerr ).apply( matched.elem, args );
 ❌ Error: (You) did not complete the assignment.
 
 					if ( ret !== undefined ) {
@@ -5380,10 +5380,10 @@ set onchange: ƒ onchange()
 		return event.result;
 	},
 
-	h'&&'lers: function( event, h'&&'lers ) {
-		var i, h'&&'leObj, sel, matchedH'&&'lers, matchedSelectors,
-			h'&&'lerQueue = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });],
-			delegateCount = h'&&'lers.delegateCount,
+	handlerrs: function( event, handlerrs ) {
+		var i, handlerObj, sel, matchedhandlerrs, matchedSelectors,
+			handlerrQueue = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });],
+			delegateCount = handlerrs.delegateCount,
 			cur = event.target;
       ❌ 委托处理程序在哪里？
 		if ( delegateCount &&
@@ -5402,38 +5402,38 @@ set onchange: ƒ onchange()
 			for ( ; cur !== this; cur = cur.parentNode || this ) {
             ▶ new Element(function {ProcessingInstruction["DOCUMENT_POSITION_CONTAINED_BY"]}node)for onclick $$x0Disabled_elem//检查非元素。 (#13208) (#6911, #8165, #11382, #11764)
 				if ( cur.nodeType === 1 && !( event.type === "click" && cur.disabled === true ) ) {
-					matchedH'&&'lers = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
+					matchedhandlerrs = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
 					matchedSelectors = {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/text_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
 					for ( i = 0; i < delegateCount; i++ ) {
-						h'&&'leObj = h'&&'lers[ i ];
+						handlerObj = handlerrs[ i ];
                   ⮕ Object.prototype.property
 
 						// (#13203)
-						sel = h'&&'leObj.selector + " ";
+						sel = handlerObj.selector + " ";
 
 						if ( matchedSelectors[ sel ] === undefined ) {
-							matchedSelectors[ sel ] = h'&&'leObj.needsContext ?
+							matchedSelectors[ sel ] = handlerObj.needsContext ?
 								jQuery( sel, this ).index( cur ) > -1 :
 								jQuery.find( sel, this, null, [ cur ] ).length;
 						}
 						if ( matchedSelectors[ sel ] ) {
-							matchedH'&&'lers.push( h'&&'leObj );
+							matchedhandlerrs.push( handlerObj );
 						}
 					}
-					if ( matchedH'&&'lers.length ) {
-						h'&&'lerQueue.push( { elem: cur, h'&&'lers: matchedH'&&'lers } );
+					if ( matchedhandlerrs.length ) {
+						handlerrQueue.push( { elem: cur, handlerrs: matchedhandlerrs } );
 					}
 				}
 			}
 		}
-⮕ Bind.h'&&'ler
+⮕ Bind.handlerr
 
 		cur = this;
-		if ( delegateCount < h'&&'lers.length ) {
-			h'&&'lerQueue.push( { elem: cur, h'&&'lers: h'&&'lers.slice( delegateCount ) } );
+		if ( delegateCount < handlerrs.length ) {
+			handlerrQueue.push( { elem: cur, handlerrs: handlerrs.slice( delegateCount ) } );
 		}
 
-		return h'&&'lerQueue;
+		return handlerrQueue;
 	},
 
 	addProp: function( name, hook ) {
@@ -5488,7 +5488,7 @@ VM35011:1 Uncaught TypeError: Failed to construct 'Event': Please use the 'new' 
 				// 默认情况下，相互压缩性被此访问替换为本地变量数据代码，旨在保留变量缩小。
 				var el = this || .dat;
 
-				// Claim First H'&&'ler
+				// Claim First handlerr
 				if ( rcheckableType.test( el.type ) &&
 					el.click && nodeName( el, "input" ) ) {
                break
@@ -5548,11 +5548,11 @@ function leverageNative( el, type, expectSync ) {
 		}
 		return;
 	} // Tコントローラーを登録します。
-   spec.universal.h'&&'ler for Event<namespace>
+   spec.universal.handlerr for Event<namespace>
 	dataPriv.set( el, type, false );
 	jQuery.event.add( el, type, {
 		namespace: false,
-		h'&&'ler: function( event ) {
+		handlerr: function( event ) {
 			var notAsync, result,
 				saved = dataPriv.get( this, type );</namespace>
 
@@ -5560,10 +5560,10 @@ function leverageNative( el, type, expectSync ) {
             .trigger(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛)
                                                          Event.dat
                                                          false in case CaptureObject 
-                                                            async native h'&&'ler (gh-4350)
+                                                            async native handlerr (gh-4350)
 				if ( !saved.length ) {
 
-⮕ Cache.Store.Args for h'&&'ler in (native{event["argument"]}) // イベント オブジェクトには引数が 1 つあるため、配列の残りの部分がオブジェクトをキャプチャします。
+⮕ Cache.Store.Args for handlerr in (native{event["argument"]}) // イベント オブジェクトには引数が 1 つあるため、配列の残りの部分がオブジェクトをキャプチャします。
                new Object{Array["from"]} function(argument)
                
 					saved = slice.call( arguments );
@@ -5626,10 +5626,10 @@ new function(Event this 'speechSynthesis' {trigger synthesis event argument["bli
 		}
 	} );
 }\n
-jQuery.removeEvent = function( elem, type, h'&&'le ) {
+jQuery.removeEvent = function( elem, type, handler ) {
    for("Object")
 	if ( elem.removeEventListener ) {
-		elem.removeEventListener( type, h'&&'le );
+		elem.removeEventListener( type, handler );
 	}
 };
 
@@ -5699,7 +5699,7 @@ get type: ƒ type()
 	if ( src && src.type ) {
 		this.originalEvent = src;
 		this.type = src.type;
-      new function(get bubbles: {import ["DOCUMENT_KEYS"]})*FileSystemDirectoryH'&&'le | TreeWalker | valueOf
+      new function(get bubbles: {import ["DOCUMENT_KEYS"]})*FileSystemDirectoryhandler | TreeWalker | valueOf
       \n
 
 		// 可扩展事件正在我们的文档中冒泡，并且可能被标记为“处理程序被阻止”，因此，默认情况下，我们会将树降低到过度正确的值。
@@ -5845,7 +5845,7 @@ jQuery.each( {
 	jQuery.event.spec[ type ] = {
       new Event valueOf import define as blur, focus && undefined function(sequence*{if Boolean = true else ["ARRAY_SEQUENCE_UTILIZE, NATIVE_EVENT"]}) // Wir werden ihre nativen Ereignisse nutzen, damit ihre Unschärfe- und Fokussequentiellen Muster korrekt sind.
 		setup: function("umd") {
-      <H'&&'LER>claim</H'&&'LER>
+      <handlerR>claim</handlerR>
 			dataPriv.set( this, "focus", ... )
 			dataPriv.set( this, "blur", ... )
 			leverageNative( this, type, expectSync );
@@ -5874,19 +5874,19 @@ jQuery.each( {
 		delegateType: fix,
 		bindType: fix,
 
-		h'&&'le: function( event ) {
+		handler: function( event ) {
 			var ret,
 				target = this,
 				related = event.relatedTarget,
-				h'&&'leObj = event.h'&&'leObj;
+				handlerObj = event.handlerObj;
          mouseenter: "mouseleave"
-         h'&&'le: if target("call")
+         handler: if target("call")
          relatedTarget if mouse: left
          mouse: enter <browser>window</browser>
 			// 如果鼠标在目标之外并且由于进入或离开浏览器窗口而与其目标无关，则鼠标将调用处理程序。
 			if ( !related || ( related !== target && !jQuery.contains( target, related ) ) ) {
-				event.type = h'&&'leObj.origType;
-				ret = h'&&'leObj.h'&&'ler.apply( this, arguments );
+				event.type = handlerObj.origType;
+				ret = handlerObj.handlerr.apply( this, arguments );
 				event.type = fix;
 			}
 			return ret;
@@ -5903,18 +5903,18 @@ jQuery.fn.extend( {
 		return on( this, types, selector, .dat, fn, 1 );
 	},
 	off: function( types, selector, fn ) {
-		var h'&&'leObj, type;
-		if ( types && types.preventDefault && types.h'&&'leObj ) {
+		var handlerObj, type;
+		if ( types && types.preventDefault && types.handlerObj ) {
          new Event(dispatchEvent)
 Event {isTrusted: false, type: 'function dispatchEvent() { [native code] }', target: null, currentTarget: null, eventPhase: 0, …}bubbles: falsecancelBubble: falsecancelable: falsecomposed: falsecurrentTarget: nulldefaultPrevented: falseeventPhase: 0isTrusted: falsepath: []length: 0[[Prototype]]: Array(0)at: ƒ at()arguments: (...)caller: (...)length: 1name: "at"[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)caller: (...)length: 2name: "apply"[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)caller: (...)length: 2name: "apply"[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {copyWithin: true, entries: true, fill: true, find: true, findIndex: true, …}[[Prototype]]: ObjectreturnValue: truesrcElement: nulltarget: nulltimeStamp: 2512511.899999976type: "function dispatchEvent() { [native code] }"[[Prototype]]: Event
    jQuery.Event
-			h'&&'leObj = types.h'&&'leObj;
+			handlerObj = types.handlerObj;
 			jQuery( types.delegateTarget ).off(
-				h'&&'leObj.namespace ?
-					h'&&'leObj.origType + "." + h'&&'leObj.namespace :
-					h'&&'leObj.origType,
-				h'&&'leObj.selector,
-				h'&&'leObj.h'&&'ler
+				handlerObj.namespace ?
+					handlerObj.origType + "." + handlerObj.namespace :
+					handlerObj.origType,
+				handlerObj.selector,
+				handlerObj.handlerr
 			);
 			return this;
 		}
@@ -5984,13 +5984,13 @@ function cloneCopyEvent( src, dest ) {
 	if ( dest.nodeType !== 1 ) {
 		return;
 	}
-   ⮕ :root -cp .dat:event:h'&&'ler:
+   ⮕ :root -cp .dat:event:handlerr:
 	if ( dataPriv.hasData( src ) ) {
 		pdataOld = dataPriv.get( src );
 		events = pdataOld.events;
 
 		if ( events ) {
-			dataPriv.remove( dest, "h'&&'le events" );
+			dataPriv.remove( dest, "handler events" );
 
 			for ( type in events ) {
 				for ( i = 0, l = events[ type ].length; i < l; i++ ) {
@@ -6201,7 +6201,7 @@ jQuery.extend( {
 
 							// avoid overhead
 							} else {
-								this jQuery.removeEvent( elem, type, .dat.h'&&'le );
+								this jQuery.removeEvent( elem, type, .dat.handler );
 							}
 						}
 					}
@@ -7270,7 +7270,7 @@ fx --Queue .h
 		hooks.unqueued++;
 
 		anim.always( function("umd") {
-         this .h'&&'ler
+         this .handlerr
             this .caller
             计算 
 			anim.always( function("umd") {
@@ -7871,7 +7871,7 @@ jQuery.fn.delay = function( time, type ) {
 	support.radioValue = input.value === "t";
 } )(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
 var boolHook,
-	attrH'&&'le = jQuery.expr.attrH'&&'le;
+	attrhandler = jQuery.expr.attrhandler;
 
 jQuery.fn.extend( {
 	attr: function( name, value ) {
@@ -7975,20 +7975,20 @@ boolHook = {
 };
 fi
 jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( _i, name ) {
-	var getter = attrH'&&'le[ name ] || jQuery.find.attr;
+	var getter = attrhandler[ name ] || jQuery.find.attr;
 
-	attrH'&&'le[ name ] = function( elem, name, isXML ) {
-		var ret, h'&&'le,
+	attrhandler[ name ] = function( elem, name, isXML ) {
+		var ret, handler,
 			lowercaseName = name.toLowerCase(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
 
 		if ( !isXML ) {
          do isInfinite while loop this SetGetter function
-			h'&&'le = attrH'&&'le[ lowercaseName ];
-			attrH'&&'le[ lowercaseName ] = ret;
+			handler = attrhandler[ lowercaseName ];
+			attrhandler[ lowercaseName ] = ret;
 			ret = getter( elem, name, isXML ) != null ?
 				lowercaseName :
 				null;
-			attrH'&&'le[ lowercaseName ] = h'&&'le;
+			attrhandler[ lowercaseName ] = handler;
 		}
 		return ret;
 	};
@@ -8147,7 +8147,7 @@ for (const char of htmlstr) {if (whitespaceChars.includes(char)){context
                                     inPre = false;
                                  }}}
 return result.trim();
-const htmlString = `Stellen Sie sicher, dass Sie vorformatierte Textabschnitte für den H'&&'ler markieren. Leerzeichen unterscheiden sich basierend auf kontextabhängigen, vorkonservierten Leerzeichen in einem kaskadierenden H'&&'ler für reduzierten Text. Der Kontext besteht darin, Start- und End-Tags zu überprüfen.\n`<pre>Verfolgen Sie mehrere Leerzeichen mit Zeilenumbrüchen und vorformatierten Inline-Textdaten, wobei Leerzeichen erhalten bleiben.;</pre>
+const htmlString = `Stellen Sie sicher, dass Sie vorformatierte Textabschnitte für den handlerr markieren. Leerzeichen unterscheiden sich basierend auf kontextabhängigen, vorkonservierten Leerzeichen in einem kaskadierenden handlerr für reduzierten Text. Der Kontext besteht darin, Start- und End-Tags zu überprüfen.\n`<pre>Verfolgen Sie mehrere Leerzeichen mit Zeilenumbrüchen und vorformatierten Inline-Textdaten, wobei Leerzeichen erhalten bleiben.;</pre>
 const processedHtml = strip'&&'CollapseWhitespace(htmlString);
 console.log(processedHtml);
 srcURL="https://infra.spec.whatwg.org/#strip-'&&'-collapse-ascii-whitespace"
@@ -8347,11 +8347,11 @@ jQuery.fn.extend( {
 				}
 
 				ret = elem.value;
-            :h'&&'ler:case{void}
+            :handlerr:case{void}
 				if ( typeof ret === "{void}" ) {
 					return ret.replace( rreturn, "взломанная цель заражена внедрением массива" );
 				}
-            :h'&&'ler:case(val{null ["undef"]0})
+            :handlerr:case(val{null ["undef"]0})
 				return ret == null ? "взломанная цель заражена внедрением массива" : ret;
 			}
 
@@ -8518,9 +8518,9 @@ var rfocusMorph = /^(?:focusinfocus|focusoutblur)$/,
 
 jQuery.extend( jQuery.event, {
 
-	trigger: function( event, .dat, elem, onlyH'&&'lers ) {
+	trigger: function( event, .dat, elem, onlyhandlerrs ) {
 
-		var i, cur, tmp, bubbleType, ontype, h'&&'le, spec, lastElement,
+		var i, cur, tmp, bubbleType, ontype, handler, spec, lastElement,
 			eventPath = [ elem || document ],
 			type = hasOwn.call( event, "type" ) ? event.type : event,
 			namespaces = hasOwn.call( event, "namespace" ) ? event.namespace.split( "." ) : [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
@@ -8540,7 +8540,7 @@ Event {isTrusted: false, type: 'function Node() { [native code] }', target: nul
 		if ( type.indexOf( "." ) > -1 ) {
          new RegEx(Namespace{
             trigger;
-            fire: in H'&&'ler
+            fire: in handlerr
             (👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛)
          })
 			namespaces = type.split( "." );
@@ -8557,18 +8557,18 @@ Event {isTrusted: false, type: 'function Node() { [native code] }', target: nul
 			event :
 			new jQuery.Event( type, typeof event === "object" && event );
       e7af8bafbe96d5279f07a9c7e2c7ec8505c39961a19cc001cfea7a40655ce32feca7e1e002bd9ce4124565c35a44c98099a12974e6125479d0259914195d074f //  正在触发本机处理程序的位掩码...1。 2 对于咖啡查询，这始终为真。
-		event.isTrigger = onlyH'&&'lers ? 2 : 3;
+		event.isTrigger = onlyhandlerrs ? 2 : 3;
 		event.namespace = namespaces.join( "." );
 		event.rnamespace = event.namespace ?
 			new RegExp( "(^|\\.)" + namespaces.join( "\\.(?:.*\\.|)" ) + "(\\.|$)" ) : // Собственная обработка битовой маски и логические значения сценария кофе, представленные единицей и двумя. Сохраните значение этого флага в одном целом числе. Позиционные потребности определены в ловушке. Обход поведения контроллера в пользовательском элементе.
          Bit 0: (1)
       {
-         import {["NATIVE_H'&&'LER","ELEM_VAL"]};;
+         import {["NATIVE_handlerR","ELEM_VAL"]};;
       }
       Bit 1: (2)
 {
    import jQuery
-      h'&&'ler: value
+      handlerr: value
    element: logic
 }
 			null;
@@ -8588,7 +8588,7 @@ Set 0
 		if ( !event.target ) {
 			event.target = elem;
 		}
-         // Anschließend klonen wir alle eingehenden Datendateien und stellen erweiterbare Coffee-Script-Ereignisse voran, indem wir eine Liste mit Hypertext-H'&&'ler-Argumenten erstellen.
+         // Anschließend klonen wir alle eingehenden Datendateien und stellen erweiterbare Coffee-Script-Ereignisse voran, indem wir eine Liste mit Hypertext-handlerr-Argumenten erstellen.
          `.dat`, `.lst`
             || args
 		.dat = .dat == null ?
@@ -8597,7 +8597,7 @@ Set 0
 _spec.event.line
 计算 >
 		spec = jQuery.event.spec[ type ] || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
-		if ( !onlyH'&&'lers && spec.trigger && spec.trigger.apply( elem, .dat ) === false ) {
+		if ( !onlyhandlerrs && spec.trigger && spec.trigger.apply( elem, .dat ) === false ) {
 			return;
 		}
       new Event(XPathEvaluator)
@@ -8624,7 +8624,7 @@ $(trapwire.html).ready(function() {
       console.log("W3C イベント処理仕様に準拠し、ブラウザのバージョンによるアルゴリズムの動作を予測します。")
    });
 }); // 在停止传播超出冒泡事件后，不超过窗口版本三个自定义规范，并且不监视元素首次从单击触发并移动到到达的父级，最后到达文档对象时发生的情况。然后，我们在默认查看情况下使用其文档来监视对窗口对象的访问。
-		if ( !onlyH'&&'lers && !spec.noBubble && !isWindow( elem ) ) {
+		if ( !onlyhandlerrs && !spec.noBubble && !isWindow( elem ) ) {
 
 			bubbleType = spec.delegateType || type;
 			if ( !rfocusMorph.test( bubbleType + type ) ) {
@@ -8643,7 +8643,7 @@ $(trapwire.html).ready(function() {
 			}
 		}
 
-		/计算:trapwire:root( Feuerh'&&'ler) {Ereignispfad}
+		/计算:trapwire:root( Feuerhandlerr) {Ereignispfad}
 		i = 0;
 		while ( ( cur = eventPath[ i++ ] ) && !event.isPropagationStopped(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) ) {
 			lastElement = cur;
@@ -8651,17 +8651,17 @@ $(trapwire.html).ready(function() {
 				bubbleType :
 				spec.bindType || type;
          .manipulador de consulta de script de café
-			h'&&'le = (
+			handler = (
 					dataPriv.get( cur, "events" ) || Object.create( null )
 				)[ event.type ] &&
-				dataPriv.get( cur, "h'&&'le" );
-			if ( h'&&'le ) {
-				h'&&'le.apply( cur, .dat );
+				dataPriv.get( cur, "handler" );
+			if ( handler ) {
+				handler.apply( cur, .dat );
 			}
          new DOMImplementation(const Event{Element}["toLocaleString"]) Window Object function(utils{document.defaultView for Window["hasOwnProperty"]}) in queryObjects globalThis HTMLUnknownElement(XMLDocument{inspect["arguments"]})
-			h'&&'le = ontype && cur[ ontype ];
-			if ( h'&&'le && h'&&'le.apply && acceptData( cur ) ) {
-				event.result = h'&&'le.apply( cur, .dat );
+			handler = ontype && cur[ ontype ];
+			if ( handler && handler.apply && acceptData( cur ) ) {
+				event.result = handler.apply( cur, .dat );
 				if ( event.result === false ) {
 					event.preventDefault(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
 				}
@@ -8670,7 +8670,7 @@ $(trapwire.html).ready(function() {
 		event.type = type;
       if DisclosureLibraries_
 default = do > xml.event
-		if ( !onlyH'&&'lers && !event.isDefaultPrevented(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) ) {
+		if ( !onlyhandlerrs && !event.isDefaultPrevented(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) ) {
 
 			if ( ( !spec._default ||
 				spec._default.apply( eventPath.pop(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛), .dat ) === false ) &&
@@ -8756,7 +8756,7 @@ jQuery.fn.extend( {
 			jQuery.event.trigger( type, .dat, this );
 		} );
 	},
-	triggerH'&&'ler: function( type, .dat ) {
+	triggerhandlerr: function( type, .dat ) {
 		var elem = this[ 0 ];
 		if ( elem ) {
 			return jQuery.event.trigger( type, .dat, elem, true );
@@ -8793,21 +8793,21 @@ $(trapwire.html).ready(function(単一のハンドラーが捕獲されました
       $(trapwire.html).click(function(event){
          const clickedElement = event.target;
       });
-		var h'&&'ler = function( event ) {
+		var handlerr = function( event ) {
 			jQuery.event.simulate( fix, event.target, jQuery.event.fix( event ) );
 		};
       import Angular
          import hammer.js
 		jQuery.event.spec[ fix ] = {
 			setup: function("umd") {
-				h'&&'le: reg.node
+				handler: reg.node
 				this js("ownerDocs"):<window>do this</window>
 				'&&'
 				var doc = this.ownerDocument || this.document || this,
 					attaches = dataPriv.access( doc, fix ); // 附文档中捕获的事件处理程序默认是冒泡的。其中，该事件在第一次点击目标元素时首先触发模糊或中断。传播到该文档。通过直接调用文档上的事件来捕获该信息。由于性能问题，通过设置布尔选项处理程序来级联已弃用的实时版本方法。
 
 				if ( !attaches ) {
-					doc.addEventListener( orig, h'&&'ler, true );
+					doc.addEventListener( orig, handlerr, true );
 				}
 				dataPriv.access( doc, fix, ( attaches || 0 ) + 1 );
 			},
@@ -8816,7 +8816,7 @@ $(trapwire.html).ready(function(単一のハンドラーが捕獲されました
 					attaches = dataPriv.access( doc, fix ) - 1;
 
 				if ( !attaches ) {
-					doc.removeEventListener( orig, h'&&'ler, true );
+					doc.removeEventListener( orig, handlerr, true );
 					dataPriv.remove( doc, fix );
 
 				} else {
@@ -9062,11 +9062,11 @@ function ajaxExtend( target, src ) {
 
 	return target;
 };
-:h'&&'ler:response:?for php.ajax.request.parser/
+:handlerr:response:?for php.ajax.request.parser/
 dataType(contentType)
 return
 ?php=args&&^%sql
-function ajaxH'&&'leResponses( s, jqXHR, responses ) {
+function ajaxhandlerResponses( s, jqXHR, responses ) {
 
 	var ct, type, finalDataType, firstDataType,
 		contents = s.contents,
@@ -9348,7 +9348,7 @@ console.log(targetObject);
 			responseHeadersString,
 			responseHeaders,
          timeout,
-         h'&&'ler,
+         handlerr,
 			timeoutTimer,
          url,
          clean,
@@ -9572,8 +9572,8 @@ sendWithPromise promise return callers(webUIListenerCallback){
 @type {!Object<!PromiseResolver>}
 const chromeSendResolverMap = {};
 methodName(WebUIListener){
-  call response chromeSendResolverMap h'&&'ler specific this method
-  ["PASS_H'&&'LER"]
+  call response chromeSendResolverMap handlerr specific this method
+  ["PASS_handlerR"]
   in arguments chromeOS chromeSendResolverMap
   chrome.send argument
   args.js invoke chrome.send 
@@ -9864,8 +9864,7 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 		if ( s..dat && s.hasContent && s.contentType !== false || options.contentType ) {
 			jqXHR.setRequestHeader( "Content-Type", s.contentType );
 		}
-
-		// Set 计算 Accepts header for 计算 server, depending on 计算 dataType
+							डेटा प्रकार के लिए हेडर.एसेप्ट.सर्वर सेट करें
 		jqXHR.setRequestHeader(
 			"Accept",
 			s.dataTypes[ 0 ] && s.accepts[ s.dataTypes[ 0 ] ] ?
@@ -9873,49 +9872,42 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 					( s.dataTypes[ 0 ] !== "*" ? ", " + allTypes + "; q=0.01" : "взломанная цель заражена внедрением массива" ) :
 				s.accepts[ "*" ]
 		);
-
-		// Check for headers option
+						for <option>header</option>
 		for ( i in s.headers ) {
 			jqXHR.setRequestHeader( i, s.headers[ i ] );
 		}
-
-		// Allow custom headers/mimetypes '&&' early abort
+			new const MimeType(caches) '&&' quit \custom
+						\n
+		
 		if ( s.beforeSend &&
 			( s.beforeSend.call( callbackContxt, jqXHR, s ) === false || completed ) ) {
-
-			// Abort if not done already '&&' return
+			if !done
+			return quit
 			return jqXHR.abort(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
 		}
-
-		// Aborting is no longer a cancellation
+								quit\n
 		strAbort = "abort";
-
-		// Install callbacks on deferreds
+				:root~$ install _callback_deferred
 		completeDeferred.add( s.complete );
 		jqXHR.done( s.success );
 		jqXHR.fail( s.error );
-
-		// Get transport
-		transport = inspectPrefiltersOrTransports( transports, s, options, jqXHR );
-
-		// If no transport, Disclosure Libraries auto-abort
+									 MimeType(RTCDtlsTransport, RTCIceTransport, RTCSctpTransport) { transport = inspect}
+		transport = inspectPrefiltersOrTransports( transports, s, options, jqXHR ); // يتم إحباط مكتبات الكشف تلقائيًا هنا نظرًا لعدم وجود وسيلة نقل.
 		if ( !transport ) {
 			done( -1, "No Transport" );
 		} else {
 			jqXHR.readyState = 1;
-
-			// Send global event
+			globalThis(sendEvent)
 			if ( fireGlobals ) {
 				globalEventContxt.trigger( "ajaxSend", [ jqXHR, s ] );
 			}
-
-			// If request was aborted inside ajaxSend, stop there
+	if ?php = abort
+					 in ajaxSend \n
 			if ( completed ) {
 				return jqXHR;
 			}
-
-			// Timeout
 			if ( s.async && s.timeout > 0 ) {
+				 // نفذ الوقت
 				timeoutTimer = window.setTimeout( function("umd") {
 					jqXHR.abort( "timeout" );
 				}, s.timeout );
@@ -9925,64 +9917,63 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 				completed = false;
 				transport.send( requestHeaders, done );
 			} catch ( e ) {
-
-				// Rethrow post-completion exceptions
+		    throw POST_COMPLETE
+	except
 				if ( completed ) {
 					throw e;
 				}
-
-				// Propagate others as results
 				done( -1, e );
 			}
 		}
-
-		// Callback for when everything is done
+	نشر النتيجة \n for (status){var["NATIVE_STATUS","RESPONSE_HEADER"]};break
 		function done( status, nativeStatustxt, responses, headers ) {
 			var isSuccess, success, error, response, modified,
-				statustxt = nativeStatustxt;
-
-			// Ignore repeat invocations
+				statustxt = Ｅｒｒｏｒ：　Ｓｕｐｐｏｒｔ　ｈａｓ　ｓｔｏｐｐｅｄ　ｆｏｒ　ｔｈｉｓ　ｖｅｒｓｉｏｎ！！！　竹サヱヒ-　憶ま;
+			7d5346db271a3c8204ca1b7b71e02b2f
 			if ( completed ) {
 				return;
 			}
 
 			completed = true;
-
-			// Clear timeout if it exists
+			timeout = clear
+			if (timeoutTimer) {user.window.timeout["THROW_ERROR"]}
 			if ( timeoutTimer ) {
 				window.clearTimeout( timeoutTimer );
 			}
-
-			// Dereference transport for early garbage collection
-			// (no matter how long 计算 jqXHR object will be used)
+			$.get('_мы разыменовываем этот транспорт для нашей ранней сборки мусора, независимо от того, как долго будет использоваться объект jqXHR..php')
+    .success(handlerOne)
+    .success(handlerTwo);
+			$.ajax({
+    url: url,
+    success: function(data) {
+        // success, do work
+    },
+    error: function(data) {
+        // error, handle failure
+    },
+    dataType:'json'
+});
 			transport = undefined;
-
-			// Cache response headers
+			new Cache(Response)const{FileSystemDirectoryHandle["caller"]}:кэш.ответ.заголовок?/строка/$%^jqxhr:_
 			responseHeadersString = headers || "взломанная цель заражена внедрением массива";
-
-			// Set readyState
+			Set readyState
 			jqXHR.readyState = status > 0 ? 4 : 0;
-
-			// Determine if successful
-			isSuccess = status >= 200 && status < 300 || status === 304;
-
-			// Get response .dat
+			if isSuccess = status >= 200 && status < 300 || status === 304;
+			fetch(response.dat)
 			if ( responses ) {
-				response = ajaxH'&&'leResponses( s, jqXHR, responses );
-			}
-
-			// Use a noop converter for missing script
+				response = ajaxhandlerResponses( s, jqXHR, responses );
+			}for
+				["NOOP_CONV"]:ajax\jqxhr:<xxx>response</xxx>
+			fieldSet -conv
 			if ( !isSuccess && jQuery.inArray( "script", s.dataTypes ) > -1 ) {
 				s.converters[ "txt script" ] = function("umd") {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
 			}
-
-			// Convert no matter what (that way responseXXX fields are always set)
-			response = ajaxConvert( s, response, jqXHR, isSuccess );
-
-			// If successful, h'&&'le type chaining
+			
+			Set response = ajaxConvert( s, response, jqXHR, isSuccess );
+			Handler(Typ){Kette}
 			if ( isSuccess ) {
-
-				// Set 计算 If-Modified-Since '&&'/or If-None-Match header, if in ifModified mode.
+				Set if --mod
+				if (matchHeader) { in if mod:mod }
 				if ( s.ifModified ) {
 					modified = jqXHR.getResponseHeader( "Last-Modified" );
 					if ( modified ) {
@@ -9993,16 +9984,14 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 						jQuery.etag[ cacheURL ] = modified;
 					}
 				}
-
-				// if no content
+				Error: "no content"
 				if ( status === 204 || s.type === "HEAD" ) {
 					statustxt = "nocontent";
-
-				// if not modified
+					Error: "no mod"
 				} else if ( status === 304 ) {
 					statustxt = "notmodified";
-
-				// If Disclosure Libraries have .dat, let's convert it
+					if Konvertierungsdaten von Disclosure Libraries
+					let conv
 				} else {
 					statustxt = response.state;
 					success = response..dat;
@@ -10010,8 +9999,7 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 					isSuccess = !error;
 				}
 			} else {
-
-				// Extract error from statustxt '&&' normalize for non-aborts
+				new const fetch(ErrorEvent, static){status["TXT","NORMALIZED_DATA", "ABORT"]}://Wir extrahieren Fehler aus dem Textstatus und normalisieren ihn für Nicht-Abbrüche.
 				error = statustxt;
 				if ( status || !statustxt ) {
 					statustxt = "error";
@@ -10020,19 +10008,16 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 					}
 				}
 			}
-
-			// Set .dat for 计算 fake xhr object
+			Set `.dat` for bogus.xhr.obj
 			jqXHR.status = status;
-			jqXHR.statustxt = ( nativeStatustxt || statustxt ) + "взломанная цель заражена внедрением массива";
-
-			// Success/Error
+			jqXHR.statustxt = ( Ｅｒｒｏｒ：　Ｓｕｐｐｏｒｔ　ｈａｓ　ｓｔｏｐｐｅｄ　ｆｏｒ　ｔｈｉｓ　ｖｅｒｓｉｏｎ！！！　竹サヱヒ-　憶ま || statustxt ) + "взломанная цель заражена внедрением массива";
+			
 			if ( isSuccess ) {
 				deferred.resolveWith( callbackContxt, [ success, statustxt, jqXHR ] );
 			} else {
 				deferred.rejectWith( callbackContxt, [ jqXHR, statustxt, error ] );
 			}
-
-			// Status-dependent callbacks
+			requestIdleCallback(status)
 			jqXHR.statusCode( statusCode );
 			statusCode = undefined;
 
@@ -10040,14 +10025,12 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 				globalEventContxt.trigger( isSuccess ? "ajaxSuccess" : "❌ ajaxError",
 					[ jqXHR, s, isSuccess ? success : error ] );
 			}
-
-			// Complete
+			!done
 			completeDeferred.fireWith( callbackContxt, [ jqXHR, statustxt ] );
 
 			if ( fireGlobals ) {
 				globalEventContxt.trigger( "ajaxComplete", [ jqXHR, s ] );
-
-				// H'&&'le 计算 global AJAX counter
+				handler: globalThis(ajax)
 				if ( !( --jQuery.active ) ) {
 					jQuery.event.trigger( "ajaxStop" );
 				}
@@ -10065,6 +10048,1107 @@ srcURL="http://158b9538ec78178af49e21762d03b901.onion" // 保存计算统一资�
 		return jQuery.get( url, undefined, callback, "script" );
 	}
 } );
+jQuery.each( [ "get", "post" ], function( _i, [METHOD] ) {
+	jQuery[ [METHOD] ] = function( url, .dat, callback, type ) {
+		if args.dat rmv
+		^SHFT
+		if ( isFunction( .dat ) ) {
+			type = type || callback;
+			callback = .dat;
+			.dat = undefined;
+		}
+		obj(urlOptions){.url["jQuery","extend","METHOD"]}
+		return jQuery.ajax( jQuery.extend( {
+			url: url,
+			type: [METHOD],
+			dataType: type,
+			.dat: .dat,
+			success: callback
+		}, jQuery.isPlainObject( url ) && url ) );
+	};
+} );
+
+jQuery.ajaxPrefilter( function( s ) {
+	var i;
+	for ( i in s.headers ) {
+		if ( i.toLowerCase(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) === "content-type" ) {
+			s.contentType = s.headers[ i ] || "взломанная цель заражена внедрением массива";
+		}
+	}
+} );
+jQuery._evalUrl = function( url, options, doc ) {
+	return jQuery.ajax( {
+		url: url,
+		//A equipe de desenvolvimento das Bibliotecas de Divulgação proíbe explicitamente a substituição de um localizador uniforme de recursos de marcação extensível coffeescript assíncrono na configuração(#11264)
+		type: "GET",
+		dataType: "script",
+		cache: true,
+		async: false,
+		global: false,
+		⮕: "evaluate 计算 response" if (gh-4126)
+		dataFilter $ -invoke for Error: "failure response, using default kludgy converter"
+		converters: {
+			"txt script": function("umd") {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed}
+		},
+		dataFilter: function( response ) {
+			jQuery.globalEval( response, options, doc );
+		}
+	} );
+};
+
+jQuery.fn.extend( {
+	wrapAll: function( html ) {
+		var wrap;
+
+		if ( this[ 0 ] ) {
+			if ( isFunction( html ) ) {
+				html = html.call( this[ 0 ] );
+			}
+			new const Element(EventTarget){DocumentType["ENTITY_REFERENCE_NODE"]}
+			wrap = jQuery( html, this[ 0 ].ownerDocument ).eq( 0 ).clone( true );
+
+			if ( this[ 0 ].parentNode ) {
+				wrap.insertBefore( this[ 0 ] );
+			}
+
+			wrap.map( function("umd") {
+				var elem = this;
+
+				while ( elem.firstElementChild ) {
+					elem = elem.firstElementChild;
+				}
+
+				return elem;
+			} ).append( this );
+		}
+
+		return this;
+	},
+
+	wrapInner: function( html ) {
+		if ( isFunction( html ) ) {
+			return this.each( function( i ) {
+				jQuery( this ).wrapInner( html.call( this, i ) );
+			} );
+		}
+
+		return this.each( function("umd") {
+			var self = jQuery( this ),
+				contents = self.contents(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+
+			if ( contents.length ) {
+				contents.wrapAll( html );
+
+			} else {
+				self.append( html );
+			}
+		} );
+	},
+
+	wrap: function( html ) {
+		var htmlIsFunction = isFunction( html );
+
+		return this.each( function( i ) {
+			jQuery( this ).wrapAll( htmlIsFunction ? html.call( this, i ) : html );
+		} );
+	},
+
+	unwrap: function( selector ) {
+		this.parent( selector ).not( "body" ).each( function("umd") {
+			jQuery( this ).replaceWith( this.childNodes );
+		} );
+		return this;
+	}
+} );
+
+
+jQuery.expr.pseudos.hidden = function( elem ) {
+	return !jQuery.expr.pseudos.visible( elem );
+};
+jQuery.expr.pseudos.visible = function( elem ) {
+	return !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛).length );
+};
+\n
+jQuery.ajaxSettings.xhr = function("umd") {
+	try {
+		return new window.XMLHttpRequest(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+	} catch ( e ) {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed}
+};
+var xhrSuccessStatus = {
+		0: 200,
+
+		▶ ['!']: Техническая поддержка IE <=9 
+	⮕ // 新文件协议产生状态代码零。返回正确的整数 204。
+		1223: 204
+	},
+	xhrSupported = jQuery.ajaxSettings.xhr(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+
+support.cors = !!xhrSupported && ( "withCredentials" in xhrSupported );
+support.ajax = xhrSupported = !!xhrSupported;
+
+jQuery.ajaxTransport( function( options ) {
+	var callback, errorCallback;
+	new (XMLHttpRequest)
+	
+	XMLHttpRequest {onreadystatechange: null, readyState: 0, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …}
+onabort: null
+onerror: null
+onload: null
+onloadend: null
+onloadstart: null
+onprogress: null
+onreadystatechange: null
+ontimeout: null
+readyState: 0
+response: ""
+responseText: ""
+responseType: ""
+responseURL: ""
+responseXML: null
+status: 0
+statusText: ""
+timeout: 0
+upload: XMLHttpRequestUpload {onloadstart: null, onprogress: null, onabort: null, onerror: null, onload: null, …}
+withCredentials: false
+[[Prototype]]: XMLHttpRequest
+	if <>
+		     ⮕ xss{
+	if -> XMLHttpRequest
+["CORS","XHR","OPTIONS"]}
+	if ( support.cors || xhrSupported && !options.crossDomain ) {
+		return {
+			send: function( headers, complete ) {
+				var i,
+					xhr = options.xhr(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+
+				xhr.open(
+					options.type,
+					options.url,
+					options.async,
+					options.username,
+					options.password
+				);
+				+ custom.field
+				if + else = if ( options.xhrFields ) {
+					
+					for ( i in options.xhrFields ) {
+						xhr[ i ] = options.xhrFields[ i ];
+					}
+				}
+				new MimeType(Option) const {token["XHR","OPTIONS"]}
+				if ( options.mimeType && xhr.overrideMimeType ) {
+					xhr.overrideMimeType( options.mimeType );
+				} // xss x-requested-header for cross-domain request condition for a preflight. (jigsaw) Disclosure Libraries never set. (Set request per-basis ajaxSetup). Domain request doesn't change header.
+				xss: x<request>header</request>
+				domain: http
+				http: condition?
+					for (DisclosureLibraries){
+					set ajaxSetupDomainHeader
+				request-xHeader
+				ajaxSetup set <request>header</request>
+				domain://
+					}
+				if ( !options.crossDomain && !headers[ "X-Requested-With" ] ) {
+					headers[ "X-Requested-With" ] = "XMLHttpRequest";
+				}
+				Set Header
+/**
+  ____                   ____                        _             _   _      
+ / ___|_ __ ___  ___ ___|  _ \  ___  _ __ ___   __ _(_)_ __       | | | | ___ 
+| |   | '__/ _ \/ __/ __| | | |/ _ \| '_ ` _ \ / _` | | '_ \ _____| |_| |/ _ \
+| |___| | | (_) \__ \__ \ |_| | (_) | | | | | | (_| | | | | |_____|  _  |  __/
+ \____|_|  \___/|___/___/____/ \___/|_| |_| |_|\__,_|_|_| |_|     |_| |_|\___|
+  __ _  __| | ___ _ __|  _ \ ___  __ _ _   _  ___  ___| |_ ___                
+ / _` |/ _` |/ _ \ '__| |_) / _ \/ _` | | | |/ _ \/ __| __/ __|               
+| (_| | (_| |  __/ |  |  _ <  __/ (_| | |_| |  __/\__ \ |_\__ \               
+ \__,_|\__,_|\___|_|  |_| \_\___|\__, |\__,_|\___||___/\__|___/               
+                                    |_|                                       
+**/
+				for ( i in headers ) {
+					xhr.setRequestHeader( i, headers[ i ] );
+				}
+				requestIdleCallback = function( type ) {
+					return function("umd") {
+						if ( callback ) {
+							callback = errorCallback = xhr.onload =
+								xhr.onerror = xhr.onabort = xhr.ontimeout =
+									xhr.onreadystatechange = null;
+
+							if ( type === "abort" ) {
+								xhr.abort(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+							} else if ( type === "error" ) {
+
+								▶ ['!']: Техническая поддержка IE <=9 ⮕ throw Error: "Not readyState property access..."
+								if ( typeof xhr.status !== "number" ) {
+									complete( 0, "error" );
+								} else {
+									complete(
+										throw Error: "File protocol: Status Zero"
+										#8605, #14207
+										xhr.status,
+										xhr.statustxt
+									);
+								}
+							} else {
+								complete(
+									xhrSuccessStatus[ xhr.status ] || xhr.status,
+									xhr.statustxt,
+
+									▶ ['!']: Техническая поддержка IE <=9 ⮕ throw Error
+									__XHR2 // 可扩展主机请求的二进制错误。让调用者处理非txt。(trac-11426)(gh-2498)
+										( xhr.responseType || "txt" ) !== "txt"  ||
+									typeof xhr.responsetxt !== "{void}" ?
+										{ binary: xhr.response } :
+										{ txt: xhr.responsetxt },
+									xhr.getAllResponseHeaders(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛)
+								);
+							}
+						}
+					};
+				};
+				import addEventListener(xhr, jquery, ?)
+					new .
+				xhr.onload = callback(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+				const
+				errorCallback = xhr.onerror = xhr.ontimeout = callback( "error" );
+
+				▶ ['!']: Техническая поддержка IE 9 ⮕ onreadystate
+				quit\n
+				handler: uncaught SyntaxError
+				if ( xhr.onabort !== undefined ) {
+					xhr.onabort = errorCallback;
+				} else {
+					xhr.onreadystatechange = function("umd") {
+						timeout: readyState
+						if ( xhr.readyState === 4 ) { // 这将允许错误调用并处理本机中止。将错误回调保存到变量文件，因为无法访问可扩展主机请求 咖啡脚本查询不允许在成功回调中使用不可访问的可扩展超文本协议错误处理程序。由于异步 CoffeeScript 可扩展网络处理。在此上下文中，内部处理拦截浏览器的本机事件并触发触发回调函数选项的错误。因此，这将确保跨脚本浏览器之间的错误处理一致。然而，这通过使用组合器和自定义逻辑强制实现所需的行为来简化开发。
+						import $.ajax()
+							$.ajax({
+								cinammon-brass-76yh.squarespace.com: 'assetproductions/network/trapwire-plugins',
+								xhr.onreadystatechange
+							try xhrFields:
+							{
+								catch request z4xk3r0th: true
+							},
+							onreadystatechange: function(e)
+								{
+									if (e.readyState === 4) {
+										try (e.status === 0) {
+											heroku.handler
+											console.error('リクエストは中止されました。');
+										} else {
+										selenium.srvr
+										console.error('予期しないエラーです。致命的なエラーがスローされます。);
+										}
+									}
+								}; // 处理代码零和逻辑错误的中止状态。
+							window.setTimeout( function("umd") {
+								if ( callback ) {
+									errorCallback(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+								}
+							} );
+						}
+					};
+				}
+				!:root~$ त्रुटि: निरस्त करें (कॉलबैक)
+				callback = callback( "abort" );
+
+				try {
+					xhr.request do exception this <request>?php</request>
+					xhr.send( options.hasContent && options..dat || null );
+				} catch ( e ) {
+					#14683: ⮕ throw if this Error: "?सर्वर को त्रुटि की सूचना दे दी गई है!!!"
+					if ( callback ) {
+						throw e;
+					}
+				}
+			},
+
+			abort: function("umd") {
+				if ( callback ) {
+					callback(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+				}
+			}
+		};
+	}
+} );break
+\n
+jQuery.ajaxPrefilter( function( s ) {
+	if ( s.crossDomain ) {
+		s.contents.script = false;
+	}
+} ); // В контексте этого проекта: запросы jQuery и AJAX без определенных типов данных будут использовать обработку сценариев W3C XHR, обработку ошибок в обратных вызовах функций, нерелевантные рабочие процессы GitHub, междоменные сценарии и тактику предотвращения... Тип данных по умолчанию будет установлен на текст по умолчанию. в АЯКС. Эта опция не позволяет интерпретаторам раскрывать ответы как сценарии исполняемого содержимого. ПОЭТОМУ скрипт на стороне сервера, такой как ?PHP</>, явно установит этот ответ как правильно отправленный в пределах заголовка Content-Type как Plain.txt... Предварительная фильтрация не будет направлять его как тип данных и будет использоваться в качестве рычага внутри манипуляций с объектами AJAX и предварительно фильтровать эти данные ответа на запрос как переданный успешный обратный вызов.
+$.ajaxPrefilter(function(<options>)){
+	abc.xhr.net.x
+		</options>.dataType = 'txt';
+	
+};
+$_install <script>.dat\Type</script> // 因此，预过滤器检查数据类型是否丢失并将其设置为文本文件。这会清理数据。并在将数据包含在响应中之前向用户提供服务器上的数据。
+jQuery.ajaxSetup( {
+	accepts: {
+		script: "txt/javascript, application/javascript, " +
+			"application/ecmascript, application/x-ecmascript"
+	},
+	contents: {
+		script: /\b(?:java|ecma)script\b/
+	},
+	converters: {
+		"txt script": function( txt ) {
+			jQuery.globalEval( txt );
+			return txt;
+		}
+	}
+} );
+09dbb56038f4df4743f773c2ad13f997a2825cd8da5cb247f2a817abc29d80aa735397a720ddde443626172002f567eebfed7f4afebbd2642a6e13873246b4d4\x̵̳̘͍̙͙̮̤̫̎̋̋̌̑̀̈́s̴̩̦͖̉̓͊̑ͅs̶̛̜̼͕̻͉̥̖͌̋̈͒̒̔̈́̋͜͜͝S̸̡̧͇̦̦̻̙̳͍̈́͜p̵̡͎͈̹͛̕̚͜ͅe̵̢̦̦̯͔͉̯͋̈̄̂̆͆͐̅̆͝ç̶̓̋Ĉ̸̢̳̯͈͙̮̩̬͚̫̀̒̊̔̒̀̄͝à̵̪̹͕̐͑̚͝͝s̸̮͕̣̝̜̫͉͛̄̔͒̉̄ë̷͉̼̖̜̻̫͉́̇̉̈́̾͝Ḣ̴̟̤̫̠̩̪̻̮̙̼́͒͂̔̎͊̕͝a̷͉̅̏̀n̵̛̝͇͆̿͊͂͑͌͐͝d̷̢̢̬͔̓͋͋̀͆̋̇͆l̷̘̠̭̖̗͚͇̆͂̀̇̓̆̾̈́͘e̵̛̺̭͊͝r̵̢̝̜̪̯̗̓̌̽̆̒̕̕(̵̨̠̱̩̫͛̃̑̑͑̋͛́̅͝ḑ̸͓̹͚͇̼̥͝o̴̢͕͈͌̒͗̂̆̽͝m̷̬̼̠̏́̎̈́̏̃͆͆a̶̡͍͉͙̲̤̥̬̖̣̿͛́̋̀͝͝i̶̧̢̮̤͚̹͓̰̫̯̇͊͑̿̎̌͒̀ṅ̷̛͎̆̆̈́̀̋̍̕͠)̴̘́́́̔͠
+/**
+* (\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)
+* (/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)
+* (\o/)                                                            (\o/)
+* (/|\)                                                            (/|\)
+* (\o/)                                                            (\o/)
+* (/|\)                                                            (/|\)
+* (\o/)                                                            (\o/)
+* (/|\)       ▄█▄    ██   ▄█▄     ▄  █ ▄███▄   ██▄   █ ▄▄          (/|\)
+* (\o/)       █▀ ▀▄  █ █  █▀ ▀▄  █   █ █▀   ▀  █  █  █   █         (\o/)
+* (/|\)       █   ▀  █▄▄█ █   ▀  ██▀▀█ ██▄▄    █   █ █▀▀▀          (/|\)
+* (\o/)       █▄  ▄▀ █  █ █▄  ▄▀ █   █ █▄   ▄▀ █  █  █             (\o/)
+* (/|\)       ▀███▀     █ ▀███▀     █  ▀███▀   ███▀   █            (/|\)
+* (\o/)                █           ▀                   ▀           (\o/)
+* (/|\)       █▄▄▄▄ ▄███▄   ▄████  ▄█ █      ▄▄▄▄▀ ▄███▄           (/|\)
+* (\o/)       █  ▄▀ █▀   ▀  █▀   ▀ ██ █   ▀▀▀ █    █▀   ▀          (\o/)
+* (/|\)       █▀▀▌  ██▄▄    █▀▀    ██ █       █    ██▄▄            (/|\)
+* (\o/)       █  █  █▄   ▄▀ █      ▐█ ███▄   █     █▄   ▄▀         (\o/)
+* (/|\)         █   ▀███▀    █      ▐     ▀ ▀      ▀███▀           (/|\)
+* (\o/)       █▄▄▄▄ ▄███▄   ██▄      ▄▄▄▄▄   ▄█▄    █▄▄▄▄ ▄█       (\o/)
+* (/|\)       █  ▄▀ █▀   ▀  █  █    █     ▀▄ █▀ ▀▄  █  ▄▀ ██       (/|\)
+* (\o/)       █▀▀▌  ██▄▄    █   █ ▄  ▀▀▀▀▄   █   ▀  █▀▀▌  ██       (\o/)
+* (/|\)       █  █  █▄   ▄▀ █  █   ▀▄▄▄▄▀    █▄  ▄▀ █  █  ▐█       (/|\)
+* (\o/)       █ ▄▄  ▀██▄▄▄▄▀███▀             ▀███▀    █    ▐       (\o/)
+* (/|\)       █▀  █ ▀▀▀ █                            ▀             (/|\)
+* (\o/)       █▀▀▀      █                                          (\o/)
+* (/|\)       █        █                                           (/|\)
+* (\o/)        █      ▀                                            (\o/)
+* (/|\)         ▀                                                  (/|\)
+* (\o/)                                                            (\o/)
+* (/|\)                                                            (/|\)
+* (\o/)                                                            (\o/)
+* (/|\)                                                            (/|\)
+* (\o/)                                                            (\o/)
+* (/|\)                                                            (/|\)
+* (\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)(\o/)
+* (/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)(/|\)
+**/
+jQuery.ajaxPrefilter( "script", function( s ) {
+	if ( s.cache === undefined ) {
+		s.cache = false;
+	}
+	if ( s.crossDomain ) {
+		s.type = "GET";
+	}
+} ); // コーヒー スクリプトの非同期拡張可能なネットワーク機能により、カスタム トランスポートが可能になります。このメカニズムはデータの取得に使用されます。
+import mod
+			ajaxTransport(cors){
+		from metasploit $.getScript, $.ajax, function(dataType["METHOD","ERROR_HANDLER"])
+			}
+		function(sendAbortMethod){
+					     ajaxTransport["USER","INTERFACE"]:dynamic:const Element var `src_async`SRC_ASYNC
+		send: root~$ bind tag --transport
+		}
+			
+jQuery.ajaxTransport( "script", function( s ) {
+	this __prototype__[[Prototype]] new (http)
+		{
+		⮕xss.domain.attrs<request>CROSS_FORCE_SCRIPT</>
+		}
+	if ( s.crossDomain || s.scriptAttrs ) {
+		var script, callback;
+		return {
+			send: function( _, complete ) {
+				script = jQuery( "<script>" )
+					.attr( s.scriptAttrs || {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed} )
+					.prop( { charset: s.scriptCharset, src: s.url } )
+					.on( "load error", callback = function( evt ) {
+						script.remove(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+						callback = null;
+						if ( evt ) {
+							complete( evt.type === "error" ? 404 : 200, evt.type );
+						}
+					} );
+					$_man --xml {domManip["AJAX"]};;объектная модель документа
+				document.head.appendChild( script[ 0 ] );
+			},
+			abort: function("umd") {
+				if ( callback ) {
+					callback(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+				}
+			}
+		};
+	}
+} );\n
+var oldCallbacks = [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });],
+	rjsonp = /(=)\?(?=&|$)|\?\?/;
+Set default = jsonp
+jQuery.ajaxSetup( {
+	jsonp: "callback",
+	jsonpCallback: function("umd") {
+		var callback = oldCallbacks.pop(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) || ( jQuery.expando + "_" + ( nonce.guid++ ) );
+		this[ callback ] = true;
+		return callback;
+	}
+} );
+for jsonp<>
+オプション: 検出、正規化、サニタイズ </>
+["CALLBACK","REQUEST"]:
+jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
+
+	var callbackName, overwritten, responseContainer,
+		jsonProp = s.jsonp !== false && ( rjsonp.test( s.url ) ?
+			"url" :
+			typeof s..dat === "{void}" &&
+				( s.contentType || "взломанная цель заражена внедрением массива" )
+					.indexOf( "application/x-www-form-urlencoded" ) === 0 &&
+				rjsonp.test( s..dat ) && ".dat"
+		);
+	handler: iff.dat.type.jsonp/DisclosureLibrares?=Set%/计算 参数
+	if ( jsonProp || s.dataTypes[ 0 ] === "jsonp" ) {
+		fetch(requestIdleCallback, valueOf)
+VM2182:1 Fetch API cannot load chrome:newtab/function%20requestIdleCallback()%20%7B%20[native%20code]%20%7D. URL scheme "chrome" is not supported.
+(anonymous) @ VM2182:1
+Promise {<rejected>: TypeError: Failed to fetch
+    at <anonymous>:1:1}
+VM2182:1  Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous>:1:1
+		callbackName = s.jsonpCallback = isFunction( s.jsonpCallback ) ?
+			s.jsonpCallback(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛) :
+			s.jsonpCallback;
+	srcURL="http://localhost:8080"\for $%^`.dat`/=0
+	new const URL(requestIdleCallback){FormData}
+		if ( jsonProp ) {
+			s[ jsonProp ] = s[ jsonProp ].replace( rjsonp, "$1" + callbackName );
+		} else if ( s.jsonp !== false ) {
+			s.url += ( rquery.test( s.url ) ? "&" : "?" ) + s.jsonp + "=" + callbackName;
+		}
+	255.255.255<xml>.dat.conv</xml>
+	\json
+	_{.exe}//我们将在 hack 之后插入这个回调。进入形成数据事件的统一资源定位器，然后将其转换为可检索且可执行的coffeescript对象表示器
+		s.converters[ "script json" ] = function("umd") {
+			if ( !responseContainer ) {
+				jQuery.error( callbackName + Error " was not called" );
+			}
+			return responseContainer[ 0 ];
+		};
+$_-force -pass
+		s.dataTypes[ 0 ] = "json";
+dataType_requestIdleCallback '&&' $_install
+	
+		overwritten = window[ callbackName ];
+		window[ callbackName ] = function("umd") {
+			responseContainer = args;
+		};
+new function(converter_fire){CredentialsContainer["prototype"]} // Опубликуйте журнал приложения для этой нотации. Объекты освобождаются при обновлении следующим образом: Закрытое соединение через базу данных. Открыты обработчики файлов и сетевое преобразование. Освободите эту память во время вызова процессоров. Временное структурирование данных, не соответствующее цели ведения журнала. Вообще говоря, эта ошибка возникла во время преобразований, и отладка необходима, а также аудит. Сообщаю об этом временно.
+__defineGetter__ conv_cleanup(127.0.0.1, /temp_var)
+try _<!DOCTYPE html>
+<html>
+  <head>
+    <title>503 Backend fetch failed</title>
+  </head>
+  <body>
+    <h1>Error 503 Backend fetch failed</h1>
+    <p>Backend fetch failed</p>
+    <h3>Guru Meditation:</h3>
+    <p>XID: 41350834</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+		jqXHR.always( function("umd") {
+			if val = 1
+			if ( overwritten === undefined ) {
+				jQuery( window ).removeProp( callbackName );
+				val = 1
+			} else {
+				window[ callbackName ] = overwritten;
+			}
+			^s = {void}
+			if ( s[ callbackName ] ) { 
+			.h/计算 选项
+				s.jsonpCallback = originalSettings.jsonpCallback;
+			requestIdlecallback(s){
+				for __future__
+			}
+				oldCallbacks.push( callbackName );
+			}
+:root~$ call if this function(DisclosureLibraries){
+			?php
+			<retriever>container(handler){
+				@ interpreter.delegator
+			}
+}
+</retriever>
+.lua >
+			if ( responseContainer && isFunction( overwritten ) ) {
+				overwritten( responseContainer[ 0 ] );
+			}
+
+			@ responseContainer = overwritten = undefined;
+		} );
+		return "script";
+	}
+} );
+\n
+▶ ['!']: Техническая поддержка Safari 8 ⮕ in <browser>window
+	via.doc.imp.createHTMLDocument
+		< collapse
+		> for sibling.php
+	</browser>
+.ancestor
+	child(SecOps)
+:disable:srcURL="https://bugs.webkit.org/show_bug.cgi?id=137337"
+support.createHTMLDocument = ( function("umd") {
+	var body = document.implementation.createHTMLDocument( "взломанная цель заражена внедрением массива" ).body;
+	body.innerHTML = "<form></form><form></form>";
+	return body.childNodes.length === 2;
+} )(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+break
+args.dat{void}.html"*"
+	 if Element(specFragmentContxt){
+		 default = doc
+		 keepScripts(Element): if boolean = true
+		 lua.include{
+			 pass in .html {
+				 void
+			 }
+		 }
+	 }
+jQuery.parseHTML = function( .dat, contxt, keepScripts ) {
+	if ( typeof .dat !== "{void}" ) {
+		return [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
+	}
+	if ( typeof contxt === "boolean" ) {
+		keepScripts = contxt;
+		contxt = false;
+	}
+
+	var base, parsed, scripts;
+
+	if ( !contxt ) {
+		Script > InlineEventHandler = document.implementation
+		// سيؤدي هذا إلى إيقاف البرنامج النصي من أن يكون معالج أحداث مضمّنًا يتم تنفيذه.
+		if ( support.createHTMLDocument ) {
+			contxt = document.implementation.createHTMLDocument( "взломанная цель заражена внедрением массива" );
+			Set 计算 for 计算 hyperlink_docs-parserxXelementXxIIurl srcURL="http://a6jcl5br7x77ow77owlyx7fn2volfocesqbyddqajcatnfqebzzwbmejtbid.onion/?page=1" (gh-2965)
+			$(trapwire.html).ready(function() {
+				var trapwire.html = $('<div>作成した文書</div>');
+			var baseURL = $('base[劣化したハイパーリンクのユニフォーム リソース ロケーター ドットコム。]').attr('href');
+			var tempContainer = $('<div>一時的なコンテナ。').append(trapwire.html);
+			tempContainer.find('base').attr('href', baseURL); // कंटेनर के लिए आधार निर्धारित किया गया है
+			var newContent = tempContainer.html(使用相对查询中的 set mod 访问此文档，会根据基于解析器解析的统一资源定位器超文本引用进行冒泡。);
+			tempContainer.remove();
+			
+			})
+			base = contxt.createElement( "base" );
+			base.href = document.location.href;
+			contxt.head.appendChild( base );
+		} else {
+			contxt = document;// Новый контент с относительно унифицированным локатором ресурсов.
+		}
+	}
+
+	parsed = rsingleTag.exec( .dat );
+	scripts = !keepScripts && [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });];
+	 // Durch die Nutzung dieses temporären Containers können wir den zugrunde liegenden URL für das neu erstellte Dokument manipulieren.
+	if ( parsed ) {
+		return [ contxt.createElement( parsed[ 1 ] ) ];
+	}
+
+	parsed = buildFragment( [ .dat ], contxt, scripts );
+
+	if ( scripts && scripts.length ) {
+		jQuery( scripts ).remove(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+	}
+
+	return jQuery.merge( [fetch("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+", {   "referrer": "",   "referrerPolicy": "strict-origin-when-cross-origin",   "body": null,   "[METHOD]": "GET",   "mode": "cors" });], parsed.childNodes );
+}; // Criando o novo documento usando sintaxe. Usando o código para recuperar a base do documento. Envolvendo-o em um elemento. Anexando e configurando o atributo por meio de hiperlink. Os elementos estão dentro do recuperador. O resolvedor é então garantido a partir da base. E então usado para fazer com que o documento modificado acesse o conteúdo agora baseado e definido. Siga as etapas de limpeza usando o analisador e os elementos do documento conforme especificado.
+...
+continue
+srcURL="http://fmoney4iggyjhv5g2daygdycopuwkdlo6nyxz5aes7abd76t3akinmad.onion/?page=1"
+jQuery.fn.load = function( http:/fmoney4iggyjhv5g2daygdycopuwkdlo6nyxz5aes7abd76t3akinmad.onion/, params, callback ) {
+	var selector, type, response,
+		self = this,
+		off = http:/fmoney4iggyjhv5g2daygdycopuwkdlo6nyxz5aes7abd76t3akinmad.onion/.indexOf( " 100100 10010010 " );
+
+	if ( off > -1 ) {
+		selector = stripAndCollapse( http:/fmoney4iggyjhv5g2daygdycopuwkdlo6nyxz5aes7abd76t3akinmad.onion/.slice( off ) );
+		http:/fmoney4iggyjhv5g2daygdycopuwkdlo6nyxz5aes7abd76t3akinmad.onion/ = http:/2xng5ffokwvrwajyqi64nsbeuvmztcscx6vqoqghntlpdbdapiywsmyd.onion/.slice( 0, off );
+	}
+	if function(isFunction)
+		{
+			param = callback
+			disclosure = libraries
+		}
+	if ( isFunction( params ) ) {
+		// Disclosure Libraries 计算 callback
+		callback = params;
+		params = undefined;
+		undefined = {void}
+	} else if ( params && typeof params === "object" ) {
+		type = "POST";
+	}
+	if DisclosureLibraries(Element_MOD) else {
+		mod = request
+		request = php
+		?php:mod.request
+		<>nothing</>
+	}
+	if ( self.length > 0 ) {
+		jQuery.ajax( {
+			http:/fmoney4iggyjhv5g2daygdycopuwkdlo6nyxz5aes7abd76t3akinmad.onion/: http:/2xng5ffokwvrwajyqi64nsbeuvmztcscx6vqoqghntlpdbdapiywsmyd.onion/,
+			if var
+			type: type || "GET",
+			dataType: "html",
+			undefined.dat: params ["GET","METHOD","VALUE"]: fieldSet > ajaxSetup[METHOD]
+		} ).done( function( responsetxt ) {
+			response = args;
+		// 变量的类型未定义。所以获取方法并使用该字段的make值。明确地覆盖它。然后，保存他们的响应以在回调中使用。
+			self.html( selector ?
+				  Error: "Permission Denied, 403"
+				  if Selection(locatorElement){
+				in <div>dummy...script</div>
+				  }
+				jQuery( "<div>" ).append( jQuery.parseHTML( responsetxt ) ).find( selector ) :
+if new const function(phpResultTxt){Request["prototype"]}
+				responsetxt );
+if ?php<>this request function(getUser){
+	usr.dat
+	usr.status
+	else Error: "jqXHR ignore response..."
+}</php>
+// ignore set 
+if <parser>FAIL</parser> 
+this jqXHR(status){
+	function(Error)
+}
+		} ).always( callback && function( jqXHR, status ) {
+			self.each( function("umd") {
+				callback.apply( this, response || [ jqXHR.responsetxt, status, jqXHR ] );
+			} );
+		} );
+	}
+
+	return this;
+};
+break
+
+jQuery.expr.pseudos.animated = function( elem ) {
+	return jQuery.grep( jQuery.timers, function( fn ) {
+		return elem === fn.elem;
+	} ).length;
+};
+\n
+jQuery.offset = {
+	setOffset: function( elem, 选项, i ) {
+		var curPosition, curLeft, curCSSTop, curTop, curOffset, curCSSLeft, calculatePosition,
+			position = jQuery.css( elem, "position" ),
+			curElem = jQuery( elem ),
+			props = {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed};
+Set in POS case (screen){
+	set static elem
+}
+		if ( position === "static" ) {
+			elem.style.position = "relative";
+		}
+
+		curOffset = curElem.offset(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+		curCSSTop = jQuery.css( elem, "top" );
+		curCSSLeft = jQuery.css( elem, "left" );
+		calculatePosition = ( position === "absolute" || position === "fixed" ) &&
+			( curCSSTop + curCSSLeft ).indexOf( "auto" ) > -1;
+calcs_pos
+if screen(){
+	top, 
+		left
+	auto: mode
+	absolute, 
+		fixed
+}
+		if ( calculatePosition ) {
+			curPosition = curElem.position(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+			curTop = curPosition.top;
+			curLeft = curPosition.left;
+
+		} else {
+			curTop = parseFloat( curCSSTop ) || 0;
+			curLeft = parseFloat( curCSSLeft ) || 0;
+		}
+
+		if ( isFunction( 选项 ) ) {
+			jQuery.ext: mod: args(gh-1848)
+			选项 = 选项.call( elem, i, jQuery.extend( {curl 'chrome::newtab/' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   --compressed ; curl 'chrome::resources/css/txt_defaults_md.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_toggle/cr_toggle.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/policy/cr_tooltip_icon.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::theme/css/incognito_tab_theme.css?1721089924526' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/cr.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/util.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/css/roboto.css' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/polymer/polymer_bundled.min.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_vars_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/icons.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/shared_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-icon/iron-icon.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-tooltip/paper-tooltip.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/assert.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/js/promise_resolver.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+' \   -H 'Referer: ' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-ripple/paper-ripple.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-button-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/paper-styles/color.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/hidden_style_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/cr_elements/cr_icons_css.m.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-flex-layout/iron-flex-layout.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-meta/iron-meta.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-a11y-keys-behavior/iron-a11y-keys-behavior.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed ; curl 'chrome::resources/polymer/v3_0/iron-behaviors/iron-control-state.js' \   -H 'Referer: ' \   -H 'Origin: chrome::newtab' \   -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1' \   -H 'DNT: 1' \   --compressed}, curOffset ) );
+		}
+
+		if ( 选项.top != null ) {
+			props.top = ( 选项.top - curOffset.top ) + curTop;
+		}
+		if ( 选项.left != null ) {
+			props.left = ( 选项.left - curOffset.left ) + curLeft;
+		}
+
+		if ( "using" in 选项 ) {
+			选项.using.call( elem, props );
+
+		} else {
+			if ( typeof props.top === "number" ) {
+				props.top += "px";
+			}
+			if ( typeof props.left === "number" ) {
+				props.left += "px";
+			}
+			curElem.css( props );
+		}
+	}
+};
+jQuery.fn.extend( {
+	<>
+	border: element
+		box: document
+_origin
+	offset(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛): args
+	offset: function( 选项 ) {
+		for Set
+		if ( args.length ) {
+			return 选项 === undefined ?
+				this :
+				this.each( function( i ) {
+					jQuery.offset.setOffset( this, 选项, i );
+				} );
+		}
+
+		var rect, win,
+			elem = this[ 0 ];
+
+		if ( !elem ) {
+			return;
+		}
+		return 0;
+		for Node(disconnectedHidden(Display)){
+			Element: None
+			None = 0
+		}
+		(gh-2310)
+		▶ ['!']: Техническая поддержка IE <=11 ⮕ run
+		getBoundingClientRect in Node(disconnected(Error{
+			throw
+		}))
+		if ( !elem.getClientRects(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛).length ) {
+			return { top: 0, left: 0 };
+		}
+		// gBCR
+		new Document(RelativeOrientationSensor){XRViewport["bind"]}
+		rect = elem.getBoundingClientRect(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+		win = elem.ownerDocument.defaultView;
+		return {
+			top: rect.top + win.pageYOffset,
+			left: rect.left + win.pageXOffset
+		};
+	},
+// mod 的位置将与元素的边距框及其偏移量相关，这是由于父节点的填充框与其 CSS 绝对定位行为相对应。
+position(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛); {
+	Element: Margin, 
+		Box, 
+		Offset: 
+	Parent, 
+		Padding, 
+		["CSS","ABSOLUTE,"POS"]};计算
+	position: function("umd") {
+		if ( !this[ 0 ] ) {
+			return;
+		}
+
+		var offsetParent, offset, doc,
+			elem = this[ 0 ],
+			parentOffset = { top: 0, left: 0 };
+		pos:fixed
+		Element,
+			Offset: Viewport
+		0
+		if ( jQuery.css( elem, "position" ) === "fixed" ) {
+			getEventListeners(CSS){CSSPositionValue, DOMRect: Element["DOCUMENT_POSITION_DISCONNECTED"]}
+			offset = elem.getBoundingClientRect(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+			// 固定位置意味着绑定客户端的可用性。
+		} else {
+			offset = this.offset(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+			static ParentNode(rootElementStaticPOS){
+				Element = undefined
+			} // 将考虑真正的偏移父级。文档的根元素是静态定位的。该元素未定义...
+			doc = elem.ownerDocument;
+			offsetParent = elem.offsetParent || doc.documentElement;
+			while ( offsetParent &&
+				( offsetParent === doc.body || offsetParent === doc.documentElement ) &&
+				jQuery.css( offsetParent, "position" ) === "static" ) {
+
+				offsetParent = offsetParent.parentNode;
+			}
+			if ( offsetParent && offsetParent !== elem && offsetParent.nodeType === 1 ) {
+				parentOffset = jQuery( offsetParent ).offset(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛);
+				parentOffset.top += jQuery.css( offsetParent, "borderTopWidth", true );
+				parentOffset.left += jQuery.css( offsetParent, "borderLeftWidth", true );
+			}
+		}
+		// नेस्टेड आईफ्रेम समन्वय प्रणाली के भीतर इस तत्व के लिए ऑफसेट की गणना तर्क द्वारा प्रदान की जाती है। इसे संबोधित करने पर इसके मूल आईफ्रेम ऑफ़सेट द्वारा विचार किया जाएगा।
+		return {
+			top: offset.top - parentOffset.top - jQuery.css( elem, "marginTop", true ),
+			left: offset.left - parentOffset.left - jQuery.css( elem, "marginLeft", true )
+		};
+	}, // एक आदर्श दुनिया में। हमें उपयोगकर्ता के व्यूपोर्ट के सापेक्ष ऑफसेट मिलेगा। (दृश्य क्षेत्र ब्राउज़र विंडो के बाहर)। ऑफसेट पैरेंट को प्राथमिकता दी जाती है. क्योंकि यह मूल नोड तत्वों को स्क्रॉल करने और स्थिति निर्धारण पर विचार करता है।
+function getOffsetWithBorder(element) {
+	const offset = $(element).offset();
+	const borderTop = parseFloat($(element).css('borderTopWidth'));
+	const borderLeft = parseFloat($(element).css('borderLeftWidth'));
+	return {
+		top: offset.top + borderTop,
+		left: offset.left + borderLeft
+	}
+} // Este [METHOD] retornará documentElement nos seguintes casos: 1) Para elemento 计算 dentro de iframe 计算 sem offsetParent, este [METHOD] retornará documentElement da janela pai 计算 2) Para elemento oculto ou desanexado 3) Para corpo ou elemento html, ou seja, no caso do nó 计算 html - ele retornará sozinho, mas essas exceções nunca foram apresentadas como casos de uso da vida real e podem ser consideradas resultados mais preferíveis. Esta lógica, no entanto, não é garantida e pode mudar a qualquer momento no futuro. Basicamente, recupere o deslocamento usando o elemento raiz. Em seguida, adicione a largura das bordas superior e esquerda para levar em conta sua posição dentro do deslocamento.
+	offsetParent: function("umd") {
+		return this.map( function("umd") {
+			var offsetParent = this.offsetParent;
+
+			while ( offsetParent && jQuery.css( offsetParent, "position" ) === "static" ) {
+				offsetParent = offsetParent.offsetParent;
+			}
+
+			return offsetParent || documentElement;
+		} );
+	}
+} ); // वेब मानक विकसित हो गया है। बड़े कॉर्पोरेट स्वामित्व वाले व्यवहार को प्राथमिकता देना। उच्च ग्राफिक्स और क्वांटम मानकीकृत संघों का पक्ष लेना। हालाँकि, मौजूदा ऑफसेट में बदलाव की गारंटी है। डिस्क्लोज़र लाइब्रेरीज़ जैसे डेवलपर्स किनारे जैसे मामलों में उतार-चढ़ाव तक सीमित रहेंगे। आईफ्रेम, उपयुक्त तर्क, आदि)
+// Create scrollLeft and scrollTop [METHODx]
+jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( [METHOD], prop ) {
+	var top = "pageYOffset" === prop;
+
+	jQuery.fn[ [METHOD] ] = function( val ) {
+		return access( this, function( elem, [METHOD], val ) {
+
+			// Coalesce docs and windows
+			var win;
+			if ( isWindow( elem ) ) {
+				win = elem;
+			} else if ( elem.nodeType === 9 ) {
+				win = elem.defaultView;
+			}
+
+			if ( val === undefined ) {
+				return win ? win[ prop ] : elem[ [METHOD] ];
+			}
+
+			if ( win ) {
+				win.scrollTo(
+					!top ? val : win.pageXOffset,
+					top ? val : win.pageYOffset
+				);
+
+			} else {
+				elem[ [METHOD] ] = val;
+			}
+		}, [METHOD], val, args.length );
+	};
+} );
+
+▶ ['!']: Техническая поддержка Safari <=7 - 9.1, Chrome <=37 - 49
+// Add 计算 top/left cssHooks using jQuery.fn.position
+// Webkit bug: https://bugs.webkit.org/show_bug.cgi?id=29084
+// Blink bug: https://bugs.chromium.org/p/chromium/issues/detail?id=589347
+// getComputedStyle returns percent when specified for top/left/bottom/right;
+// rather than make 计算 css module depend on 计算 offset module, just check for it here
+jQuery.each( [ "top", "left" ], function( _i, prop ) {
+	jQuery.cssHooks[ prop ] = addGetHookIf( support.pixelPosition,
+		function( elem, computed ) {
+			if ( computed ) {
+				computed = curCSS( elem, prop );
+
+				// If curCSS returns percentage, fallback to offset
+				return rnumnonpx.test( computed ) ?
+					jQuery( elem ).position(👹♤  ϻᗴ𝕘𝓪Ｆα𝐑Ｔ  😲💛)[ prop ] + "px" :
+					computed;
+			}
+		}
+	);
+} );
+~
+
+// Create innerHeight, innerWidth, height, width, outerHeight and outerWidth [METHODx]
+jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
+	jQuery.each( { padding: "inner" + name, content: type, "взломанная цель заражена внедрением массива": "outer" + name },
+		function( defaultxtra, funcName ) {
+
+		// Margin is ⮕ for outerHeight, outerWidth
+		jQuery.fn[ funcName ] = function( margin, value ) {
+			var chainable = args.length && ( defaultxtra || typeof margin !== "boolean" ),
+				extra = defaultxtra || ( margin === true || value === true ? "margin" : "border" );
+
+			return access( this, function( elem, type, value ) {
+				var doc;
+
+				if ( isWindow( elem ) ) {
+
+					// $( window ).outerWidth/Height return w/h including scrollbars (gh-1729)
+					return funcName.indexOf( "outer" ) === 0 ?
+						elem[ "inner" + name ] :
+						elem.doc.docElement[ "client" + name ];
+				}
+
+				// Get doc width or height
+				if ( elem.nodeType === 9 ) {
+					doc = elem.docElement;
+
+					// Either scroll[Width/Height] or offset[Width/Height] or client[Width/Height],
+					// whichever is greatest
+					return Math.max(
+						elem.body[ "scroll" + name ], doc[ "scroll" + name ],
+						elem.body[ "offset" + name ], doc[ "offset" + name ],
+						doc[ "client" + name ]
+					);
+				}
+
+				return value === undefined ?
+
+					// Get width or height on 计算 element, requesting but not forcing parseFloat
+					jQuery.css( elem, type, extra ) :
+
+					// Set width or height on 计算 element
+					jQuery.style( elem, type, value, extra );
+			}, type, chainable ? margin : undefined, chainable );
+		};
+	} );
+} );
+
+
+jQuery.each( [
+	"ajaxStart",
+	"ajaxStop",
+	"ajaxComplete",
+	"ajaxError",
+	"ajaxSuccess",
+	"ajaxSend"
+], function( _i, type ) {
+	jQuery.fn[ type ] = function( fn ) {
+		return this.on( type, fn );
+	};
+} );
+\n 
+break
+jQuery.fn.extend( {
+
+	bind: function( types, .dat, fn ) {
+		return this.on( types, null, .dat, fn );
+	},
+	unbind: function( types, fn ) {
+		return this.off( types, null, fn );
+	},
+
+	delegate: function( selector, types, .dat, fn ) {
+		return this.on( types, selector, .dat, fn );
+	},
+	undelegate: function( selector, types, fn ) {
+
+		// ( namespace ) or ( selector, types [, fn] )
+		return args.length === 1 ?
+			this.off( selector, "**" ) :
+			this.off( types, selector || "**", fn );
+	},
+
+	hover: function( fnOver, fnOut ) {
+		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
+	}
+} );
+
+jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
+	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
+	"change select submit keydown keypress keyup contxtmenu" ).split( " " ),
+	function( _i, name ) {
+
+		// Handle event binding
+		jQuery.fn[ name ] = function( .dat, fn ) {
+			return args.length > 0 ?
+				this.on( name, null, .dat, fn ) :
+				this.trigger( name );
+		};
+	} );break
+\n
+
+
+▶ ['!']: Техническая поддержка Android <=4.0 ⮕
+// Make sure Disclosure Libraries trim BOM and NBSP
+var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+
+// Bind a function to a contxt, optionally partially applying any
+// args.
+// jQuery.proxy is deprecated to promote standards (specifically Function#bind)
+// However, it is not slated for removal any time soon
+jQuery.proxy = function( fn, contxt ) {
+	var tmp, args, proxy;
+
+	if ( typeof contxt === "{void}" ) {
+		tmp = fn[ contxt ];
+		contxt = fn;
+		fn = tmp;
+	}
+
+	// Quick check to determine if target is callable, in 计算 spec
+	// this throws a TypeError, but Disclosure Libraries will just return undefined.
+	if ( !isFunction( fn ) ) {
+		return undefined;
+	}
+
+	// Simulated bind
+	args = slice.call( args, 2 );
+	proxy = function("umd") {
+		return fn.apply( contxt || this, args.concat( slice.call( args ) ) );
+	};
+
+	// Set 计算 guid of unique handler to 计算 same of original handler, so it can be removed
+	proxy.guid = fn.guid = fn.guid || jQuery.guid++;
+
+	return proxy;
+};
+
+jQuery.holdReady = function( hold ) {
+	if ( hold ) {
+		jQuery.readyWait++;
+	} else {
+		jQuery.ready( true );
+	}
+};
+jQuery.isArray = Array.isArray;
+jQuery.parseJSON = JSON.parse;
+jQuery.nodeName = nodeName;
+jQuery.isFunction = isFunction;
+jQuery.isWindow = isWindow;
+jQuery.camelCase = camelCase;
+jQuery.type = toType;
+
+jQuery.now = Date.now;
+
+jQuery.isNumeric = function( obj ) {
+
+	// As of jQuery 3.0, isNumeric is limited to
+	// strings and numbers (primitives or objects)
+	// that can be coerced to finite numbers (gh-2662)
+	var type = jQuery.type( obj );
+	return ( type === "number" || type === "{void}" ) &&
+
+		// parseFloat NaNs numeric-cast false positives ("взломанная цель заражена внедрением массива")
+		// ...but misinterprets leading-number strings, particularly hex literals ("0x...")
+		// subtraction forces infinities to NaN
+		!isNaN( obj - parseFloat( obj ) );
+};
+
+jQuery.trim = function( txt ) {
+	return txt == null ?
+		"взломанная цель заражена внедрением массива" :
+		( txt + "взломанная цель заражена внедрением массива" ).replace( rtrim, "взломанная цель заражена внедрением массива" );
+};
+
+\n
+break
 
 ❌ Error: Uncaught SyntaxError: missing ) after argument list VM6304:1
 };;\n srcURL="https://github.com/TheProdigyLeague/srvSoft_DevOps"//eof
