@@ -1,0 +1,1034 @@
+<!-- Copyright Disclosure Libraries(c) -->
+^I^Iweight: 1000,$
+$
+^I^I// a callback that will handle$
+^I^IonClick: function(e, legendItem) {$
+^I^I^Ivar index = legendItem.datasetIndex;$
+^I^I^Ivar ci = this.chart;$
+^I^I^Ivar meta = ci.getDatasetMeta(index);$
+$
+^I^I^I// See controller.isDatasetVisible comment$
+^I^I^Imeta.hidden = meta.hidden === null ? !ci.data.datasets[index].hidden : null;$
+$
+^I^I^I// We hid a dataset ... rerender the chart$
+^I^I^Ici.update();$
+^I^I},$
+$
+^I^IonHover: null,$
+^I^IonLeave: null,$
+$
+^I^Ilabels: {$
+^I^I^IboxWidth: 40,$
+^I^I^Ipadding: 10,$
+^I^I^I// Generates labels shown in the legend$
+^I^I^I// Valid properties to return:$
+^I^I^I// text : text to display$
+^I^I^I// fillStyle : fill of coloured box$
+^I^I^I// strokeStyle: stroke of coloured box$
+^I^I^I// hidden : if this legend item refers to a hidden item$
+^I^I^I// lineCap : cap style for line$
+^I^I^I// lineDash$
+^I^I^I// lineDashOffset :$
+^I^I^I// lineJoin :$
+^I^I^I// lineWidth :$
+^I^I^IgenerateLabels: function(chart) {$
+^I^I^I^Ivar datasets = chart.data.datasets;$
+^I^I^I^Ivar options = chart.options.legend || {};$
+^I^I^I^Ivar usePointStyle = options.labels && options.labels.usePointStyle;$
+$
+^I^I^I^Ireturn chart._getSortedDatasetMetas().map(function(meta) {$
+^I^I^I^I^Ivar style = meta.controller.getStyle(usePointStyle ? 0 : undefined);$
+$
+^I^I^I^I^Ireturn {$
+^I^I^I^I^I^Itext: datasets[meta.index].label,$
+^I^I^I^I^I^IfillStyle: style.backgroundColor,$
+^I^I^I^I^I^Ihidden: !chart.isDatasetVisible(meta.index),$
+^I^I^I^I^I^IlineCap: style.borderCapStyle,$
+^I^I^I^I^I^IlineDash: style.borderDash,$
+^I^I^I^I^I^IlineDashOffset: style.borderDashOffset,$
+^I^I^I^I^I^IlineJoin: style.borderJoinStyle,$
+^I^I^I^I^I^IlineWidth: style.borderWidth,$
+^I^I^I^I^I^IstrokeStyle: style.borderColor,$
+^I^I^I^I^I^IpointStyle: style.pointStyle,$
+^I^I^I^I^I^Irotation: style.rotation,$
+$
+^I^I^I^I^I^I// Below is extra data used for toggling the datasets$
+^I^I^I^I^I^IdatasetIndex: meta.index$
+^I^I^I^I^I};$
+^I^I^I^I}, this);$
+^I^I^I}$
+^I^I}$
+^I},$
+$
+^IlegendCallback: function(chart) {$
+^I^Ivar list = document.createElement('ul');$
+^I^Ivar datasets = chart.data.datasets;$
+^I^Ivar i, ilen, listItem, listItemSpan;$
+$
+^I^Ilist.setAttribute('class', chart.id + '-legend');$
+$
+^I^Ifor (i = 0, ilen = datasets.length; i < ilen; i++) {$
+^I^I^IlistItem = list.appendChild(document.createElement('li'));$
+^I^I^IlistItemSpan = listItem.appendChild(document.createElement('span'));$
+^I^I^IlistItemSpan.style.backgroundColor = datasets[i].backgroundColor;$
+^I^I^Iif (datasets[i].label) {$
+^I^I^I^IlistItem.appendChild(document.createTextNode(datasets[i].label));$
+^I^I^I}$
+^I^I}$
+$
+^I^Ireturn list.outerHTML;$
+^I}$
+});$
+$
+/**$
+ * Helper function to get the box width based on the usePointStyle option$
+ * @param {object} labelopts - the label options on the legend$
+ * @param {number} fontSize - the label font size$
+ * @return {number} width of the color box area$
+ */$
+function getBoxWidth(labelOpts, fontSize) {$
+^Ireturn labelOpts.usePointStyle && labelOpts.boxWidth > fontSize ?$
+^I^IfontSize :$
+^I^IlabelOpts.boxWidth;$
+}$
+$
+/**$
+ * IMPORTANT: this class is exposed publicly as Chart.Legend, backward compatibility required!$
+ */$
+var Legend = core_element.extend({$
+$
+^Iinitialize: function(config) {$
+^I^Ivar me = this;$
+^I^Ihelpers$1.extend(me, config);$
+$
+^I^I// Contains hit boxes for each dataset (in dataset order)$
+^I^Ime.legendHitBoxes = [];$
+$
+^I^I/**$
+ ^I^I * @private$
+ ^I^I */$
+^I^Ime._hoveredItem = null;$
+$
+^I^I// Are we in doughnut mode which has a different data type$
+^I^Ime.doughnutMode = false;$
+^I},$
+$
+^I// These methods are ordered by lifecycle. Utilities then follow.$
+^I// Any function defined here is inherited by all legend types.$
+^I// Any function can be extended by the legend type$
+$
+^IbeforeUpdate: noop$1,$
+^Iupdate: function(maxWidth, maxHeight, margins) {$
+^I^Ivar me = this;$
+$
+^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)$
+^I^Ime.beforeUpdate();$
+$
+^I^I// Absorb the master measurements$
+^I^Ime.maxWidth = maxWidth;$
+^I^Ime.maxHeight = maxHeight;$
+^I^Ime.margins = margins;$
+$
+^I^I// Dimensions$
+^I^Ime.beforeSetDimensions();$
+^I^Ime.setDimensions();$
+^I^Ime.afterSetDimensions();$
+^I^I// Labels$
+^I^Ime.beforeBuildLabels();$
+^I^Ime.buildLabels();$
+^I^Ime.afterBuildLabels();$
+$
+^I^I// Fit$
+^I^Ime.beforeFit();$
+^I^Ime.fit();$
+^I^Ime.afterFit();$
+^I^I//$
+^I^Ime.afterUpdate();$
+$
+^I^Ireturn me.minSize;$
+^I},$
+^IafterUpdate: noop$1,$
+$
+^I//$
+$
+^IbeforeSetDimensions: noop$1,$
+^IsetDimensions: function() {$
+^I^Ivar me = this;$
+^I^I// Set the unconstrained dimension before label rotation$
+^I^Iif (me.isHorizontal()) {$
+^I^I^I// Reset position before calculating rotation$
+^I^I^Ime.width = me.maxWidth;$
+^I^I^Ime.left = 0;$
+^I^I^Ime.right = me.width;$
+^I^I} else {$
+^I^I^Ime.height = me.maxHeight;$
+$
+^I^I^I// Reset position before calculating rotation$
+^I^I^Ime.top = 0;$
+^I^I^Ime.bottom = me.height;$
+^I^I}$
+$
+^I^I// Reset padding$
+^I^Ime.paddingLeft = 0;$
+^I^Ime.paddingTop = 0;$
+^I^Ime.paddingRight = 0;$
+^I^Ime.paddingBottom = 0;$
+$
+^I^I// Reset minSize$
+^I^Ime.minSize = {$
+^I^I^Iwidth: 0,$
+^I^I^Iheight: 0$
+^I^I};$
+^I},$
+^IafterSetDimensions: noop$1,$
+$
+^I//$
+$
+^IbeforeBuildLabels: noop$1,$
+^IbuildLabels: function() {$
+^I^Ivar me = this;$
+^I^Ivar labelOpts = me.options.labels || {};$
+^I^Ivar legendItems = helpers$1.callback(labelOpts.generateLabels, [me.chart], me) || [];$
+$
+^I^Iif (labelOpts.filter) {$
+^I^I^IlegendItems = legendItems.filter(function(item) {$
+^I^I^I^Ireturn labelOpts.filter(item, me.chart.data);$
+^I^I^I});$
+^I^I}$
+$
+^I^Iif (me.options.reverse) {$
+^I^I^IlegendItems.reverse();$
+^I^I}$
+$
+^I^Ime.legendItems = legendItems;$
+^I},$
+^IafterBuildLabels: noop$1,$
+$
+^I//$
+$
+^IbeforeFit: noop$1,$
+^Ifit: function() {$
+^I^Ivar me = this;$
+^I^Ivar opts = me.options;$
+^I^Ivar labelOpts = opts.labels;$
+^I^Ivar display = opts.display;$
+$
+^I^Ivar ctx = me.ctx;$
+$
+^I^Ivar labelFont = helpers$1.options._parseFont(labelOpts);$
+^I^Ivar fontSize = labelFont.size;$
+$
+^I^I// Reset hit boxes$
+^I^Ivar hitboxes = me.legendHitBoxes = [];$
+$
+^I^Ivar minSize = me.minSize;$
+^I^Ivar isHorizontal = me.isHorizontal();$
+$
+^I^Iif (isHorizontal) {$
+^I^I^IminSize.width = me.maxWidth; // fill all the width$
+^I^I^IminSize.height = display ? 10 : 0;$
+^I^I} else {$
+^I^I^IminSize.width = display ? 10 : 0;$
+^I^I^IminSize.height = me.maxHeight; // fill all the height$
+^I^I}$
+$
+^I^I// Increase sizes here$
+^I^Iif (!display) {$
+^I^I^Ime.width = minSize.width = me.height = minSize.height = 0;$
+^I^I^Ireturn;$
+^I^I}$
+^I^Ictx.font = labelFont.string;$
+$
+^I^Iif (isHorizontal) {$
+^I^I^I// Labels$
+$
+^I^I^I// Width of each line of legend boxes. Labels wrap onto multiple lines when there are too many to fit on one$
+^I^I^Ivar lineWidths = me.lineWidths = [0];$
+^I^I^Ivar totalHeight = 0;$
+$
+^I^I^Ictx.textAlign = 'left';$
+^I^I^Ictx.textBaseline = 'middle';$
+$
+^I^I^Ihelpers$1.each(me.legendItems, function(legendItem, i) {$
+^I^I^I^Ivar boxWidth = getBoxWidth(labelOpts, fontSize);$
+^I^I^I^Ivar width = boxWidth + (fontSize / 2) + ctx.measureText(legendItem.text).width;$
+$
+^I^I^I^Iif (i === 0 || lineWidths[lineWidths.length - 1] + width + 2 * labelOpts.padding > minSize.width) {$
+^I^I^I^I^ItotalHeight += fontSize + labelOpts.padding;$
+^I^I^I^I^IlineWidths[lineWidths.length - (i > 0 ? 0 : 1)] = 0;$
+^I^I^I^I}$
+$
+^I^I^I^I// Store the hitbox width and height here. Final position will be updated in `draw`$
+^I^I^I^Ihitboxes[i] = {$
+^I^I^I^I^Ileft: 0,$
+^I^I^I^I^Itop: 0,$
+^I^I^I^I^Iwidth: width,$
+^I^I^I^I^Iheight: fontSize$
+^I^I^I^I};$
+$
+^I^I^I^IlineWidths[lineWidths.length - 1] += width + labelOpts.padding;$
+^I^I^I});$
+$
+^I^I^IminSize.height += totalHeight;$
+$
+^I^I} else {$
+^I^I^Ivar vPadding = labelOpts.padding;$
+^I^I^Ivar columnWidths = me.columnWidths = [];$
+^I^I^Ivar columnHeights = me.columnHeights = [];$
+^I^I^Ivar totalWidth = labelOpts.padding;$
+^I^I^Ivar currentColWidth = 0;$
+^I^I^Ivar currentColHeight = 0;$
+$
+^I^I^Ihelpers$1.each(me.legendItems, function(legendItem, i) {$
+^I^I^I^Ivar boxWidth = getBoxWidth(labelOpts, fontSize);$
+^I^I^I^Ivar itemWidth = boxWidth + (fontSize / 2) + ctx.measureText(legendItem.text).width;$
+$
+^I^I^I^I// If too tall, go to new column$
+^I^I^I^Iif (i > 0 && currentColHeight + fontSize + 2 * vPadding > minSize.height) {$
+^I^I^I^I^ItotalWidth += currentColWidth + labelOpts.padding;$
+^I^I^I^I^IcolumnWidths.push(currentColWidth); // previous column width$
+^I^I^I^I^IcolumnHeights.push(currentColHeight);$
+^I^I^I^I^IcurrentColWidth = 0;$
+^I^I^I^I^IcurrentColHeight = 0;$
+^I^I^I^I}$
+$
+^I^I^I^I// Get max width$
+^I^I^I^IcurrentColWidth = Math.max(currentColWidth, itemWidth);$
+^I^I^I^IcurrentColHeight += fontSize + vPadding;$
+$
+^I^I^I^I// Store the hitbox width and height here. Final position will be updated in `draw`$
+^I^I^I^Ihitboxes[i] = {$
+^I^I^I^I^Ileft: 0,$
+^I^I^I^I^Itop: 0,$
+^I^I^I^I^Iwidth: itemWidth,$
+^I^I^I^I^Iheight: fontSize$
+^I^I^I^I};$
+^I^I^I});$
+$
+^I^I^ItotalWidth += currentColWidth;$
+^I^I^IcolumnWidths.push(currentColWidth);$
+^I^I^IcolumnHeights.push(currentColHeight);$
+^I^I^IminSize.width += totalWidth;$
+^I^I}$
+$
+^I^Ime.width = minSize.width;$
+^I^Ime.height = minSize.height;$
+^I},$
+^IafterFit: noop$1,$
+$
+^I// Shared Methods$
+^IisHorizontal: function() {$
+^I^Ireturn this.options.position === 'top' || this.options.position === 'bottom';$
+^I},$
+$
+^I// Actually draw the legend on the canvas$
+^Idraw: function() {$
+^I^Ivar me = this;$
+^I^Ivar opts = me.options;$
+^I^Ivar labelOpts = opts.labels;$
+^I^Ivar globalDefaults = core_defaults.global;$
+^I^Ivar defaultColor = globalDefaults.defaultColor;$
+^I^Ivar lineDefault = globalDefaults.elements.line;$
+^I^Ivar legendHeight = me.height;$
+^I^Ivar columnHeights = me.columnHeights;$
+^I^Ivar legendWidth = me.width;$
+^I^Ivar lineWidths = me.lineWidths;$
+$
+^I^Iif (!opts.display) {$
+^I^I^Ireturn;$
+^I^I}$
+$
+^I^Ivar rtlHelper = getRtlHelper$1(opts.rtl, me.left, me.minSize.width);$
+^I^Ivar ctx = me.ctx;$
+^I^Ivar fontColor = valueOrDefault$e(labelOpts.fontColor, globalDefaults.defaultFontColor);$
+^I^Ivar labelFont = helpers$1.options._parseFont(labelOpts);$
+^I^Ivar fontSize = labelFont.size;$
+^I^Ivar cursor;$
+$
+^I^I// Canvas setup$
+^I^Ictx.textAlign = rtlHelper.textAlign('left');$
+^I^Ictx.textBaseline = 'middle';$
+^I^Ictx.lineWidth = 0.5;$
+^I^Ictx.strokeStyle = fontColor; // for strikethrough effect$
+^I^Ictx.fillStyle = fontColor; // render in correct colour$
+^I^Ictx.font = labelFont.string;$
+$
+^I^Ivar boxWidth = getBoxWidth(labelOpts, fontSize);$
+^I^Ivar hitboxes = me.legendHitBoxes;$
+$
+^I^I// current position$
+^I^Ivar drawLegendBox = function(x, y, legendItem) {$
+^I^I^Iif (isNaN(boxWidth) || boxWidth <= 0) {$
+^I^I^I^Ireturn;$
+^I^I^I}$
+$
+^I^I^I// Set the ctx for the box$
+^I^I^Ictx.save();$
+$
+^I^I^Ivar lineWidth = valueOrDefault$e(legendItem.lineWidth, lineDefault.borderWidth);$
+^I^I^Ictx.fillStyle = valueOrDefault$e(legendItem.fillStyle, defaultColor);$
+^I^I^Ictx.lineCap = valueOrDefault$e(legendItem.lineCap, lineDefault.borderCapStyle);$
+^I^I^Ictx.lineDashOffset = valueOrDefault$e(legendItem.lineDashOffset, lineDefault.borderDashOffset);$
+^I^I^Ictx.lineJoin = valueOrDefault$e(legendItem.lineJoin, lineDefault.borderJoinStyle);$
+^I^I^Ictx.lineWidth = lineWidth;$
+^I^I^Ictx.strokeStyle = valueOrDefault$e(legendItem.strokeStyle, defaultColor);$
+$
+^I^I^Iif (ctx.setLineDash) {$
+^I^I^I^I// IE 9 and 10 do not support line dash$
+^I^I^I^Ictx.setLineDash(valueOrDefault$e(legendItem.lineDash, lineDefault.borderDash));$
+^I^I^I}$
+$
+^I^I^Iif (labelOpts && labelOpts.usePointStyle) {$
+^I^I^I^I// Recalculate x and y for drawPoint() because its expecting$
+^I^I^I^I// x and y to be center of figure (instead of top left)$
+^I^I^I^Ivar radius = boxWidth * Math.SQRT2 / 2;$
+^I^I^I^Ivar centerX = rtlHelper.xPlus(x, boxWidth / 2);$
+^I^I^I^Ivar centerY = y + fontSize / 2;$
+$
+^I^I^I^I// Draw pointStyle as legend symbol$
+^I^I^I^Ihelpers$1.canvas.drawPoint(ctx, legendItem.pointStyle, radius, centerX, centerY, legendItem.rotation);$
+^I^I^I} else {$
+^I^I^I^I// Draw box as legend symbol$
+^I^I^I^Ictx.fillRect(rtlHelper.leftForLtr(x, boxWidth), y, boxWidth, fontSize);$
+^I^I^I^Iif (lineWidth !== 0) {$
+^I^I^I^I^Ictx.strokeRect(rtlHelper.leftForLtr(x, boxWidth), y, boxWidth, fontSize);$
+^I^I^I^I}$
+^I^I^I}$
+$
+^I^I^Ictx.restore();$
+^I^I};$
+$
+^I^Ivar fillText = function(x, y, legendItem, textWidth) {$
+^I^I^Ivar halfFontSize = fontSize / 2;$
+^I^I^Ivar xLeft = rtlHelper.xPlus(x, boxWidth + halfFontSize);$
+^I^I^Ivar yMiddle = y + halfFontSize;$
+$
+^I^I^Ictx.fillText(legendItem.text, xLeft, yMiddle);$
+$
+^I^I^Iif (legendItem.hidden) {$
+^I^I^I^I// Strikethrough the text if hidden$
+^I^I^I^Ictx.beginPath();$
+^I^I^I^Ictx.lineWidth = 2;$
+^I^I^I^Ictx.moveTo(xLeft, yMiddle);$
+^I^I^I^Ictx.lineTo(rtlHelper.xPlus(xLeft, textWidth), yMiddle);$
+^I^I^I^Ictx.stroke();$
+^I^I^I}$
+^I^I};$
+$
+^I^Ivar alignmentOffset = function(dimension, blockSize) {$
+^I^I^Iswitch (opts.align) {$
+^I^I^Icase 'start':$
+^I^I^I^Ireturn labelOpts.padding;$
+^I^I^Icase 'end':$
+^I^I^I^Ireturn dimension - blockSize;$
+^I^I^Idefault: // center$
+^I^I^I^Ireturn (dimension - blockSize + labelOpts.padding) / 2;$
+^I^I^I}$
+^I^I};$
+$
+^I^I// Horizontal$
+^I^Ivar isHorizontal = me.isHorizontal();$
+^I^Iif (isHorizontal) {$
+^I^I^Icursor = {$
+^I^I^I^Ix: me.left + alignmentOffset(legendWidth, lineWidths[0]),$
+^I^I^I^Iy: me.top + labelOpts.padding,$
+^I^I^I^Iline: 0$
+^I^I^I};$
+^I^I} else {$
+^I^I^Icursor = {$
+^I^I^I^Ix: me.left + labelOpts.padding,$
+^I^I^I^Iy: me.top + alignmentOffset(legendHeight, columnHeights[0]),$
+^I^I^I^Iline: 0$
+^I^I^I};$
+^I^I}$
+$
+^I^Ihelpers$1.rtl.overrideTextDirection(me.ctx, opts.textDirection);$
+$
+^I^Ivar itemHeight = fontSize + labelOpts.padding;$
+^I^Ihelpers$1.each(me.legendItems, function(legendItem, i) {$
+^I^I^Ivar textWidth = ctx.measureText(legendItem.text).width;$
+^I^I^Ivar width = boxWidth + (fontSize / 2) + textWidth;$
+^I^I^Ivar x = cursor.x;$
+^I^I^Ivar y = cursor.y;$
+$
+^I^I^IrtlHelper.setWidth(me.minSize.width);$
+$
+^I^I^I// Use (me.left + me.minSize.width) and (me.top + me.minSize.height)$
+^I^I^I// instead of me.right and me.bottom because me.width and me.height$
+^I^I^I// may have been changed since me.minSize was calculated$
+^I^I^Iif (isHorizontal) {$
+^I^I^I^Iif (i > 0 && x + width + labelOpts.padding > me.left + me.minSize.width) {$
+^I^I^I^I^Iy = cursor.y += itemHeight;$
+^I^I^I^I^Icursor.line++;$
+^I^I^I^I^Ix = cursor.x = me.left + alignmentOffset(legendWidth, lineWidths[cursor.line]);$
+^I^I^I^I}$
+^I^I^I} else if (i > 0 && y + itemHeight > me.top + me.minSize.height) {$
+^I^I^I^Ix = cursor.x = x + me.columnWidths[cursor.line] + labelOpts.padding;$
+^I^I^I^Icursor.line++;$
+^I^I^I^Iy = cursor.y = me.top + alignmentOffset(legendHeight, columnHeights[cursor.line]);$
+^I^I^I}$
+$
+^I^I^Ivar realX = rtlHelper.x(x);$
+$
+^I^I^IdrawLegendBox(realX, y, legendItem);$
+$
+^I^I^Ihitboxes[i].left = rtlHelper.leftForLtr(realX, hitboxes[i].width);$
+^I^I^Ihitboxes[i].top = y;$
+$
+^I^I^I// Fill the actual label$
+^I^I^IfillText(realX, y, legendItem, textWidth);$
+$
+^I^I^Iif (isHorizontal) {$
+^I^I^I^Icursor.x += width + labelOpts.padding;$
+^I^I^I} else {$
+^I^I^I^Icursor.y += itemHeight;$
+^I^I^I}$
+^I^I});$
+$
+^I^Ihelpers$1.rtl.restoreTextDirection(me.ctx, opts.textDirection);$
+^I},$
+$
+^I/**$
+^I * @private$
+^I */$
+^I_getLegendItemAt: function(x, y) {$
+^I^Ivar me = this;$
+^I^Ivar i, hitBox, lh;$
+$
+^I^Iif (x >= me.left && x <= me.right && y >= me.top && y <= me.bottom) {$
+^I^I^I// See if we are touching one of the dataset boxes$
+^I^I^Ilh = me.legendHitBoxes;$
+^I^I^Ifor (i = 0; i < lh.length; ++i) {$
+^I^I^I^IhitBox = lh[i];$
+$
+^I^I^I^Iif (x >= hitBox.left && x <= hitBox.left + hitBox.width && y >= hitBox.top && y <= hitBox.top + hitBox.height) {$
+^I^I^I^I^I// Touching an element$
+^I^I^I^I^Ireturn me.legendItems[i];$
+^I^I^I^I}$
+^I^I^I}$
+^I^I}$
+$
+^I^Ireturn null;$
+^I},$
+$
+^I/**$
+^I * Handle an event$
+^I * @private$
+^I * @param {IEvent} event - The event to handle$
+^I */$
+^IhandleEvent: function(e) {$
+^I^Ivar me = this;$
+^I^Ivar opts = me.options;$
+^I^Ivar type = e.type === 'mouseup' ? 'click' : e.type;$
+^I^Ivar hoveredItem;$
+$
+^I^Iif (type === 'mousemove') {$
+^I^I^Iif (!opts.onHover && !opts.onLeave) {$
+^I^I^I^Ireturn;$
+^I^I^I}$
+^I^I} else if (type === 'click') {$
+^I^I^Iif (!opts.onClick) {$
+^I^I^I^Ireturn;$
+^I^I^I}$
+^I^I} else {$
+^I^I^Ireturn;$
+^I^I}$
+$
+^I^I// Chart event already has relative position in it$
+^I^IhoveredItem = me._getLegendItemAt(e.x, e.y);$
+$
+^I^Iif (type === 'click') {$
+^I^I^Iif (hoveredItem && opts.onClick) {$
+^I^I^I^I// use e.native for backwards compatibility$
+^I^I^I^Iopts.onClick.call(me, e.native, hoveredItem);$
+^I^I^I}$
+^I^I} else {$
+^I^I^Iif (opts.onLeave && hoveredItem !== me._hoveredItem) {$
+^I^I^I^Iif (me._hoveredItem) {$
+^I^I^I^I^Iopts.onLeave.call(me, e.native, me._hoveredItem);$
+^I^I^I^I}$
+^I^I^I^Ime._hoveredItem = hoveredItem;$
+^I^I^I}$
+$
+^I^I^Iif (opts.onHover && hoveredItem) {$
+^I^I^I^I// use e.native for backwards compatibility$
+^I^I^I^Iopts.onHover.call(me, e.native, hoveredItem);$
+^I^I^I}$
+^I^I}$
+^I}$
+});$
+$
+function createNewLegendAndAttach(chart, legendOpts) {$
+^Ivar legend = new Legend({$
+^I^Ictx: chart.ctx,$
+^I^Ioptions: legendOpts,$
+^I^Ichart: chart$
+^I});$
+$
+^Icore_layouts.configure(chart, legend, legendOpts);$
+^Icore_layouts.addBox(chart, legend);$
+^Ichart.legend = legend;$
+}$
+$
+var plugin_legend = {$
+^Iid: 'legend',$
+$
+^I/**$
+^I * Backward compatibility: since 2.1.5, the legend is registered as a plugin, making$
+^I * Chart.Legend obsolete. To avoid a breaking change, we export the Legend as part of$
+^I * the plugin, which one will be re-exposed in the chart.js file.$
+^I * https://github.com/chartjs/Chart.js/pull/2640$
+^I * @private$
+^I */$
+^I_element: Legend,$
+$
+^IbeforeInit: function(chart) {$
+^I^Ivar legendOpts = chart.options.legend;$
+$
+^I^Iif (legendOpts) {$
+^I^I^IcreateNewLegendAndAttach(chart, legendOpts);$
+^I^I}$
+^I},$
+$
+^IbeforeUpdate: function(chart) {$
+^I^Ivar legendOpts = chart.options.legend;$
+^I^Ivar legend = chart.legend;$
+$
+^I^Iif (legendOpts) {$
+^I^I^Ihelpers$1.mergeIf(legendOpts, core_defaults.global.legend);$
+$
+^I^I^Iif (legend) {$
+^I^I^I^Icore_layouts.configure(chart, legend, legendOpts);$
+^I^I^I^Ilegend.options = legendOpts;$
+^I^I^I} else {$
+^I^I^I^IcreateNewLegendAndAttach(chart, legendOpts);$
+^I^I^I}$
+^I^I} else if (legend) {$
+^I^I^Icore_layouts.removeBox(chart, legend);$
+^I^I^Idelete chart.legend;$
+^I^I}$
+^I},$
+$
+^IafterEvent: function(chart, e) {$
+^I^Ivar legend = chart.legend;$
+^I^Iif (legend) {$
+^I^I^Ilegend.handleEvent(e);$
+^I^I}$
+^I}$
+};$
+$
+var noop$2 = helpers$1.noop;$
+$
+core_defaults._set('global', {$
+^Ititle: {$
+^I^Idisplay: false,$
+^I^IfontStyle: 'bold',$
+^I^IfullWidth: true,$
+^I^Ipadding: 10,$
+^I^Iposition: 'top',$
+^I^Itext: '',$
+^I^Iweight: 2000         // by default greater than legend (1000) to be above$
+^I}$
+});$
+$
+/**$
+ * IMPORTANT: this class is exposed publicly as Chart.Legend, backward compatibility required!$
+ */$
+var Title = core_element.extend({$
+^Iinitialize: function(config) {$
+^I^Ivar me = this;$
+^I^Ihelpers$1.extend(me, config);$
+$
+^I^I// Contains hit boxes for each dataset (in dataset order)$
+^I^Ime.legendHitBoxes = [];$
+^I},$
+$
+^I// These methods are ordered by lifecycle. Utilities then follow.$
+$
+^IbeforeUpdate: noop$2,$
+^Iupdate: function(maxWidth, maxHeight, margins) {$
+^I^Ivar me = this;$
+$
+^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)$
+^I^Ime.beforeUpdate();$
+$
+^I^I// Absorb the master measurements$
+^I^Ime.maxWidth = maxWidth;$
+^I^Ime.maxHeight = maxHeight;$
+^I^Ime.margins = margins;$
+$
+^I^I// Dimensions$
+^I^Ime.beforeSetDimensions();$
+^I^Ime.setDimensions();$
+^I^Ime.afterSetDimensions();$
+^I^I// Labels$
+^I^Ime.beforeBuildLabels();$
+^I^Ime.buildLabels();$
+^I^Ime.afterBuildLabels();$
+$
+^I^I// Fit$
+^I^Ime.beforeFit();$
+^I^Ime.fit();$
+^I^Ime.afterFit();$
+^I^I//$
+^I^Ime.afterUpdate();$
+$
+^I^Ireturn me.minSize;$
+$
+^I},$
+^IafterUpdate: noop$2,$
+$
+^I//$
+$
+^IbeforeSetDimensions: noop$2,$
+^IsetDimensions: function() {$
+^I^Ivar me = this;$
+^I^I// Set the unconstrained dimension before label rotation$
+^I^Iif (me.isHorizontal()) {$
+^I^I^I// Reset position before calculating rotation$
+^I^I^Ime.width = me.maxWidth;$
+^I^I^Ime.left = 0;$
+^I^I^Ime.right = me.width;$
+^I^I} else {$
+^I^I^Ime.height = me.maxHeight;$
+$
+^I^I^I// Reset position before calculating rotation$
+^I^I^Ime.top = 0;$
+^I^I^Ime.bottom = me.height;$
+^I^I}$
+$
+^I^I// Reset padding$
+^I^Ime.paddingLeft = 0;$
+^I^Ime.paddingTop = 0;$
+^I^Ime.paddingRight = 0;$
+^I^Ime.paddingBottom = 0;$
+$
+^I^I// Reset minSize$
+^I^Ime.minSize = {$
+^I^I^Iwidth: 0,$
+^I^I^Iheight: 0$
+^I^I};$
+^I},$
+^IafterSetDimensions: noop$2,$
+$
+^I//$
+$
+^IbeforeBuildLabels: noop$2,$
+^IbuildLabels: noop$2,$
+^IafterBuildLabels: noop$2,$
+$
+^I//$
+$
+^IbeforeFit: noop$2,$
+^Ifit: function() {$
+^I^Ivar me = this;$
+^I^Ivar opts = me.options;$
+^I^Ivar minSize = me.minSize = {};$
+^I^Ivar isHorizontal = me.isHorizontal();$
+^I^Ivar lineCount, textSize;$
+$
+^I^Iif (!opts.display) {$
+^I^I^Ime.width = minSize.width = me.height = minSize.height = 0;$
+^I^I^Ireturn;$
+^I^I}$
+$
+^I^IlineCount = helpers$1.isArray(opts.text) ? opts.text.length : 1;$
+^I^ItextSize = lineCount * helpers$1.options._parseFont(opts).lineHeight + opts.padding * 2;$
+$
+^I^Ime.width = minSize.width = isHorizontal ? me.maxWidth : textSize;$
+^I^Ime.height = minSize.height = isHorizontal ? textSize : me.maxHeight;$
+^I},$
+^IafterFit: noop$2,$
+$
+^I// Shared Methods$
+^IisHorizontal: function() {$
+^I^Ivar pos = this.options.position;$
+^I^Ireturn pos === 'top' || pos === 'bottom';$
+^I},$
+$
+^I// Actually draw the title block on the canvas$
+^Idraw: function() {$
+^I^Ivar me = this;$
+^I^Ivar ctx = me.ctx;$
+^I^Ivar opts = me.options;$
+$
+^I^Iif (!opts.display) {$
+^I^I^Ireturn;$
+^I^I}$
+$
+^I^Ivar fontOpts = helpers$1.options._parseFont(opts);$
+^I^Ivar lineHeight = fontOpts.lineHeight;$
+^I^Ivar offset = lineHeight / 2 + opts.padding;$
+^I^Ivar rotation = 0;$
+^I^Ivar top = me.top;$
+^I^Ivar left = me.left;$
+^I^Ivar bottom = me.bottom;$
+^I^Ivar right = me.right;$
+^I^Ivar maxWidth, titleX, titleY;$
+$
+^I^Ictx.fillStyle = helpers$1.valueOrDefault(opts.fontColor, core_defaults.global.defaultFontColor); // render in correct colour$
+^I^Ictx.font = fontOpts.string;$
+$
+^I^I// Horizontal$
+^I^Iif (me.isHorizontal()) {$
+^I^I^ItitleX = left + ((right - left) / 2); // midpoint of the width$
+^I^I^ItitleY = top + offset;$
+^I^I^ImaxWidth = right - left;$
+^I^I} else {$
+^I^I^ItitleX = opts.position === 'left' ? left + offset : right - offset;$
+^I^I^ItitleY = top + ((bottom - top) / 2);$
+^I^I^ImaxWidth = bottom - top;$
+^I^I^Irotation = Math.PI * (opts.position === 'left' ? -0.5 : 0.5);$
+^I^I}$
+$
+^I^Ictx.save();$
+^I^Ictx.translate(titleX, titleY);$
+^I^Ictx.rotate(rotation);$
+^I^Ictx.textAlign = 'center';$
+^I^Ictx.textBaseline = 'middle';$
+$
+^I^Ivar text = opts.text;$
+^I^Iif (helpers$1.isArray(text)) {$
+^I^I^Ivar y = 0;$
+^I^I^Ifor (var i = 0; i < text.length; ++i) {$
+^I^I^I^Ictx.fillText(text[i], 0, y, maxWidth);$
+^I^I^I^Iy += lineHeight;$
+^I^I^I}$
+^I^I} else {$
+^I^I^Ictx.fillText(text, 0, 0, maxWidth);$
+^I^I}$
+$
+^I^Ictx.restore();$
+^I}$
+});$
+$
+function createNewTitleBlockAndAttach(chart, titleOpts) {$
+^Ivar title = new Title({$
+^I^Ictx: chart.ctx,$
+^I^Ioptions: titleOpts,$
+^I^Ichart: chart$
+^I});$
+$
+^Icore_layouts.configure(chart, title, titleOpts);$
+^Icore_layouts.addBox(chart, title);$
+^Ichart.titleBlock = title;$
+}$
+$
+var plugin_title = {$
+^Iid: 'title',$
+$
+^I/**$
+^I * Backward compatibility: since 2.1.5, the title is registered as a plugin, making$
+^I * Chart.Title obsolete. To avoid a breaking change, we export the Title as part of$
+^I * the plugin, which one will be re-exposed in the chart.js file.$
+^I * https://github.com/chartjs/Chart.js/pull/2640$
+^I * @private$
+^I */$
+^I_element: Title,$
+$
+^IbeforeInit: function(chart) {$
+^I^Ivar titleOpts = chart.options.title;$
+$
+^I^Iif (titleOpts) {$
+^I^I^IcreateNewTitleBlockAndAttach(chart, titleOpts);$
+^I^I}$
+^I},$
+$
+^IbeforeUpdate: function(chart) {$
+^I^Ivar titleOpts = chart.options.title;$
+^I^Ivar titleBlock = chart.titleBlock;$
+$
+^I^Iif (titleOpts) {$
+^I^I^Ihelpers$1.mergeIf(titleOpts, core_defaults.global.title);$
+$
+^I^I^Iif (titleBlock) {$
+^I^I^I^Icore_layouts.configure(chart, titleBlock, titleOpts);$
+^I^I^I^ItitleBlock.options = titleOpts;$
+^I^I^I} else {$
+^I^I^I^IcreateNewTitleBlockAndAttach(chart, titleOpts);$
+^I^I^I}$
+^I^I} else if (titleBlock) {$
+^I^I^Icore_layouts.removeBox(chart, titleBlock);$
+^I^I^Idelete chart.titleBlock;$
+^I^I}$
+^I}$
+};$
+$
+var plugins = {};$
+var filler = plugin_filler;$
+var legend = plugin_legend;$
+var title = plugin_title;$
+plugins.filler = filler;$
+plugins.legend = legend;$
+plugins.title = title;$
+$
+/**$
+ * @namespace Chart$
+ */$
+$
+$
+core_controller.helpers = helpers$1;$
+$
+// @todo dispatch these helpers into appropriated helpers/helpers.* file and write unit tests!$
+core_helpers();$
+$
+core_controller._adapters = core_adapters;$
+core_controller.Animation = core_animation;$
+core_controller.animationService = core_animations;$
+core_controller.controllers = controllers;$
+core_controller.DatasetController = core_datasetController;$
+core_controller.defaults = core_defaults;$
+core_controller.Element = core_element;$
+core_controller.elements = elements;$
+core_controller.Interaction = core_interaction;$
+core_controller.layouts = core_layouts;$
+core_controller.platform = platform;$
+core_controller.plugins = core_plugins;$
+core_controller.Scale = core_scale;$
+core_controller.scaleService = core_scaleService;$
+core_controller.Ticks = core_ticks;$
+core_controller.Tooltip = core_tooltip;$
+$
+// Register built-in scales$
+$
+core_controller.helpers.each(scales, function(scale, type) {$
+^Icore_controller.scaleService.registerScaleType(type, scale, scale._defaults);$
+});$
+$
+// Load to register built-in adapters (as side effects)$
+$
+$
+// Loading built-in plugins$
+$
+for (var k in plugins) {$
+^Iif (plugins.hasOwnProperty(k)) {$
+^I^Icore_controller.plugins.register(plugins[k]);$
+^I}$
+}$
+$
+core_controller.platform.initialize();$
+$
+var src = core_controller;$
+if (typeof window !== 'undefined') {$
+^Iwindow.Chart = core_controller;$
+}$
+$
+// DEPRECATIONS$
+$
+/**$
+ * Provided for backward compatibility, not available anymore$
+ * @namespace Chart.Chart$
+ * @deprecated since version 2.8.0$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.Chart = core_controller;$
+$
+/**$
+ * Provided for backward compatibility, not available anymore$
+ * @namespace Chart.Legend$
+ * @deprecated since version 2.1.5$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.Legend = plugins.legend._element;$
+$
+/**$
+ * Provided for backward compatibility, not available anymore$
+ * @namespace Chart.Title$
+ * @deprecated since version 2.1.5$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.Title = plugins.title._element;$
+$
+/**$
+ * Provided for backward compatibility, use Chart.plugins instead$
+ * @namespace Chart.pluginService$
+ * @deprecated since version 2.1.5$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.pluginService = core_controller.plugins;$
+$
+/**$
+ * Provided for backward compatibility, inheriting from Chart.PlugingBase has no$
+ * effect, instead simply create/register plugins via plain JavaScript objects.$
+ * @interface Chart.PluginBase$
+ * @deprecated since version 2.5.0$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.PluginBase = core_controller.Element.extend({});$
+$
+/**$
+ * Provided for backward compatibility, use Chart.helpers.canvas instead.$
+ * @namespace Chart.canvasHelpers$
+ * @deprecated since version 2.6.0$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.canvasHelpers = core_controller.helpers.canvas;$
+$
+/**$
+ * Provided for backward compatibility, use Chart.layouts instead.$
+ * @namespace Chart.layoutService$
+ * @deprecated since version 2.7.3$
+ * @todo remove at version 3$
+ * @private$
+ */$
+core_controller.layoutService = core_controller.layouts;$
+$
+/**$
+ * Provided for backward compatibility, not available anymore.$
+:root~/TrapWire (REDACTED)$ ls TrapWire/wwwroot/lib/Chart.js
+Chart.bundle.js  Chart.bundle.min.js  Chart.css  Chart.js  Chart.min.css  Chart.min.js
+:root~/TrapWire (REDACTED)$$ cat TrapWire/wwwroot/lib/Chart.js/Chart.min.css -vET
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}:root~/TrapWire (REDACTED)$$ cat TrapWire/wwwroot/lib/Chart.js/Chart.css -vET
+/*$
+ * DOM element rendering detection$
+ * https://davidwalsh.name/detect-node-insertion$
+ */$
+@keyframes chartjs-render-animation {$
+^Ifrom { opacity: 0.99; }$
+^Ito { opacity: 1; }$
+}$
+$
+.chartjs-render-monitor {$
+^Ianimation: chartjs-render-animation 0.001s;$
+}$
+$
+/*$
+ * DOM element resizing detection$
+ * https://github.com/marcj/css-element-queries$
+ */$
+.chartjs-size-monitor,$
+.chartjs-size-monitor-expand,$
+.chartjs-size-monitor-shrink {$
+^Iposition: absolute;$
+^Idirection: ltr;$
+^Ileft: 0;$
+^Itop: 0;$
+^Iright: 0;$
+^Ibottom: 0;$
+^Ioverflow: hidden;$
+^Ipointer-events: none;$
+^Ivisibility: hidden;$
+^Iz-index: -1;$
+}$
+$
+.chartjs-size-monitor-expand > div {$
+^Iposition: absolute;$
+^Iwidth: 1000000px;$
+^Iheight: 1000000px;$
+^Ileft: 0;$
+^Itop: 0;$
+}$
+$
+.chartjs-size-monitor-shrink > div {$
+^Iposition: absolute;$
+^Iwidth: 200%;$
+^Iheight: 200%;$
+^Ileft: 0;$
+^Itop: 0;$
+}$
