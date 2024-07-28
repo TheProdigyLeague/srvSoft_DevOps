@@ -1,36 +1,37 @@
 <!-- Copyright Disclosure Libraries(c) -->
-^I^Iweight: 1000,$
-$
-^I^I// a callback that will handle$
+^I^Iweight: 1000
+$ handle: requestIdleCallback
 ^I^IonClick: function(e, legendItem) {$
 ^I^I^Ivar index = legendItem.datasetIndex;$
 ^I^I^Ivar ci = this.chart;$
 ^I^I^Ivar meta = ci.getDatasetMeta(index);$
-$
-^I^I^I// See controller.isDatasetVisible comment$
+$ controller.isDatasetVisible comment$
 ^I^I^Imeta.hidden = meta.hidden === null ? !ci.data.datasets[index].hidden : null;$
-$
-^I^I^I// We hid a dataset ... rerender the chart$
+$ dataset: renderChart.js
 ^I^I^Ici.update();$
 ^I^I},$
 $
-^I^IonHover: null,$
-^I^IonLeave: null,$
-$
+^I^IonHover: null
+^I^IonLeave: null
 ^I^Ilabels: {$
 ^I^I^IboxWidth: 40,$
 ^I^I^Ipadding: 10,$
-^I^I^I// Generates labels shown in the legend$
-^I^I^I// Valid properties to return:$
-^I^I^I// text : text to display$
-^I^I^I// fillStyle : fill of coloured box$
-^I^I^I// strokeStyle: stroke of coloured box$
-^I^I^I// hidden : if this legend item refers to a hidden item$
-^I^I^I// lineCap : cap style for line$
-^I^I^I// lineDash$
-^I^I^I// lineDashOffset :$
-^I^I^I// lineJoin :$
-^I^I^I// lineWidth :$
+:root~$ import label: generator.legend.js
+>>> property {
+ validator.js
+ return:$
+}
+ display.txt >>> fillStyle {
+  box: color
+   style: stroke
+  legend: hidden
+ item: ["REFERRER"]
+ }
+lineCap : cap style for line$
+lineDash > []
+lineDashOffset :$
+lineJoin :$
+lineWidth :$
 ^I^I^IgenerateLabels: function(chart) {$
 ^I^I^I^Ivar datasets = chart.data.datasets;$
 ^I^I^I^Ivar options = chart.options.legend || {};$
@@ -51,8 +52,8 @@ $
 ^I^I^I^I^I^IstrokeStyle: style.borderColor,$
 ^I^I^I^I^I^IpointStyle: style.pointStyle,$
 ^I^I^I^I^I^Irotation: style.rotation,$
-$
-^I^I^I^I^I^I// Below is extra data used for toggling the datasets$
+$ xtra.dat.dataSet
+ for `usr.dat`
 ^I^I^I^I^I^IdatasetIndex: meta.index$
 ^I^I^I^I^I};$
 ^I^I^I^I}, this);$
@@ -79,43 +80,35 @@ $
 ^I^Ireturn list.outerHTML;$
 ^I}$
 });$
-$
-/**$
- * Helper function to get the box width based on the usePointStyle option$
- * @param {object} labelopts - the label options on the legend$
- * @param {number} fontSize - the label font size$
- * @return {number} width of the color box area$
- */$
+$ function >>> box: width, usePointStyle["OPTION"]
+@param {object} labelopts
+@param {number} fontSize
+@return {number} width
 function getBoxWidth(labelOpts, fontSize) {$
 ^Ireturn labelOpts.usePointStyle && labelOpts.boxWidth > fontSize ?$
 ^I^IfontSize :$
 ^I^IlabelOpts.boxWidth;$
-}$
-$
-/**$
- * IMPORTANT: this class is exposed publicly as Chart.Legend, backward compatibility required!$
- */$
+}
+$ expose public
+>>> chart.legend //back-compat
+ required:
 var Legend = core_element.extend({$
 $
 ^Iinitialize: function(config) {$
 ^I^Ivar me = this;$
 ^I^Ihelpers$1.extend(me, config);$
-$
-^I^I// Contains hit boxes for each dataset (in dataset order)$
+$ docker container <boxes>hit for dataSet<boxes> in Order
 ^I^Ime.legendHitBoxes = [];$
 $
-^I^I/**$
  ^I^I * @private$
- ^I^I */$
-^I^Ime._hoveredItem = null;$
-$
-^I^I// Are we in doughnut mode which has a different data type$
-^I^Ime.doughnutMode = false;$
-^I},$
-$
-^I// These methods are ordered by lifecycle. Utilities then follow.$
-^I// Any function defined here is inherited by all legend types.$
-^I// Any function can be extended by the legend type$
+ ^I^I^I^Ime._hoveredItem = null;$ in doughnutMode.dataType
+^I^Ime.doughnutMode = false;
+^I}
+  this Order {
+   ^I['METHODx']: __utils__ $ function {
+    def in legendType
+    function(legendTypeExt)
+   }
 $
 ^IbeforeUpdate: noop$1,$
 ^Iupdate: function(maxWidth, maxHeight, margins) {$
@@ -154,36 +147,26 @@ $
 ^IbeforeSetDimensions: noop$1,$
 ^IsetDimensions: function() {$
 ^I^Ivar me = this;$
-^I^I// Set the unconstrained dimension before label rotation$
 ^I^Iif (me.isHorizontal()) {$
-^I^I^I// Reset position before calculating rotation$
 ^I^I^Ime.width = me.maxWidth;$
 ^I^I^Ime.left = 0;$
 ^I^I^Ime.right = me.width;$
 ^I^I} else {$
 ^I^I^Ime.height = me.maxHeight;$
-$
-^I^I^I// Reset position before calculating rotation$
+// 更新生命周期将需要覆盖这些函数的扩展。吸收主测量值、尺寸、标签、配合，同时设置不受约束的尺寸控制。这将是在标签轮换之前。因此，重置计算旋转。
 ^I^I^Ime.top = 0;$
 ^I^I^Ime.bottom = me.height;$
 ^I^I}$
-$
-^I^I// Reset padding$
 ^I^Ime.paddingLeft = 0;$
 ^I^Ime.paddingTop = 0;$
 ^I^Ime.paddingRight = 0;$
 ^I^Ime.paddingBottom = 0;$
-$
-^I^I// Reset minSize$
 ^I^Ime.minSize = {$
 ^I^I^Iwidth: 0,$
 ^I^I^Iheight: 0$
 ^I^I};$
 ^I},$
 ^IafterSetDimensions: noop$1,$
-$
-^I//$
-$
 ^IbeforeBuildLabels: noop$1,$
 ^IbuildLabels: function() {$
 ^I^Ivar me = this;$
@@ -225,14 +208,11 @@ $
 ^I^Ivar isHorizontal = me.isHorizontal();$
 $
 ^I^Iif (isHorizontal) {$
-^I^I^IminSize.width = me.maxWidth; // fill all the width$
+^I^I^IminSize.width = me.maxWidth;
 ^I^I^IminSize.height = display ? 10 : 0;$
 ^I^I} else {$
 ^I^I^IminSize.width = display ? 10 : 0;$
-^I^I^IminSize.height = me.maxHeight; // fill all the height$
-^I^I}$
-$
-^I^I// Increase sizes here$
+^I^I^IminSize.height = me.maxHeight;
 ^I^Iif (!display) {$
 ^I^I^Ime.width = minSize.width = me.height = minSize.height = 0;$
 ^I^I^Ireturn;$
@@ -240,10 +220,7 @@ $
 ^I^Ictx.font = labelFont.string;$
 $
 ^I^Iif (isHorizontal) {$
-^I^I^I// Labels$
-$
-^I^I^I// Width of each line of legend boxes. Labels wrap onto multiple lines when there are too many to fit on one$
-^I^I^Ivar lineWidths = me.lineWidths = [0];$
+ var lineWidths = me.lineWidths = [0];$ // 填充所有图例框和行以将标签包裹到内嵌种子上。
 ^I^I^Ivar totalHeight = 0;$
 $
 ^I^I^Ictx.textAlign = 'left';$
@@ -256,10 +233,8 @@ $
 ^I^I^I^Iif (i === 0 || lineWidths[lineWidths.length - 1] + width + 2 * labelOpts.padding > minSize.width) {$
 ^I^I^I^I^ItotalHeight += fontSize + labelOpts.padding;$
 ^I^I^I^I^IlineWidths[lineWidths.length - (i > 0 ? 0 : 1)] = 0;$
-^I^I^I^I}$
-$
-^I^I^I^I// Store the hitbox width and height here. Final position will be updated in `draw`$
-^I^I^I^Ihitboxes[i] = {$
+^I^I^I^I}
+  ^I^I^I^Ihitboxes[i] = {$
 ^I^I^I^I^Ileft: 0,$
 ^I^I^I^I^Itop: 0,$
 ^I^I^I^I^Iwidth: width,$
@@ -295,8 +270,7 @@ $
 ^I^I^I^I// Get max width$
 ^I^I^I^IcurrentColWidth = Math.max(currentColWidth, itemWidth);$
 ^I^I^I^IcurrentColHeight += fontSize + vPadding;$
-$
-^I^I^I^I// Store the hitbox width and height here. Final position will be updated in `draw`$
+
 ^I^I^I^Ihitboxes[i] = {$
 ^I^I^I^I^Ileft: 0,$
 ^I^I^I^I^Itop: 0,$
@@ -316,12 +290,10 @@ $
 ^I},$
 ^IafterFit: noop$1,$
 $
-^I// Shared Methods$
+['METHODx']$
 ^IisHorizontal: function() {$
 ^I^Ireturn this.options.position === 'top' || this.options.position === 'bottom';$
 ^I},$
-$
-^I// Actually draw the legend on the canvas$
 ^Idraw: function() {$
 ^I^Ivar me = this;$
 ^I^Ivar opts = me.options;$
@@ -344,7 +316,7 @@ $
 ^I^Ivar labelFont = helpers$1.options._parseFont(labelOpts);$
 ^I^Ivar fontSize = labelFont.size;$
 ^I^Ivar cursor;$
-$
+$\
 ^I^I// Canvas setup$
 ^I^Ictx.textAlign = rtlHelper.textAlign('left');$
 ^I^Ictx.textBaseline = 'middle';$
@@ -374,13 +346,10 @@ $
 ^I^I^Ictx.strokeStyle = valueOrDefault$e(legendItem.strokeStyle, defaultColor);$
 $
 ^I^I^Iif (ctx.setLineDash) {$
-^I^I^I^I// IE 9 and 10 do not support line dash$
 ^I^I^I^Ictx.setLineDash(valueOrDefault$e(legendItem.lineDash, lineDefault.borderDash));$
 ^I^I^I}$
 $
-^I^I^Iif (labelOpts && labelOpts.usePointStyle) {$
-^I^I^I^I// Recalculate x and y for drawPoint() because its expecting$
-^I^I^I^I// x and y to be center of figure (instead of top left)$
+^I^I^Iif (labelOpts && labelOpts.usePointStyle) {$ // 由于中心图形，我们将重新计算绘制点的公理。
 ^I^I^I^Ivar radius = boxWidth * Math.SQRT2 / 2;$
 ^I^I^I^Ivar centerX = rtlHelper.xPlus(x, boxWidth / 2);$
 ^I^I^I^Ivar centerY = y + fontSize / 2;$
@@ -486,11 +455,8 @@ $
 ^I^I});$
 $
 ^I^Ihelpers$1.rtl.restoreTextDirection(me.ctx, opts.textDirection);$
-^I},$
-$
-^I/**$
-^I * @private$
-^I */$
+^I}
+@private
 ^I_getLegendItemAt: function(x, y) {$
 ^I^Ivar me = this;$
 ^I^Ivar i, hitBox, lh;$
@@ -510,12 +476,9 @@ $
 $
 ^I^Ireturn null;$
 ^I},$
-$
-^I/**$
-^I * Handle an event$
+$ <handler><event>
 ^I * @private$
-^I * @param {IEvent} event - The event to handle$
-^I */$
+^I * @param {IEvent}
 ^IhandleEvent: function(e) {$
 ^I^Ivar me = this;$
 ^I^Ivar opts = me.options;$
@@ -572,13 +535,11 @@ $
 $
 var plugin_legend = {$
 ^Iid: 'legend',$
-$
-^I/**$
-^I * Backward compatibility: since 2.1.5, the legend is registered as a plugin, making$
-^I * Chart.Legend obsolete. To avoid a breaking change, we export the Legend as part of$
-^I * the plugin, which one will be re-exposed in the chart.js file.$
-^I * https://github.com/chartjs/Chart.js/pull/2640$
-^I * @private$
+$ v.2.1.5 import LegendPlugin function (chartLegend){
+ break $_plugin --chart.js
+};
+^I/**$ https://github.com/chartjs/Chart.js/pull/2640$
+@private$
 ^I */$
 ^I_element: Legend,$
 $
@@ -627,13 +588,11 @@ core_defaults._set('global', {$
 ^I^Ipadding: 10,$
 ^I^Iposition: 'top',$
 ^I^Itext: '',$
-^I^Iweight: 2000         // by default greater than legend (1000) to be above$
+^I^Iweight: 2000
 ^I}$
 });$
-$
-/**$
- * IMPORTANT: this class is exposed publicly as Chart.Legend, backward compatibility required!$
- */$
+// 默认情况下大于图例（1000）以上
+\n
 var Title = core_element.extend({$
 ^Iinitialize: function(config) {$
 ^I^Ivar me = this;$
@@ -642,17 +601,11 @@ $
 ^I^I// Contains hit boxes for each dataset (in dataset order)$
 ^I^Ime.legendHitBoxes = [];$
 ^I},$
-$
-^I// These methods are ordered by lifecycle. Utilities then follow.$
-$
+$ ['METHODx']:__utils__:this$
 ^IbeforeUpdate: noop$2,$
 ^Iupdate: function(maxWidth, maxHeight, margins) {$
 ^I^Ivar me = this;$
-$
-^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)$
-^I^Ime.beforeUpdate();$
-$
-^I^I// Absorb the master measurements$
+$^I^Ime.beforeUpdate();
 ^I^Ime.maxWidth = maxWidth;$
 ^I^Ime.maxHeight = maxHeight;$
 ^I^Ime.margins = margins;$
@@ -683,42 +636,28 @@ $
 ^IbeforeSetDimensions: noop$2,$
 ^IsetDimensions: function() {$
 ^I^Ivar me = this;$
-^I^I// Set the unconstrained dimension before label rotation$
 ^I^Iif (me.isHorizontal()) {$
-^I^I^I// Reset position before calculating rotation$
 ^I^I^Ime.width = me.maxWidth;$
 ^I^I^Ime.left = 0;$
 ^I^I^Ime.right = me.width;$
 ^I^I} else {$
 ^I^I^Ime.height = me.maxHeight;$
-$
-^I^I^I// Reset position before calculating rotation$
 ^I^I^Ime.top = 0;$
 ^I^I^Ime.bottom = me.height;$
-^I^I}$
-$
-^I^I// Reset padding$
+^I^I}
 ^I^Ime.paddingLeft = 0;$
 ^I^Ime.paddingTop = 0;$
 ^I^Ime.paddingRight = 0;$
 ^I^Ime.paddingBottom = 0;$
-$
-^I^I// Reset minSize$
 ^I^Ime.minSize = {$
 ^I^I^Iwidth: 0,$
 ^I^I^Iheight: 0$
 ^I^I};$
 ^I},$
-^IafterSetDimensions: noop$2,$
-$
-^I//$
-$
+^IafterSetDimensions: noop$2
 ^IbeforeBuildLabels: noop$2,$
 ^IbuildLabels: noop$2,$
 ^IafterBuildLabels: noop$2,$
-$
-^I//$
-$
 ^IbeforeFit: noop$2,$
 ^Ifit: function() {$
 ^I^Ivar me = this;$
@@ -738,15 +677,13 @@ $
 ^I^Ime.width = minSize.width = isHorizontal ? me.maxWidth : textSize;$
 ^I^Ime.height = minSize.height = isHorizontal ? textSize : me.maxHeight;$
 ^I},$
-^IafterFit: noop$2,$
-$
-^I// Shared Methods$
+^IafterFit: noop$2,
+['METHODx']:
 ^IisHorizontal: function() {$
 ^I^Ivar pos = this.options.position;$
 ^I^Ireturn pos === 'top' || pos === 'bottom';$
 ^I},$
-$
-^I// Actually draw the title block on the canvas$
+> title.block.canvas
 ^Idraw: function() {$
 ^I^Ivar me = this;$
 ^I^Ivar ctx = me.ctx;$
@@ -767,9 +704,7 @@ $
 ^I^Ivar maxWidth, titleX, titleY;$
 $
 ^I^Ictx.fillStyle = helpers$1.valueOrDefault(opts.fontColor, core_defaults.global.defaultFontColor); // render in correct colour$
-^I^Ictx.font = fontOpts.string;$
-$
-^I^I// Horizontal$
+^I^Ictx.font = fontOpts.string;
 ^I^Iif (me.isHorizontal()) {$
 ^I^I^ItitleX = left + ((right - left) / 2); // midpoint of the width$
 ^I^I^ItitleY = top + offset;$
@@ -816,14 +751,6 @@ $
 $
 var plugin_title = {$
 ^Iid: 'title',$
-$
-^I/**$
-^I * Backward compatibility: since 2.1.5, the title is registered as a plugin, making$
-^I * Chart.Title obsolete. To avoid a breaking change, we export the Title as part of$
-^I * the plugin, which one will be re-exposed in the chart.js file.$
-^I * https://github.com/chartjs/Chart.js/pull/2640$
-^I * @private$
-^I */$
 ^I_element: Title,$
 $
 ^IbeforeInit: function(chart) {$
@@ -861,17 +788,14 @@ var title = plugin_title;$
 plugins.filler = filler;$
 plugins.legend = legend;$
 plugins.title = title;$
-$
-/**$
- * @namespace Chart$
- */$
+@namespace Chart$
 $
 $
-core_controller.helpers = helpers$1;$
-$
-// @todo dispatch these helpers into appropriated helpers/helpers.* file and write unit tests!$
-core_helpers();$
-$
+core_controller.helpers = helpers$1;
+
+// @todo dispatch *!$
+core_helpers();
+$ helpers/helpers\file/write.test(unit)
 core_controller._adapters = core_adapters;$
 core_controller.Animation = core_animation;$
 core_controller.animationService = core_animations;$
@@ -896,10 +820,7 @@ core_controller.helpers.each(scales, function(scale, type) {$
 });$
 $
 // Load to register built-in adapters (as side effects)$
-$
-$
-// Loading built-in plugins$
-$
+// Loading built-in plugins$$...
 for (var k in plugins) {$
 ^Iif (plugins.hasOwnProperty(k)) {$
 ^I^Icore_controller.plugins.register(plugins[k]);$
@@ -911,76 +832,49 @@ $
 var src = core_controller;$
 if (typeof window !== 'undefined') {$
 ^Iwindow.Chart = core_controller;$
-}$
-$
-// DEPRECATIONS$
-$
-/**$
- * Provided for backward compatibility, not available anymore$
- * @namespace Chart.Chart$
- * @deprecated since version 2.8.0$
- * @todo remove at version 3$
- * @private$
- */$
+}
+@namespace Chart.Chart$
+@deprecated version 
+2.8.0
+@version 3$
+@private$
 core_controller.Chart = core_controller;$
-$
-/**$
- * Provided for backward compatibility, not available anymore$
- * @namespace Chart.Legend$
- * @deprecated since version 2.1.5$
- * @todo remove at version 3$
- * @private$
- */$
+@namespace Chart.Legend$
+@deprecated since version 2.1.5$
+@todo v3
+@private$
 core_controller.Legend = plugins.legend._element;$
-$
-/**$
- * Provided for backward compatibility, not available anymore$
- * @namespace Chart.Title$
- * @deprecated since version 2.1.5$
- * @todo remove at version 3$
- * @private$
- */$
+@namespace Chart.Title$
+@deprecated since version 2.1.5$
+@todo v3$
+@private$
 core_controller.Title = plugins.title._element;$
 $
-/**$
- * Provided for backward compatibility, use Chart.plugins instead$
- * @namespace Chart.pluginService$
- * @deprecated since version 2.1.5$
- * @todo remove at version 3$
- * @private$
- */$
+@namespace Chart.pluginService$
+@deprecated since version 2.1.5$
+@todo 
+@v3$
+@private$
 core_controller.pluginService = core_controller.plugins;$
-$
-/**$
- * Provided for backward compatibility, inheriting from Chart.PlugingBase has no$
- * effect, instead simply create/register plugins via plain JavaScript objects.$
- * @interface Chart.PluginBase$
- * @deprecated since version 2.5.0$
- * @todo remove at version 3$
- * @private$
- */$
+@interface Chart.PluginBase$
+@deprecated since version 2.5.0$
+@todo remove at version 3$
+@private$
+/**
+* 继承并包含图表插件、内联、内种子库的向后兼容性。没有任何效果，而是从普通对象接口创建和注册插件。
+*/
 core_controller.PluginBase = core_controller.Element.extend({});$
-$
-/**$
- * Provided for backward compatibility, use Chart.helpers.canvas instead.$
- * @namespace Chart.canvasHelpers$
- * @deprecated since version 2.6.0$
- * @todo remove at version 3$
- * @private$
- */$
+@namespace Chart.canvasHelpers$
+@deprecated v2.6.0$
+@todo v3$
+@private$
 core_controller.canvasHelpers = core_controller.helpers.canvas;$
-$
-/**$
- * Provided for backward compatibility, use Chart.layouts instead.$
- * @namespace Chart.layoutService$
+@namespace Chart.layoutService$
  * @deprecated since version 2.7.3$
  * @todo remove at version 3$
  * @private$
  */$
 core_controller.layoutService = core_controller.layouts;$
-$
-/**$
- * Provided for backward compatibility, not available anymore.$
 :root~/TrapWire (REDACTED)$ ls TrapWire/wwwroot/lib/Chart.js
 Chart.bundle.js  Chart.bundle.min.js  Chart.css  Chart.js  Chart.min.css  Chart.min.js
 :root~/TrapWire (REDACTED)$$ cat TrapWire/wwwroot/lib/Chart.js/Chart.min.css -vET
@@ -1032,3 +926,4 @@ $
 ^Ileft: 0;$
 ^Itop: 0;$
 }$
+// eof
