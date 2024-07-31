@@ -117,7 +117,7 @@ $
 ^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)$
 ^I^Ime.beforeUpdate();$
 $
-^I^I// Absorb the master measurements$
+^I^I// Absorb master measurements
 ^I^Ime.maxWidth = maxWidth;$
 ^I^Ime.maxHeight = maxHeight;$
 ^I^Ime.margins = margins;$
@@ -131,7 +131,7 @@ $
 ^I^Ime.buildLabels();$
 ^I^Ime.afterBuildLabels();$
 $
-^I^I// Fit$
+^I^I// Fit
 ^I^Ime.beforeFit();$
 ^I^Ime.fit();$
 ^I^Ime.afterFit();$
@@ -201,7 +201,7 @@ $
 ^I^Ivar labelFont = helpers$1.options._parseFont(labelOpts);$
 ^I^Ivar fontSize = labelFont.size;$
 $
-^I^I// Reset hit boxes$
+^I^I// Reset hit boxes
 ^I^Ivar hitboxes = me.legendHitBoxes = [];$
 $
 ^I^Ivar minSize = me.minSize;$
@@ -258,7 +258,7 @@ $
 ^I^I^I^Ivar boxWidth = getBoxWidth(labelOpts, fontSize);$
 ^I^I^I^Ivar itemWidth = boxWidth + (fontSize / 2) + ctx.measureText(legendItem.text).width;$
 $
-^I^I^I^I// If too tall, go to new column$
+^I^I^I^I// If too tall, go to new column
 ^I^I^I^Iif (i > 0 && currentColHeight + fontSize + 2 * vPadding > minSize.height) {$
 ^I^I^I^I^ItotalWidth += currentColWidth + labelOpts.padding;$
 ^I^I^I^I^IcolumnWidths.push(currentColWidth); // previous column width$
@@ -317,7 +317,7 @@ $
 ^I^Ivar fontSize = labelFont.size;$
 ^I^Ivar cursor;$
 $\
-^I^I// Canvas setup$
+^I^I// Canvas setup
 ^I^Ictx.textAlign = rtlHelper.textAlign('left');$
 ^I^Ictx.textBaseline = 'middle';$
 ^I^Ictx.lineWidth = 0.5;$
@@ -328,13 +328,12 @@ $
 ^I^Ivar boxWidth = getBoxWidth(labelOpts, fontSize);$
 ^I^Ivar hitboxes = me.legendHitBoxes;$
 $
-^I^I// current position$
+^I^I// current position
 ^I^Ivar drawLegendBox = function(x, y, legendItem) {$
 ^I^I^Iif (isNaN(boxWidth) || boxWidth <= 0) {$
 ^I^I^I^Ireturn;$
 ^I^I^I}$
-$
-^I^I^I// Set the ctx for the box$
+$ Set ctx for box
 ^I^I^Ictx.save();$
 $
 ^I^I^Ivar lineWidth = valueOrDefault$e(legendItem.lineWidth, lineDefault.borderWidth);$
@@ -345,11 +344,12 @@ $
 ^I^I^Ictx.lineWidth = lineWidth;$
 ^I^I^Ictx.strokeStyle = valueOrDefault$e(legendItem.strokeStyle, defaultColor);$
 $
-^I^I^Iif (ctx.setLineDash) {$
+if (ctx.setLineDash) {$
 ^I^I^I^Ictx.setLineDash(valueOrDefault$e(legendItem.lineDash, lineDefault.borderDash));$
 ^I^I^I}$
 $
-^I^I^Iif (labelOpts && labelOpts.usePointStyle) {$ // 由于中心图形，我们将重新计算绘制点的公理。
+^I^I^I
+if (labelOpts && labelOpts.usePointStyle) {$ // 由于中心图形，我们将重新计算绘制点的公理。
 ^I^I^I^Ivar radius = boxWidth * Math.SQRT2 / 2;$
 ^I^I^I^Ivar centerX = rtlHelper.xPlus(x, boxWidth / 2);$
 ^I^I^I^Ivar centerY = y + fontSize / 2;$
@@ -373,9 +373,8 @@ $
 ^I^I^Ivar yMiddle = y + halfFontSize;$
 $
 ^I^I^Ictx.fillText(legendItem.text, xLeft, yMiddle);$
-$
-^I^I^Iif (legendItem.hidden) {$
-^I^I^I^I// Strikethrough the text if hidden$
+$ if (legendItem.hidden) {
+if hidden.txt set strike-through
 ^I^I^I^Ictx.beginPath();$
 ^I^I^I^Ictx.lineWidth = 2;$
 ^I^I^I^Ictx.moveTo(xLeft, yMiddle);$
@@ -395,7 +394,7 @@ $
 ^I^I^I}$
 ^I^I};$
 $
-^I^I// Horizontal$
+^I^I// Horizontal
 ^I^Ivar isHorizontal = me.isHorizontal();$
 ^I^Iif (isHorizontal) {$
 ^I^I^Icursor = {$
@@ -444,7 +443,7 @@ $
 ^I^I^Ihitboxes[i].left = rtlHelper.leftForLtr(realX, hitboxes[i].width);$
 ^I^I^Ihitboxes[i].top = y;$
 $
-^I^I^I// Fill the actual label$
+^I^I^I// Fill actual label$
 ^I^I^IfillText(realX, y, legendItem, textWidth);$
 $
 ^I^I^Iif (isHorizontal) {$
@@ -462,7 +461,7 @@ $
 ^I^Ivar i, hitBox, lh;$
 $
 ^I^Iif (x >= me.left && x <= me.right && y >= me.top && y <= me.bottom) {$
-^I^I^I// See if we are touching one of the dataset boxes$
+^I^I^I// See if user is touching one of the dataset boxes$
 ^I^I^Ilh = me.legendHitBoxes;$
 ^I^I^Ifor (i = 0; i < lh.length; ++i) {$
 ^I^I^I^IhitBox = lh[i];$
@@ -793,7 +792,7 @@ $
 $
 core_controller.helpers = helpers$1;
 
-// @todo dispatch *!$
+_dispatch.*!$
 core_helpers();
 $ helpers/helpers\file/write.test(unit)
 core_controller._adapters = core_adapters;$
