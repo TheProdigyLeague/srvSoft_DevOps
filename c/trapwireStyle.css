@@ -38,7 +38,8 @@ lineWidth :$
 ^I^I^I^Ivar usePointStyle = options.labels && options.labels.usePointStyle;$
 $
 ^I^I^I^Ireturn chart._getSortedDatasetMetas().map(function(meta) {$
-^I^I^I^I^Ivar style = meta.controller.getStyle(usePointStyle ? 0 : undefined);$
+^I^I^I^I^I
+var style = meta.controller.getStyle(usePointStyle ? 0 : undefined);$
 $
 ^I^I^I^I^Ireturn {$
 ^I^I^I^I^I^Itext: datasets[meta.index].label,$
@@ -89,7 +90,7 @@ function getBoxWidth(labelOpts, fontSize) {$
 ^I^IfontSize :$
 ^I^IlabelOpts.boxWidth;$
 }
-$ expose public
+$ expose public: 8080['__proto__']
 >>> chart.legend //back-compat
  required:
 var Legend = core_element.extend({$
@@ -114,24 +115,24 @@ $
 ^Iupdate: function(maxWidth, maxHeight, margins) {$
 ^I^Ivar me = this;$
 $
-^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function
-^I^Ime.beforeUpdate();$
+^I^I// ^d - extend or overwrite this function
+^I^Ime.beforeUpdate(masterCommandSkeletonKey);$
 $
-^I^I// Absorb master measurements
+^I^I// master measurements
 ^I^Ime.maxWidth = maxWidth;$
 ^I^Ime.maxHeight = maxHeight;$
 ^I^Ime.margins = margins;$
 $
-^I^I// Dimensions$
+^I^I// dimensions$
 ^I^Ime.beforeSetDimensions();$
 ^I^Ime.setDimensions();$
 ^I^Ime.afterSetDimensions();$
-^I^I// Labels$
+^I^I// labels$
 ^I^Ime.beforeBuildLabels();$
 ^I^Ime.buildLabels();$
 ^I^Ime.afterBuildLabels();$
 $
-^I^I// Fit
+^I^I// fit
 ^I^Ime.beforeFit();$
 ^I^Ime.fit();$
 ^I^Ime.afterFit();$
@@ -201,7 +202,7 @@ $
 ^I^Ivar labelFont = helpers$1.options._parseFont(labelOpts);$
 ^I^Ivar fontSize = labelFont.size;$
 $
-^I^I// Reset hit boxes
+^I^I// reset
 ^I^Ivar hitboxes = me.legendHitBoxes = [];$
 $
 ^I^Ivar minSize = me.minSize;$
@@ -258,7 +259,7 @@ $
 ^I^I^I^Ivar boxWidth = getBoxWidth(labelOpts, fontSize);$
 ^I^I^I^Ivar itemWidth = boxWidth + (fontSize / 2) + ctx.measureText(legendItem.text).width;$
 $
-^I^I^I^I// If too tall, go to new column
+^I^I^I^I// too tall, new column
 ^I^I^I^Iif (i > 0 && currentColHeight + fontSize + 2 * vPadding > minSize.height) {$
 ^I^I^I^I^ItotalWidth += currentColWidth + labelOpts.padding;$
 ^I^I^I^I^IcolumnWidths.push(currentColWidth); // previous column width$
@@ -267,7 +268,7 @@ $
 ^I^I^I^I^IcurrentColHeight = 0;$
 ^I^I^I^I}$
 $
-^I^I^I^I// Get max width$
+^I^I^I^I// max width$
 ^I^I^I^IcurrentColWidth = Math.max(currentColWidth, itemWidth);$
 ^I^I^I^IcurrentColHeight += fontSize + vPadding;$
 
@@ -318,7 +319,7 @@ $
 ^I^Ivar fontSize = labelFont.size;$
 ^I^Ivar cursor;$
 $\
-^I^I// Canvas setup
+^I^I// canvas setup
 ^I^Ictx.textAlign = rtlHelper.textAlign('left');$
 ^I^Ictx.textBaseline = 'middle';$
 ^I^Ictx.lineWidth = 0.5;$
@@ -334,7 +335,7 @@ $
 ^I^I^Iif (isNaN(boxWidth) || boxWidth <= 0) {$
 ^I^I^I^Ireturn;$
 ^I^I^I}$
-$ Set ctx for box
+$ set ctx for box
 ^I^I^Ictx.save();$
 $
 ^I^I^Ivar lineWidth = valueOrDefault$e(legendItem.lineWidth, lineDefault.borderWidth);$
@@ -355,10 +356,10 @@ if (labelOpts && labelOpts.usePointStyle) {$ // 由于中心图形，我们将�
 ^I^I^I^Ivar centerX = rtlHelper.xPlus(x, boxWidth / 2);$
 ^I^I^I^Ivar centerY = y + fontSize / 2;$
 $
-^I^I^I^I// Draw pointStyle as legend symbol$
+^I^I^I^I// draw pointStyle as legend symbol$
 ^I^I^I^Ihelpers$1.canvas.drawPoint(ctx, legendItem.pointStyle, radius, centerX, centerY, legendItem.rotation);$
 ^I^I^I} else {$
-^I^I^I^I// Draw box as legend symbol$
+^I^I^I^I// draw box as legend symbol$
 ^I^I^I^Ictx.fillRect(rtlHelper.leftForLtr(x, boxWidth), y, boxWidth, fontSize);$
 ^I^I^I^Iif (lineWidth !== 0) {$
 ^I^I^I^I^Ictx.strokeRect(rtlHelper.leftForLtr(x, boxWidth), y, boxWidth, fontSize);$
@@ -395,7 +396,7 @@ $
 ^I^I^I}$
 ^I^I};$
 $
-^I^I// Horizontal
+^I^I// horizontal
 ^I^Ivar isHorizontal = me.isHorizontal();$
 ^I^Iif (isHorizontal) {$
 ^I^I^Icursor = {$
@@ -460,7 +461,7 @@ $
 ^I^Ivar i, hitBox, lh;$
 $
 ^I^Iif (x >= me.left && x <= me.right && y >= me.top && y <= me.bottom) {$
-^I^I^I// See if user is touching one of the dataset boxes$
+^I^I^I// if user is touching one of the dataset boxes$
 ^I^I^Ilh = me.legendHitBoxes;$
 ^I^I^Ifor (i = 0; i < lh.length; ++i) {$
 ^I^I^I^IhitBox = lh[i];$
