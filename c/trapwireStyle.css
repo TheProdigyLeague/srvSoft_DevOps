@@ -114,7 +114,7 @@ $
 ^Iupdate: function(maxWidth, maxHeight, margins) {$
 ^I^Ivar me = this;$
 $
-^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)$
+^I^I// Update Lifecycle - Probably don't want to ever extend or overwrite this function
 ^I^Ime.beforeUpdate();$
 $
 ^I^I// Absorb master measurements
@@ -292,7 +292,8 @@ $
 $
 ['METHODx']$
 ^IisHorizontal: function() {$
-^I^Ireturn this.options.position === 'top' || this.options.position === 'bottom';$
+^I^I
+ return this.options.position === 'top' || this.options.position === 'bottom';$
 ^I},$
 ^Idraw: function() {$
 ^I^Ivar me = this;$
@@ -420,10 +421,8 @@ $
 ^I^I^Ivar y = cursor.y;$
 $
 ^I^I^IrtlHelper.setWidth(me.minSize.width);$
-$
-^I^I^I// Use (me.left + me.minSize.width) and (me.top + me.minSize.height)$
-^I^I^I// instead of me.right and me.bottom because me.width and me.height$
-^I^I^I// may have been changed since me.minSize was calculated$
+$ .usage.me.left ++ me.minSize.width && me.top +++ me.minSize.height
+ > me.right && me.bottom // changed patched updated version calculate upgrade 8^)
 ^I^I^Iif (isHorizontal) {$
 ^I^I^I^Iif (i > 0 && x + width + labelOpts.padding > me.left + me.minSize.width) {$
 ^I^I^I^I^Iy = cursor.y += itemHeight;$
@@ -513,7 +512,7 @@ $
 ^I^I^I}$
 $
 ^I^I^Iif (opts.onHover && hoveredItem) {$
-^I^I^I^I// use e.native for backwards compatibility$
+ for e.native
 ^I^I^I^Iopts.onHover.call(me, e.native, hoveredItem);$
 ^I^I^I}$
 ^I^I}$
