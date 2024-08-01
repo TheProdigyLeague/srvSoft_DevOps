@@ -1,6 +1,6 @@
 @using TrapWire
 @using TrapWire.Models
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper trap*mod.go, Microsoft.AspNetCore.Mvc.TagHelpers
 [REDACTED]:~/TrapWire$ cat TrapWire/Views/_ViewStart.cshtml
 @{
     Layout = "_Layout";
@@ -25,10 +25,10 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Enter text to be analyzed in the field below.</p>
+    <p>Block chain generator.</p>
 
     <input type="text" id="textInput" />
-    <button type="button" onclick="analyzeText()">Submit Text for Analysis</button>
+    <button type="button" onclick="analyzeText()">Hit submit button to generate token.</button>
 
     <table>
         <thead id="tableHeader">
@@ -152,7 +152,7 @@
 @model ErrorViewModel
 
 <h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<h2 class="text-danger">An error occurred.</h2>
 
 @if (Model.ShowRequestId)
 {
@@ -163,12 +163,12 @@
 
 <h3>Development Mode</h3>
 <p>
-    Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
+    Error, <strong>enter wallet</strong> to continue.
 </p>
 <p>
-    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
-    It can result in displaying sensitive information from exceptions to end users.
-    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
+    <strong>Error</strong>
+    You did not enter wallet.
+    Enable <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> variable to <strong>Development</strong>
     and restarting the app.
 </p>
 [REDACTED]:~/TrapWire$ cat TrapWire/Views/Shared/_Layout.cshtml -vET
