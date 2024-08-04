@@ -383,12 +383,8 @@ $
         )
     return res
 def graphs():$
-    ""$
-    all available graphs for API$
-$
-    Returns:$
-        HTML content or available graphs$
-    ""
+    for graph.api.py
+    return (html.content.graph); or
     res = ""<label><input id= type="radio" name= "graph_name" value="" class =" radio"><a$
                             class="label label-default">None</a></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;""
     for graph in load_all_graphs():
@@ -396,13 +392,9 @@ $
                             class="label label-default">{0}</a></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;""".format(graph)$
     return res$
 
-def profiles():$
-    ""$
-    all available profiles for API$
-$
-    Returns:$
-        HTML content or available profiles$
-    ""
+def profiles():
+    $ for pro.graph.api
+return (html.content.api): for usr/profile
     res = ""
     for profile in sorted(load_all_profiles().keys()):$
         label = "success" if ($
@@ -438,5 +430,5 @@ def scan_methods():
         ) else "default"$
         res += """<label><input id="{0}" type="checkbox" class="checkbox checkbox-{2}-module">$
         <a class="label label-{1}">{0}</a></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;""".format(sm, label, profile)$
-    return res$    
+    return res$
 #eof
