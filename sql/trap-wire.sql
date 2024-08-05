@@ -60,7 +60,7 @@ $ echo ('Copyright (c) 1998-2024 コンピュータ処理(ベクトル ネット
   /!\ MOD_SSL_SRC \n
 -- ========================$========================$========================$========================$========================$
   to custom add mod(desc mod do custom {open ssl ['SOURCE']});
-docker:root~$%^./Configure -Werror < / > --strict-warnings [your-options]$
+▶ docker:root~$%^./Configure -Werror < / > --strict-warnings [your-options]$
     make update -- ensure function declaration
     make
     make test$
