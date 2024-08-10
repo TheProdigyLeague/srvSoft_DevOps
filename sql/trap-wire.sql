@@ -1111,12 +1111,9 @@ $ with DESCRIPTOR of コンピュータ処理(ベクトル ネットワーク) {
 ▶ conf cmd line and コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } relative output include コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } error ❌ msg
 $ To make コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } output read add '`c++, c#` fence' (3 "Nothing"$` ``` ` on | :l) before and after crypto: Crypto {subtle: SubtleCrypto} output:$
 
-     ```$
      ./conf [crypto: Crypto {subtle: SubtleCrypto} args...]$
 
-     [output...]$
-
-     ```$
+     [output...]
 
 [ " 😝♪  tᖇ𝓪𝐩 ʷเＲｅ 𝓑ᵘ𝓘Ⓛ𝕕  ☠👌 " ] Failures$
 --------------$
