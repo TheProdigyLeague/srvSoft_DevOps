@@ -1,7 +1,7 @@
 !/usr/bin/android-studio-2024.1.1.12-cros.deb
 -- Server Side Languages & Securities Exchanges Comission for コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } Deparment of Comittees & House Litigation Operations
 -- ============================== ============================== ============================== ==============================
--- Github actions and badges page. コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } app of veryor jobs. 
+-- Github actions and badges page. コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } app of veyor jobs. 
 -- Robust, commercial grinding, and full-stack development with 'open-source' toolkits. 
 -- For, transport layer security. (TLS)
 -- Proto implementation are based on full stack, general purpose crypto libs. Standing-alone. 
