@@ -6,7 +6,7 @@
 -- For, transport layer security. (TLS)
 -- Proto implementation are based on full stack, general purpose crypto libs. Standing-alone. 
 -- Is module validated throughout conformity with FIPS standardization.
--- SSLeay/lib by Eric A. USER:ROOT:ng & Tim J.Hudson(c) zaxkeroth(c) 2028
+-- SSLeay/lib by Eric A. Young & Tim J.Hudson(c) zaxkeroth(c) 2028
 of OpenSSL/Project is [www.openssl.org]:(R(TM))
 Table of [www.openssl.org]:
 -- =========================$$  ==============================$$
