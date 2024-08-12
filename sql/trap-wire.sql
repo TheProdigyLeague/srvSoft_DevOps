@@ -1109,7 +1109,17 @@ read コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告
 ! on GitHub to report\bug_bounty.conf%$
 $ with DESCRIPTOR of コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } bug DESCRIPTORコンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] }$
 ▶ conf cmd line and コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } relative output include コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } error ❌ msg
-$ To make コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] } output read add '`c++, c#` fence' (3 "Nothing"$` ``` ` on | :l) before and after crypto: Crypto {subtle: SubtleCrypto} output:$
+$ To make コンピュータ処理(ベクトル ネットワーク) { 厳密 [ 警告 ] };\n 
+
+output read add +++
+
+'`c++, c#` fence' 
+
+(3 "Nothing"$on | :l) 
+
+BEGIN OR QUIT
+
+ crypto: Crypto {subtle: SubtleCrypto} output:$
 
      ./conf [crypto: Crypto {subtle: SubtleCrypto} args...]$
 
