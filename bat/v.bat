@@ -1,6 +1,6 @@
-$ Version 0.0.1 en_us
+@rem Version 0.0.1 en_us
 
-# Trap Wire Incorporate 是一个用于捕获恶意 shell 连接的蜜罐。该应用程序是基于他们的软件构建的。它使用最新的 Kotlin 英语数字转换功能。
+@rem Trap Wire Incorporate 是一个用于捕获恶意 shell 连接的蜜罐。该应用程序是基于他们的软件构建的。它使用最新的 Kotlin 英语数字转换功能。
 
 @if "%DEBUG%" == "" @echo off
 @rem            ...::::....                                                 .... ..                     
@@ -27,7 +27,7 @@ set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 echo APP_HOME
 [-]: グラドル
-@rem [+]: Java_VM | JAVA_OPTS '&&' -u GRADLE_OPTS -pass -o # default Java VM options for this script
+@rem [+]: Java_VM | JAVA_OPTS '&&' -u GRADLE_OPTS -pass -o @remdefault Java VM options for this script
 ...
 set DEFAULT_JVM_OPTS=`java.exe`
 ...
@@ -94,19 +94,18 @@ exit /b 1
 if "%OS%"=="Windows_NT" endlocal
 
 :omega
-####
-#!/usr/bin/env sh
+@rem #!/usr/bin/env sh
 
 ##############################################################################
 ##
-##  Gradle start up script for UN*X
+@rem Gradle start up script for UN*X
 ##
 ##############################################################################
 
-# Attempt to set APP_HOME
-# Resolve links: $0 may be a link
+@rem Attempt to set APP_HOME
+@rem Resolve links: $0 may be a link
 PRG="$0"
-# Need this for relative symlinks.
+@rem Need this for relative symlinks.
 while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`
@@ -124,10 +123,10 @@ cd "$SAVED" >/dev/null
 APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
-# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS=""
 
-# Use the maximum available, or set MAX_FD != -1 to use that value.
+@rem Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
 
 warn () {
@@ -141,7 +140,7 @@ die () {
     exit 1
 }
 
-# OS specific support (must be 'true' or 'false').
+@rem OS specific support (must be 'true' or 'false').
 cygwin=false
 msys=false
 darwin=false
@@ -163,10 +162,10 @@ esac
 
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
-# Determine the Java command to use to start the JVM.
+@rem Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
     if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
-        # IBM's JDK on AIX uses strange locations for the executables
+        @remIBM's JDK on AIX uses strange locations for the executables
         JAVACMD="$JAVA_HOME/jre/sh/java"
     else
         JAVACMD="$JAVA_HOME/bin/java"
@@ -174,18 +173,18 @@ if [ -n "$JAVA_HOME" ] ; then
     if [ ! -x "$JAVACMD" ] ; then
         die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
 
-Please set the JAVA_HOME variable in your environment to match the
-location of your Java installation."
+@rem Please set the JAVA_HOME variable in your environment to match the
+@rem location of your Java installation."
     fi
 else
     JAVACMD="java"
     which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
 
-Please set the JAVA_HOME variable in your environment to match the
-location of your Java installation."
+@rem Please set the JAVA_HOME variable in your environment to match the
+@rem location of your Java installation."
 fi
 
-# Increase the maximum file descriptors if we can.
+@rem Increase the maximum file descriptors if we can.
 if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
     MAX_FD_LIMIT=`ulimit -H -n`
     if [ $? -eq 0 ] ; then
@@ -201,18 +200,18 @@ if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
     fi
 fi
 
-# For Darwin, add options to specify how the application appears in the dock
+@rem For Darwin, add options to specify how the application appears in the dock
 if $darwin; then
     GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
 fi
 
-# For Cygwin, switch paths to Windows format before running java
+@rem For Cygwin, switch paths to Windows format before running java
 if $cygwin ; then
     APP_HOME=`cygpath --path --mixed "$APP_HOME"`
     CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
     JAVACMD=`cygpath --unix "$JAVACMD"`
 
-    # We build the pattern for args to be converted via cygpath
+    @rem We build the pattern for args to be converted via cygpath
     ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
     SEP=""
     for dir in $ROOTDIRSRAW ; do
@@ -220,17 +219,17 @@ if $cygwin ; then
         SEP="|"
     done
     OURCYGPATTERN="(^($ROOTDIRS))"
-    # Add a user-defined pattern to the cygpath args
+    @remAdd a user-defined pattern to the cygpath args
     if [ "$GRADLE_CYGPATTERN" != "" ] ; then
         OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
     fi
-    # Now convert the args - kludge to limit ourselves to /bin/sh
+    @rem Now convert the args - kludge to limit ourselves to /bin/sh
     i=0
     for arg in "$@" ; do
         CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
-        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
-
-        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
+        CHECK2=`echo "$arg"|egrep -c "^-"`
+@rem ... determining option condition ...
+        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then 
             eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
         else
             eval `echo args$i`="\"$arg\""
@@ -250,47 +249,44 @@ if $cygwin ; then
         (9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;
     esac
 fi
-
-# Escape application args
+@rem esc app arg
 save () {
     for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
     echo " "
 }
 APP_ARGS=$(save "$@")
 
-# Collect all args for the java command, following the shell quoting and substitution rules
+@rem シェルの引用符と置換規則に従って、Java コマンドのすべての引数を収集します。
 eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
 
-# by default we should be in the correct project dir, but when run from Finder on Mac, the cwd is wrong
+@remby default should be in correct project dir, but when run from Finder on Mac, cwd is wrong
 if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
   cd "$(dirname "$0")"
 fi
 
 exec "$JAVACMD" "$@"
-# Project-wide Gradle settings.
-# IDE (e.g. Android Studio) users:
-# Gradle settings configured through the IDE *will override*
-# any settings specified in this file.
-# For more details on how to configure your build environment visit
-# http://www.gradle.org/docs/current/userguide/build_environment.html
-# Specifies the JVM args used for the daemon process.
-# The setting is particularly useful for tweaking memory settings.
+@rem Project-wide Gradle settings.
+@rem IDE (e.g. Android Studio) users:
+@rem Gradle settings configured through the IDE *will override*
+@rem any settings specified in this file.
+@rem For more details on how to configure your build environment visit
+@rem http://www.gradle.org/docs/current/userguide/build_environment.html
+@rem Specifies the JVM args used for the daemon process.
+@rem The setting is particularly useful for tweaking memory settings.
 org.gradle.jvmargs=-Xmx1536m
-# When configured, Gradle will run in incubating parallel mode.
-# This option should only be used with decoupled projects. More details, visit
-# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
-# org.gradle.parallel=true
-# AndroidX package structure to make it clearer which packages are bundled with the
-# Android operating system, and which are packaged with your app's APK
-# https://developer.android.com/topic/libraries/support-library/androidx-rn
+@rem When configured, Gradle will run in incubating parallel mode.
+@rem This option should only be used with decoupled projects. More details, visit
+@rem http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
+@rem org.gradle.parallel=true
+@rem AndroidX package structure to make it clearer which packages are bundled with the
+@rem Android operating system, and which are packaged with your app's APK
+@rem https://developer.android.com/topic/libraries/support-library/androidx-rn
 android.useAndroidX=true
-# Automatically convert third-party libraries to use AndroidX
+@rem Automatically convert third-party libraries to use AndroidX
 android.enableJetifier=true
-# Kotlin code style for this project: "official" or "obsolete":
+@rem Kotlin code style for this project: "official" or "obsolete":
 kotlin.code.style=official
-
-###
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+@rem Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
     ext.kotlin_version = '1.3.31'
@@ -302,8 +298,8 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0-beta04'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        @rem NOTE: Do not place your application dependencies here; they belong
+        @rem in the individual module build.gradle files
     }
 }
 
@@ -318,3 +314,4 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+@rem eof
