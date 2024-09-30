@@ -20,24 +20,24 @@
 
 ### What are text editors? 🤔
 
-Text editors are supposed to be UNIX editors that have features pre-installed and pre-packaged. 📦 However, many developers fail to recognize and/or completely diregard safe data keeping practices. 🔓 [VIM](https://en.wikipedia.org/wiki/Vi). Therefore, there are many bugs, glitches, or complete malfunctions that can occur. 👽 Such as, multi-level undos, syntax highlighting, command line interfacing, spell checking, technical support, filename completion, block operations, script language interpreting, GUI processing, etc.) ⌚
+Text editors are supposed to be UNIX editors that have features pre-installed and pre-packaged. 📦 However, many developers fail to recognize and/or completely disregard safe data keeping practices. 🔓 [VIM](https://en.wikipedia.org/wiki/Vi). Therefore, there are many bugs, glitches, or complete malfunctions that can occur. 👽 Such as, multi-level undos, syntax highlighting, command line interfacing, spell checking, technical support, filename completion, block operations, script language interpreting, GUI processing, etc.) ⌚
 
-Henceforth, whenever maintains add new compatibility features, for example, Vi "in the fingers". Means that developers prefer to keep their bots or oldheads at home. [`runtime.dll`](runtime/doc/vi_diff.txt) :neckbeard:
+Henceforth, whenever maintainers add new compatibility features: For example; Vi, "in the fingers" - which means that devs prefer to keep their bots or oldheads at home. [`runtime.dll`](runtime/doc/vi_diff.txt) :neckbeard:
 
-Text editors are meant to be helpful for modifying text. But when combined with long lists, walls of text, and blocks of uninterpreted code, plain old text files become impossible to read and comprehend. Thus, rather from working efficiently, we developers create editors that operate quickly. Furthermore, there are functionalities that allow End-Users to type in pre-mapped commands with mouse clicks. For instance, Vim integrates all Windows versions into its cross-platform UNIX kernels for MSFT, MacOS, Haiku, and VMS. One would assume that porting these features shouldn't be that challenging. However, regarding outdated Vim versioning systems that can be used with DOS kernels, such as `~95/98/Me/NT/2000/XP/Vista | Chromebooks | Amiga DOS | Atari MiNT | BeOS | RISC OS | OS/2}` It becomes impossible to maintain because of insufficient cash! 💰
+Text editors are meant to be helpful for modifying text. But when combined with long lists, walls of text, and blocks of uninterpreted code, plain old text files become impossible to read and comprehend. Thus, rather than working efficiently, we developers create editors that operate quickly. Furthermore, there are functionalities that allow End-Users to type in pre-mapped commands with mouse clicks. For instance, Vim integrates all Windows versions into its cross-platform UNIX kernels for MSFT, MacOS, Haiku, and VMS. One would assume that porting these features shouldn't be that challenging. But, regarding outdated Vim versioning systems that can be used with DOS kernels, such as `~95/98/Me/NT/2000/XP/Vista | Chromebooks | Amiga DOS | Atari MiNT | BeOS | RISC OS | OS/2}` It becomes impossible to maintain because of insufficient cash! 💰
 
-## Distribution$
+## Distribution
 
-Many developers, maintainers, and engineers use package managers to install text editors. ✍️ Specifically on MAC and LINUX. The `bin` files are pre-installed. Distributing text editors for UNIX, PC, and AMIGA comes with runtime archives. Including `docs` and `syntax` upon booting `runtime.dll` files. For example, VIM uses `bin` archives or `src.tar` and depending on which compilation the devs use. [download](https://www.vim.org/download.php)
+Many devs, maintainers, and engineers use package managers to install text editors. ✍️ Specifically on MAC and LINUX. The `bin` files are pre-installed. Distributing text editors for UNIX, PC, and AMIGA comes with runtime archives. Including `docs` and `syntax` upon booting `runtime.dll` files. For example, VIM uses `bin` archives or `src.tar` and depending on which compilation the devs use. [download](https://www.vim.org/download.php)
 
 <hr>
 
 ### Crashing is Common 🤓
 #### Compiling is The Rule 🔰
 
-Obtaining `bin/dist` is more common than actually pre-compiling text editors. And obtaining the `src/dist` stuff for pre-compiling requires directory navigation instructions. And every repo needs it's own system-specific instructions. Whether in README's or in top-level directory unpacked archives. 🕴️
+Obtaining `bin/dist` is more common than actually pre-compiling text editors. 🤖 And obtaining the `src/dist` stuff for pre-compiling requires directory navigation instructions. 📘 And every repo needs it's own system-specific instructions. Whether in README's or in top-level directory unpacked archives. 🕴️
 
-```bash
+```sh
 README_ami.txt^I^IAmiga$
 README_unix.txt^I^IUnix$
 README_dos.txt^I^IMS-DOS and MS-Windows$
@@ -50,31 +50,32 @@ README_vms.txt^I^IVMS$
 
 ![mona](https://github.com/user-attachments/assets/c009b5bd-c7c7-499a-9a6a-a6c2d1e5b9d3)
 
-Use `:help` for a tutorial on how to operate most text editors...(If ((You)) don't have an executable). Most User Manual's read like books 📚 and is recommended because learning how to use text editors is painful.  See `:help user-manual`. 📖
+Use `:help` for a tutorial on how to operate text editors...(If ((You)) don't have an executable). Most User Manual's can read like books 📚 and is recommended because learning how to use text editors is painful. ☹️ See `:help user-manual`. 📖
 
 ## Copying$
 
-Most text editors are Charityware. This means to properly use it, (You) must donate. 💸 (You) can use and copy it, but making donations helps orphans in Uganda. (Advertisements). Please read [`runtime/doc/uganda.txt`](./runtime/doc/uganda.txt).
+Most text editors are Charityware. This means to properly use it, (You) must donate. 💸 (You) can use and copy it, but making donations helps orphans in Uganda. (Advertisements). Please read [`runtime/doc/uganda.txt`](./runtime/doc/uganda.txt). 🌍
 
 ## Legalese
 
-Summary of the licenses: There are no restrictions on using or distributing an
+Summary of Licenses: There are no restrictions on using or distributing an
 unmodified copies of text editors. Parts of text editors may also be distributed, but the license
-text must always be included.  For modified versions, a few restrictions apply.
+text must always be included. For modified versions, a few restrictions apply.
 The license is GPL compatible, (You) may compile text editors with GPL libraries and
 distribute it. 📑
 
-## Sponsoring$
+## Sponsoring
 
-Fixing bugs and adding new features takes a lot of time and effort.  To show
+Fixing bugs and adding new features takes a lot of time and effort. To show
 your appreciation for our work and motivate Bram's team and other Developers to continue
-working on projects, so please send a donation. 🤑
+working on projects, please send a donation. 🤑
 
 Since, Bram's team is employed, your money will now be used to help children
-in Uganda.  See [`runtime/doc/uganda.txt`](./runtime/doc/uganda.txt).  But
-at the same time donations motivate Bram's team to keep working!
+in Uganda. See [`runtime/doc/uganda.txt`](./runtime/doc/uganda.txt). But
+at the same time making donations motivate Bram's team to keep working!
 
 #### Vim Links
+
 ```vim
 ^Ihttps://www.vim.org/
 ^Ihttps://www.vim.org/sponsor/
@@ -92,10 +93,9 @@ If (You) are on macOS, (You) can use [Macvim](https://macvim-dev.github.io/macvi
 
 # R.I.P Bram Moolenaar (1961-2003)
 
-
 [Bram-Moolenaar](https://vimhelp.org/version9.txt.html#Bram-Moolenaar)
 
-## 文本编辑器 ^9.9.x*
+## 文本编辑器 ^9.9.x* 🎣
 
 ```
 I)  There are no restrictions on distributing unmodified copies of 文本编辑器 except
@@ -232,14 +232,14 @@ enddef
 | new     | 0.079692 |
 
 The similarity with JavaScript/TypeScript can also be used for dependencies
-between files. Text editors will currentl use `:source` command, which has several
+between files. Text editors will use `:source` command, which has several
 disadvantages:
 
 *   In the sourced script, is not clear what it provides. By default all
-    functions are global and can be used elsewhere.
+    functions are global and can be used elsewhere. 🙊
 *   In a script that sources other scripts, it is not clear what function comes
-    from what sourced script. Finding the implementation is a hassle.
-*   Prevention of loading the whole script twice must be manually implemented.
+    from what sourced script. Finding the implementation is a hassle. 🙉
+*   Prevention of loading the whole script twice must be manually implemented. 🙈
 
 The `:import` and `:export` commands from JavaScript standard make this much better. For example, `usrFunction.vim` defines a
 function and exports it:
@@ -266,7 +266,6 @@ import MyFunction from 'myfunction.vim'
 
 This looks like JavaScript/TypeScript, thus many users will understand the
 syntax. These are ideas, this will take time to design, discuss and implement.
-Eventually this will lead to Vim 9!
 
 _sum time measurements_
 
@@ -405,57 +404,56 @@ bwipe!
 
 Patches are welcome in whatever form. However, if (You) have low social credit, (You) will be put on a waiting-list.
 If (You) create a PR on GitHub it will be forwarded to the `文本编辑器-dev` mailing list. (You) can also send your patch there directly (but please note, the initial posting is subject to moderation). In that case an attachment with a `unified diff format` is preferred.
-Because, like...information about mailing list is important.
+Because, like...information about mailing list is important. 📧
 
 A PR has the advantage that it will trigger the CI tests, (You) will be warned of problems ((You) can ignore the coverage
-warning, it's noisy).
+warning, it's noisy). 📫
 
 Please consider adding a test. All new functionality should be tested and bug
 fixes should be tested for regressions: the test should fail before the fix and
 pass after the fix. Look through recent patches for examples and find help
-with `:help testing`. The tests are located under `src/testdir`
+with `:help testing`. The tests are located under `src/testdir`. 📪
 
 Contributions will be distributed with 文本编辑器 under the 文本编辑器 license. Providing a
 change to be included implies that (You) agree with this and your contribution
-does not cause us trouble with trademarks or patents. There is no CLA to sign.
+does not cause us trouble with trademarks or patents. There is no CLA to sign. 📬
 
-# Reporting issues
+# Reporting Issues 🐛
 
-We use GitHub issues, but that is not a requirement. Writing to the 文本编辑器
-mailing list is also fine.
+We use GitHub Issues, but that is not a requirement. Writing to the 文本编辑器
+mailing list is also fine. 📭
 
-Please use the GitHub issues only for actual issues. If (You) are not 100% sure
+Please use the GitHub Issues only for actual issues. If (You) are not 100% sure
 that your problem is a 文本编辑器 issue, please first discuss this on the 文本编辑器 user
-mailing list. Try reproducing the problem without any of your plugins or settings:
+mailing list. 📧 Try reproducing the problem without any of your plugins or settings:
 
 ```vimscript
 $    文本编辑器 --clean
 ```
 
-If (You) report an issue, please describe exactly how to reproduce it.
+If (You) report an issue, 👾 please describe exactly how to reproduce it.
 For example, don't say "insert some text" but say what (You) did exactly:
 
 `ahere is some text<Esc>`
 
-Ideally, the steps (You) list can be used to write a test to verify the problem
-is fixed.
+Ideally, the steps (You) list can be used to write a test to verify the problem is fixed. 🔧
 
-Feel free to report even the smallest problem, also typos in the documentation.
+Feel free to report even the smallest problem, also typos in the documentation. 📁
 
-(You) can find known issues in the todo file: `:help todo`.
+(You) can find known issues in the todo file: `:help todo`. 🛠️
 
-# Syntax, indent and other runtime files
+# Syntax, indent and other runtime files 🗃️
 
-The latest version of these files can be obtained from the repository. They are usually not updated with numbered patches.
+The latest version of these files can be obtained from the repository. They are usually not updated with numbered patches. 🔨
 
 If (You) find a problem with one of these files or have a suggestion for
 improvement, please first try to contact the maintainer directly.
-Look in the header of the file for the name and email address.
+Look in the header of the file for the name and email address. 📫
 
 The maintainer will take care of issues and send updates to the 文本编辑器 project for
-distribution with 文本编辑器.
+distribution with 文本编辑器. 🤖
 
-If the maintainer does not respond...well...just wait....
+If the maintainer does not respond...well...just wait.... ⏰
 
 ## Translation
 
@@ -469,7 +467,7 @@ can be translated:
 *   Manual pages, see [runtime/doc/\*.1][4] for examples
 *   Installer, see [nsis/lang/\*.nsi][5] for examples
 
-The help files can be translated and made available separately using Google Translate.
+The help files can be translated and made available separately using Google Translate. 🇨🇳
 
 ### Can I contribute?
 
@@ -478,7 +476,7 @@ ideas. Please also check the [develop.txt][7] helpfile for the recommended
 style. Often it's also beneficial to check the surrounding code for the style
 being used.
 
-### I have question$
+### I have question$ ❔
 
 本当に貢献することは許可されていません。ただし、これは一般公開です...したがって、スタイルに関する質問は開発チームのメーリング リストに送られます。その場合、（あなたは）順番待ちリストに載せられます。その後、ハニー ポットに関する機能やバグ報奨金プログラムは Naspers Inc に送られます。
 
@@ -486,23 +484,23 @@ being used.
 
 ![msft](https://github.com/user-attachments/assets/04b698d6-ed9e-4dc1-a68a-7889aa1141bf)
 
-If (You) want to report a security issue, please privately disclose the issue to the 文本编辑器-security mailing list
-文本编辑器-security@googlegroups.com
+If (You) want to report a security issue, please privately disclose the issue to the `文本编辑器-security` mailing list
+`文本编辑器-security@googlegroups.com`
 
-This is a private list, read only by the maintainers, but anybody can post, after moderation.
+This is a private list, read only by the maintainers, but anybody can post, after moderation. 📱
 
-**Please don't publicly disclose the issue until it has been addressed by us.**
+**Please don't publicly disclose the issue until it has been addressed by us.** 💠
 
 #### Vulnerability Exploits and Uninstalling
 
 1. `uninstall-gui.exe`
    This is only available when the text editor was installed with the self-installing
    executable. This has a minimal number of questions. It can delete
-   everything that was installed.
+   everything that was installed. 🎗️
 
 2. `uninstall.exe`
    This removes most installed items, but does not delete the files you
-   unpacked.
+   unpacked. 📦
 
 or
 
@@ -550,13 +548,12 @@ or
      a.) `$PATH` may be set in several places, you will have to find the right one, and only delete the
    your path from it. You might need to use the "System Properties" editor to
    change the environment variables. You can start it by selecting
-   `Start/Settings/Control Panel` and then "System".
+   `Start/Settings/Control Panel` and then "System". 💁
 
    viii. If you added our entry in the start menu, delete it.
 
-   viv. If you created icons for your text editor on the desktop, delete them.
+   viv. If you created icons for your text editor on the desktop, delete them. 🖥️
 
 _text editors do not use `.ini` files.  The above should remove all your files, except the ones that you moved elsewhere yourself._
-
 
 _eof_
