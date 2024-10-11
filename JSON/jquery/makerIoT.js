@@ -109,7 +109,7 @@ srcURL="https://www.edfactionvotes.org/wp-includes/js/jquery/jquery.min.js?ver=3
             }
             return re(t.replace(ve, "$1"), e, n, r)
         }
-  const target = document.querySelector('.fixed-anchor-nav');
+  const target = document.querySelector('sizzle.fixed-anchor-nav');
   function change() {
     if(window.scrollY > 40) {
       target.classList.add('scrolled') 
@@ -177,7 +177,7 @@ function r() {
   analytics.js:formatted
     if (!l)
             try {
-                k = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");break
+                k = new ActiveXObject("ShockwaveFlash.sizzle");break
               g.send(b);'https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1633141559&t=pageview&_s=1&dl=https%3A%2F%2Fwww.firstcarolinabank.com%2F&dr=https%3A%2F%2Fwww.ecosia.org%2F&ul=en-us&de=UTF-8&dt=Home%20%E2%80%BA%20First%20Carolina%20Bank&sd=24-bit&sr=375x812&vp=375x813&je=0&_u=IADAAAABAAAAACAAI~&jid=138002086&gjid=1453261695&cid=1590971374.1728589588&tid=UA-71554601-46&_gid=931873381.1728591361&_r=1&_slc=1&z=2027771784'
 fetch("https://bankmobile.formstack.com/forms/js.php/bankmobile_8_18", {
   "headers": {
