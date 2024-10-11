@@ -42,9 +42,9 @@
             ]
         },
         "docs": {
-            "ignore": ["src/assets/js/search.js", "_examples/**"]
+            "ignore": ["src/assets/js/search.js", "_google/**"]
         },
-        "comment":"This Workspace is loaded by default with automated confs",
+        "comment":"Trap-Wire is loaded by default with jQuery-eslint confs",
         "packages/*": {
           
           "function": "(transform)"
