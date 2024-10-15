@@ -52,4 +52,17 @@ for delimiter_context_manager with package.lock '&&' release | {
     thread_id [ "test" ]
 } # lock acquisitions dependency conditions with various parameter releases
 
+{
+        "folders": [
+                {
+                        "path": "Trap-Wire.cpp"
+                }
+        ],
+        "settings": {
+                "cmake.data_conduit.arris": "${TheProdigyLeague/xCreative.py}/Googl",
+                "C_Cpp.default.netCors": "${cmake.data_conduit.arris}/z4xk3r07h/compile_commands.json",
+                "C_Cpp.default.apkArrisMSFT": "ms-vscode.cmake-tools"
+        }
+}
+
 # eof
