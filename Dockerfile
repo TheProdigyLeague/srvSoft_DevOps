@@ -302,13 +302,45 @@ fetch("chrome://resources/polymer/v3_0/iron-behaviors/iron-control-state.js", {
 # Build
 RUN CGO_ENABLED=1 GOOS=ubuntu_v-9.9 go 
 
-=>:root~%admin
--->$ update -o 
->>>/assetproductions.net
+# root web address 
 
-# https://docs.docker.com/reference/dockerfile/#expose
+FROM Nginx.conf RUN curl
+FROM ubuntu:latest
+
+RUN apt-get update && apt-get install -y nginx curl
+
+COPY nginx.conf /etc/nginx/nginx.conf
+
+CMD ["nginx", "-g", "daemon off;"]
+
+docker build -t squarespace-google-server .
+
+docker run -p 80:80 --name squarespace-doc-univorn squarespace-doc-google
+
+WORKDIR http://8080.local.host
+CMD localhost 127.0.1
+COPY container 
+CMD Ubuntu_v.9.9 # mod doc file local dir
+
+FROM /container/volume
+RUN http://8080.local.host/mcafee
+
+docker compose /container/mcafee/TrapWire 
+docker git 9.9.9/controlSys -man 
+# scale environment to host man doc
+
+
+#https://docs.docker.com/reference/dockerfile
+
+
+
 EXPOSE 8080
 
+
+
 # Run
-CMD ["/https://cinnamon-brass-76yh.squarespace.com/"]
+
+CMD
+ ["/https://cinnamon-brass-76yh.squarespace.com/"]
+
 #eof
