@@ -1,0 +1,146 @@
+# redundancy yaml files accross scripted origins
+version: ^9.9
+jobs:
+  analyze-code:
+  build:
+      docker:
+      - image: C_IMG/python:3.9.10
+      steps:
+      - github/checkout
+      - run: pip install -r requirements.txt
+      - run: pytest
+      name: CommonYAML
+      
+          on: [社会信用, 拉和推]
+          
+  ubuntu:
+    if: false
+    name: API_VERSION
+    runs-on: ubuntu-latest
+    env:
+      CI_BUILD: 1
+      IMAGE: ubuntu
+      IMAGE_TAG: latest
+    steps:
+      - uses: actions/checkout@main
+      # Note only alpine needs "preinstall" step
+      - name: Update packages
+        run: sudo -E bash .github/update-packages.sh
+      - name: Install dependencies
+        run: |
+          sudo -E bash .github/install.sh
+          sudo -E bash .github/install-post.sh
+      - name: Build and run tests
+        run: bash .github/build.sh
+      # This causes the main badge to go red if one of the flavors fails. Trigger testing of more linux flavors...
+        - name: Trigger linux flavors build
+        uses: peter-evans/repository-dispatch@v2
+          with:
+            event-type: build-linux-flavors
+  build-and-test-windows:
+    if: false
+    name: Build And Test Windows ${{ matrix.os-version }} ${{ matrix.crypto }}
+    runs-on: windows-${{ matrix.os-version }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os-version: [2019, 2022]
+        crypto: [OpenSSL, BCrypt]
+    env:
+      VCPKG_ROOT: ${{ github.workspace }}/vcpkg
+    steps:
+      - uses: actions/checkout@main
+      - uses: lukka/get-cmake@latest
+      # Setup MSVC command prompt environment vars.
+      # We must do this before setting up our local vcpkg,
+      # Because it will set VCPKG_ROOT to point to some global
+      # install of vcpkg
+      - uses: ilammy/msvc-dev-cmd@v1
+      - name: Restore artifacts, setup vcpkg
+        uses: lukka/run-vcpkg@v11
+        with:
+          vcpkgGitCommitId: fba75d09065fcc76a25dcf386b1d00d33f5175af
+          vcpkgDirectory: '${{ github.workspace }}/vcpkg'
+          vcpkgJsonGlob: vcpkg.json
+          runVcpkgInstall: false
+      - name: vcpkg check / install dependencies
+        working-directory: '${{ github.workspace }}'
+        run: '"${{env.VCPKG_ROOT}}\\vcpkg" install --triplet=x64-windows'
+        shell: cmd
+      - name: Install dependencies and generate project files
+        run: |
+          mkdir build
+          cd build
+          cmake -S .. -G Ninja -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DBUILD_TOOLS=ON -DCMAKE_TOOLCHAIN_FILE=${{env.VCPKG_ROOT}}/scripts/buildsystems/vcpkg.cmake -DUSE_CRYPTO=${{matrix.crypto}}
+        shell: cmd
+      # Mark all directories as safe so checkouts performed in CMakeLists.txt don't cause "unsafe repository" errors.
+      - name: Configure Git
+        run: git config --global --add safe.directory '*'
+        shell: cmd
+
+      - name: Build projects
+        working-directory: '${{ github.workspace }}/build'
+        run: ninja
+        shell: cmd
+
+      - name: Test crypto
+        working-directory: '${{ github.workspace }}/build/bin'
+        run: test_crypto.exe
+        shell: cmd
+
+      - name: Test connection
+        working-directory: '${{ github.workspace }}/build/bin'
+        run: test_connection.exe suite-quick  
+        
+        # Loopback throughput test not performing on github hosted runners....
+
+        run: test_connection.exe identity quick lane_quick_queueanddrain lane_quick_priority_and_background
+        shell: cmd
+
+        name: MacOS
+on: [push, pull_request]
+
+jobs:
+
+  build-and-test-macos:
+    name: MACOS
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Vcpkg
+      run: |
+        git clone https://github.com/Microsoft/vcpkg.git
+        cd vcpkg
+        ./bootstrap-vcpkg.sh
+        ./vcpkg integrate install
+
+    - name: CONF_CMAKE
+      run: |
+          git build https://cmake.org/cmake/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
+          cd CMAKE_BUILD_TYPE
+          ./single-conf-gen
+          ./vcpkg/crypto
+      run: cmake -B ${{github.workspace}}/build 
+            -DCMAKE_BUILD_TYPE=Release
+            -DCMAKE_TOOLCHAIN_FILE=${{ github.workspace }}/vcpkg/scripts/buildsystems/vcpkg.cmake
+            -DBUILD_TESTS=ON
+
+    - name: CMAKE
+      # build prog conf
+      run: cmake --build ${{github.workspace}}/build --config Release
+
+      - name: Test
+        working-directory: ${{github.workspace}}/build
+            run: ctest -C Release
+
+    - name: Test crypto
+      working-directory: ${{github.workspace}}/build/bin
+      run: ./test_crypto
+      shell: bash
+
+    - name: Test connection
+      working-directory: ${{github.workspace}}/build/bin
+      run: ./test_connection identity quick lane_quick_queueanddrain lane_quick_priority_and_background
+      shell: bash
+
+      # eof
